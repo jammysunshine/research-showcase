@@ -1,7 +1,7 @@
 # Automated Mechanism Discovery — Experiment 67
 
 Paper: [SSRN Abstract 7293498](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7293498) (pending editorial screening).
-Full working repository (complete history, research log, preregistrations): [when-fair-funding-isnt](https://github.com/jammysunshine/when-fair-funding-isnt).
+Repository: [research-showcase/67-when-fair-funding-isnt](https://github.com/jammysunshine/research-showcase/tree/main/67-when-fair-funding-isnt).
 
 The headline artifact is a finite public-project study grounded in the
 efficiency/budget-balance literature. In the declared ternary anonymous
