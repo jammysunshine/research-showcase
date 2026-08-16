@@ -1,0 +1,142 @@
+{
+  "candidate": {
+    "charges": [
+      "2/3",
+      "2/3",
+      "2/3",
+      "1",
+      "2/3",
+      "1",
+      "4/3",
+      "4/3",
+      "5/3",
+      "2"
+    ],
+    "inputs": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1/3"
+      ],
+      [
+        "0",
+        "2/3"
+      ],
+      [
+        "0",
+        "1"
+      ],
+      [
+        "1/3",
+        "1/3"
+      ],
+      [
+        "1/3",
+        "2/3"
+      ],
+      [
+        "1/3",
+        "1"
+      ],
+      [
+        "2/3",
+        "2/3"
+      ],
+      [
+        "2/3",
+        "1"
+      ],
+      [
+        "1",
+        "1"
+      ]
+    ],
+    "objective": "13/4"
+  },
+  "config_sha256": "3aa3f69a2392c6886273850f581711bd5bd0735e56a47460fbfdf10300bc9def",
+  "confirmation_threshold_passed": true,
+  "coverage": {
+    "anonymous_variables": 10,
+    "profiles": 64,
+    "reduced_constraints": 40
+  },
+  "domain": {
+    "agents": 3,
+    "type_values": [
+      "0",
+      "1/3",
+      "2/3",
+      "1"
+    ]
+  },
+  "dual_certificate": [
+    {
+      "constraint": "no_deficit:(Fraction(0, 1), Fraction(0, 1), Fraction(0, 1))",
+      "multiplier": "1/16"
+    },
+    {
+      "constraint": "no_deficit:(Fraction(0, 1), Fraction(1, 3), Fraction(1, 3))",
+      "multiplier": "3/16"
+    },
+    {
+      "constraint": "no_deficit:(Fraction(0, 1), Fraction(2, 3), Fraction(2, 3))",
+      "multiplier": "3/16"
+    },
+    {
+      "constraint": "no_deficit:(Fraction(0, 1), Fraction(1, 1), Fraction(1, 1))",
+      "multiplier": "3/16"
+    },
+    {
+      "constraint": "no_deficit:(Fraction(1, 3), Fraction(2, 3), Fraction(1, 1))",
+      "multiplier": "3/8"
+    }
+  ],
+  "evaluations": {
+    "high": {
+      "absolute_reduction_from_vcg": "1/8",
+      "discovered_expected_total_charge": "69/16",
+      "strictly_better_than_vcg": true,
+      "vcg_expected_total_charge": "71/16"
+    },
+    "low": {
+      "absolute_reduction_from_vcg": "11/16",
+      "discovered_expected_total_charge": "5/2",
+      "strictly_better_than_vcg": true,
+      "vcg_expected_total_charge": "51/16"
+    },
+    "middle": {
+      "absolute_reduction_from_vcg": "11/32",
+      "discovered_expected_total_charge": "25/8",
+      "strictly_better_than_vcg": true,
+      "vcg_expected_total_charge": "111/32"
+    },
+    "objective": {
+      "absolute_reduction_from_vcg": "3/8",
+      "discovered_expected_total_charge": "13/4",
+      "strictly_better_than_vcg": true,
+      "vcg_expected_total_charge": "29/8"
+    }
+  },
+  "primary_threshold_passed": true,
+  "solver": {
+    "name": "z3",
+    "strict_better_query": "unsat",
+    "version": "5.0.0"
+  },
+  "study": "phase_viii_joint_budget_ir_synthesis_v1",
+  "vcg_charges": [
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "4/3",
+    "4/3",
+    "5/3",
+    "2"
+  ]
+}

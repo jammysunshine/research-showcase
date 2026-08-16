@@ -1,0 +1,14 @@
+{
+  "study": "public_project_exact_frontier",
+  "n_agents": 3,
+  "max_value": 2,
+  "costs": [1, 2, 3, 4, 5, 6],
+  "allocation_class": "all anonymous monotone Boolean rules",
+  "payment_rule": "normalized discrete critical value",
+  "require_project_at_max_profile": true,
+  "proposal_seed": 6701,
+  "heldout_max_value": 3,
+  "exact_cross_n_agents": [3, 4, 5],
+  "exact_cross_n_cost_rule": "all integer costs 1..2n",
+  "enumerator": "minimal-active-state antichains of the sorted-state poset"
+}

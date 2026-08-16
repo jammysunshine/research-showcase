@@ -1,0 +1,176 @@
+{
+  "audits": [
+    {
+      "agents": 3,
+      "denominator": 4,
+      "maximum_charge_ratio": "4/1",
+      "maximum_witness": [
+        "1/4",
+        "1/4",
+        "1/4"
+      ],
+      "minimum_budget_slack": "0/1",
+      "minimum_witness": [
+        "0/1",
+        "0/1",
+        "0/1"
+      ],
+      "profiles_examined": 125,
+      "worst_case_efficiency": "-1/1"
+    },
+    {
+      "agents": 4,
+      "denominator": 4,
+      "maximum_charge_ratio": "21/4",
+      "maximum_witness": [
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4"
+      ],
+      "minimum_budget_slack": "0/1",
+      "minimum_witness": [
+        "0/1",
+        "0/1",
+        "0/1",
+        "0/1"
+      ],
+      "profiles_examined": 625,
+      "worst_case_efficiency": "-5/4"
+    },
+    {
+      "agents": 5,
+      "denominator": 4,
+      "maximum_charge_ratio": "28/5",
+      "maximum_witness": [
+        "0/1",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4"
+      ],
+      "minimum_budget_slack": "0/1",
+      "minimum_witness": [
+        "0/1",
+        "0/1",
+        "0/1",
+        "0/1",
+        "0/1"
+      ],
+      "profiles_examined": 3125,
+      "worst_case_efficiency": "-3/5"
+    },
+    {
+      "agents": 6,
+      "denominator": 4,
+      "maximum_charge_ratio": "25/4",
+      "maximum_witness": [
+        "0/1",
+        "0/1",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4"
+      ],
+      "minimum_budget_slack": "0/1",
+      "minimum_witness": [
+        "0/1",
+        "0/1",
+        "0/1",
+        "0/1",
+        "0/1",
+        "0/1"
+      ],
+      "profiles_examined": 15625,
+      "worst_case_efficiency": "-1/4"
+    }
+  ],
+  "independent_replay": [
+    {
+      "agents": 3,
+      "denominator": 4,
+      "maximum_charge_ratio": "4/1",
+      "maximum_witness": [
+        "1/4",
+        "1/4",
+        "1/4"
+      ],
+      "minimum_budget_slack": "0/1",
+      "minimum_witness": [
+        "0/1",
+        "0/1",
+        "0/1"
+      ],
+      "profiles_examined": 125,
+      "worst_case_efficiency": "-1/1"
+    },
+    {
+      "agents": 4,
+      "denominator": 4,
+      "maximum_charge_ratio": "21/4",
+      "maximum_witness": [
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4"
+      ],
+      "minimum_budget_slack": "0/1",
+      "minimum_witness": [
+        "0/1",
+        "0/1",
+        "0/1",
+        "0/1"
+      ],
+      "profiles_examined": 625,
+      "worst_case_efficiency": "-5/4"
+    },
+    {
+      "agents": 5,
+      "denominator": 4,
+      "maximum_charge_ratio": "28/5",
+      "maximum_witness": [
+        "0/1",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4"
+      ],
+      "minimum_budget_slack": "0/1",
+      "minimum_witness": [
+        "0/1",
+        "0/1",
+        "0/1",
+        "0/1",
+        "0/1"
+      ],
+      "profiles_examined": 3125,
+      "worst_case_efficiency": "-3/5"
+    },
+    {
+      "agents": 6,
+      "denominator": 4,
+      "maximum_charge_ratio": "25/4",
+      "maximum_witness": [
+        "0/1",
+        "0/1",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4"
+      ],
+      "minimum_budget_slack": "0/1",
+      "minimum_witness": [
+        "0/1",
+        "0/1",
+        "0/1",
+        "0/1",
+        "0/1",
+        "0/1"
+      ],
+      "profiles_examined": 15625,
+      "worst_case_efficiency": "-1/4"
+    }
+  ],
+  "scope": "exhaustive rational grid {0,1/4,1/2,3/4,1}^n; not a continuous proof",
+  "source": "Guo (IJCAI 2019), Equation (6) and preceding symmetrisation"
+}

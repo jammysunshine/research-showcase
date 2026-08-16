@@ -1,0 +1,15 @@
+{
+  "status": "withdrawn_before_result_packaging",
+  "reason": "The candidate was compared with max(sum(theta_minus_i), 1), but the normalized pivotal VCG Groves term is max(sum(theta_minus_i), (n-1)/n).",
+  "attempted_domain": {
+    "agents": 3,
+    "values": ["0", "1/3", "2/3", "1"]
+  },
+  "candidate": "max(sum(theta_minus_i), 2/3)",
+  "correct_pivot_vcg_term": "max(sum(theta_minus_i), 2/3)",
+  "conclusion": "The optimizer rediscovered normalized pivotal VCG. Any apparent improvement was solely a comparator-normalization error and is not a mechanism-discovery result.",
+  "raw_output": "artifacts/withdrawn_phase_viii_comparator_failure_raw.json",
+  "raw_output_sha256": "10e735bc4f97dc87b5d7c4e28ee478c9ef8b0ab1c79f99310def4f6c25bf0a40",
+  "raw_certificate": "artifacts/withdrawn_phase_viii_comparator_failure_certificate_raw.json",
+  "raw_certificate_sha256": "8d2a84422a78c373f39fbee5ce7f5cbfe237dbbe846be5208dcf627b03e268c5"
+}

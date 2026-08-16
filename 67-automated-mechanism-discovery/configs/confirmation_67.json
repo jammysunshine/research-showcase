@@ -1,0 +1,18 @@
+{
+  "purpose": "Frozen post-exploration adversarial confirmation for Experiment 67; do not tune against these distributions.",
+  "profile_order": [[0, 0], [0, 1], [1, 0], [1, 1]],
+  "distributions": {
+    "heldout_point_00": [[1, 1], [0, 1], [0, 1], [0, 1]],
+    "heldout_point_01": [[0, 1], [1, 1], [0, 1], [0, 1]],
+    "heldout_point_10": [[0, 1], [0, 1], [1, 1], [0, 1]],
+    "heldout_point_11": [[0, 1], [0, 1], [0, 1], [1, 1]],
+    "heldout_diagonal_heavy": [[3, 8], [1, 8], [1, 8], [3, 8]],
+    "heldout_disagreement_heavy": [[1, 8], [3, 8], [3, 8], [1, 8]],
+    "heldout_asymmetric": [[1, 2], [1, 4], [1, 8], [1, 8]]
+  },
+  "threat_models": {
+    "coalitions": "all nonempty coalitions of the two fixed identities; Pareto-improving joint report deviations",
+    "perturbations": "independent value magnitudes in {0,1,2} with unchanged binary favorite alternative",
+    "false_names_and_budget_reports": "out of model: two fixed identities and no budget-report field"
+  }
+}

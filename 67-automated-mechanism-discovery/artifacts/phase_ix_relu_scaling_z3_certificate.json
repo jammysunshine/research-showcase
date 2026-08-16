@@ -1,0 +1,81 @@
+{
+  "checks": [
+    {
+      "query": "strictly_lower_budget_slack",
+      "result": "unsat",
+      "seed": 671001
+    },
+    {
+      "query": "strictly_lower_charge_ratio",
+      "result": "unsat",
+      "seed": 671001
+    },
+    {
+      "query": "strictly_higher_charge_ratio",
+      "result": "unsat",
+      "seed": 671001
+    },
+    {
+      "query": "strictly_lower_budget_slack",
+      "result": "unsat",
+      "seed": 671002
+    },
+    {
+      "query": "strictly_lower_charge_ratio",
+      "result": "unsat",
+      "seed": 671002
+    },
+    {
+      "query": "strictly_higher_charge_ratio",
+      "result": "unsat",
+      "seed": 671002
+    },
+    {
+      "query": "strictly_lower_budget_slack",
+      "result": "unsat",
+      "seed": 671003
+    },
+    {
+      "query": "strictly_lower_charge_ratio",
+      "result": "unsat",
+      "seed": 671003
+    },
+    {
+      "query": "strictly_higher_charge_ratio",
+      "result": "unsat",
+      "seed": 671003
+    },
+    {
+      "query": "strictly_lower_budget_slack",
+      "result": "unsat",
+      "seed": 671101
+    },
+    {
+      "query": "strictly_lower_charge_ratio",
+      "result": "unsat",
+      "seed": 671101
+    },
+    {
+      "query": "strictly_higher_charge_ratio",
+      "result": "unsat",
+      "seed": 671101
+    },
+    {
+      "query": "strictly_lower_budget_slack",
+      "result": "unsat",
+      "seed": 671102
+    },
+    {
+      "query": "strictly_lower_charge_ratio",
+      "result": "unsat",
+      "seed": 671102
+    },
+    {
+      "query": "strictly_higher_charge_ratio",
+      "result": "unsat",
+      "seed": 671102
+    }
+  ],
+  "source_sha256": "fd73f61e44dc510cf98bdaee436bf0a5f8a0dddeb7b50cecdb69c5e45ae49a14",
+  "z3_version": "5.0.0"
+}

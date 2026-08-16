@@ -1,0 +1,26 @@
+{
+  "experiment": "67_three_agent_extension",
+  "agents": 3,
+  "types": [0, 1],
+  "alternatives": [0, 1],
+  "value_rule": "magnitude * 1{true_type == chosen_alternative}",
+  "payment_grid": [-2, -1, 0, 1, 2],
+  "mechanism_class": "deterministic anonymous direct mechanisms",
+  "budget_balance": "pointwise exact sum(payments)=0",
+  "candidate_generation": "choice by report-count; type-symmetric payments; all bounded anonymous BB tables",
+  "exhaustive_candidates": 144,
+  "acceptance": [
+    "DSIC",
+    "ex-post IR",
+    "feasibility",
+    "pointwise exact budget balance",
+    "exact anonymity",
+    "truthful utility spread <= 1 per profile",
+    "no strictly profitable deviation for any nonempty coalition"
+  ],
+  "neutrality": "audited but not required",
+  "baseline": "three_agent_majority",
+  "seed": 67,
+  "confirmation_config": "configs/confirmation_67_three_agent.json",
+  "resource_ceiling": "Python 3 standard library; local CPU; no downloads or paid compute"
+}

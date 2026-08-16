@@ -1,0 +1,80 @@
+{
+  "constant_repair": {
+    "four_agent_repaired_rule": {
+      "maximum_charge_ratio": "16667/5000",
+      "maximum_witness": [
+        "0/1",
+        "0/1",
+        "1/2",
+        "1/2"
+      ],
+      "minimum_charge_ratio": "3/1",
+      "minimum_deficit": "0/1",
+      "minimum_witness": [
+        "0/1",
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "vertices_examined": 116,
+      "worst_case_efficiency": "3333/5000"
+    },
+    "per_groves_term_offset": "1/20000"
+  },
+  "four_agent_printed_rule": {
+    "maximum_charge_ratio": "8333/2500",
+    "maximum_witness": [
+      "1/1",
+      "1/1",
+      "1/1",
+      "1/1"
+    ],
+    "minimum_charge_ratio": "22499/7500",
+    "minimum_deficit": "-1/5000",
+    "minimum_witness": [
+      "0/1",
+      "1/2",
+      "1/2",
+      "1/2"
+    ],
+    "vertices_examined": 116,
+    "worst_case_efficiency": "1667/2500"
+  },
+  "independent_replay": {
+    "maximum_charge_ratio": "8333/2500",
+    "maximum_witness": [
+      "1/1",
+      "1/1",
+      "1/1",
+      "1/1"
+    ],
+    "minimum_charge_ratio": "22499/7500",
+    "minimum_deficit": "-1/5000",
+    "minimum_witness": [
+      "0/1",
+      "1/2",
+      "1/2",
+      "1/2"
+    ],
+    "vertices_examined": 116,
+    "worst_case_efficiency": "1667/2500"
+  },
+  "interpretation": "all displayed decimal coefficients are exact terminating decimals; this does not recover unreported trained weights",
+  "source": "Guo (AAAI 2024), printed formulas on p. 9742",
+  "three_agent_printed_rule": {
+    "maximum_charge_ratio": "7/3",
+    "maximum_witness": [
+      "1/1",
+      "1/1",
+      "1/1"
+    ],
+    "minimum_charge_ratio": "2/1",
+    "minimum_witness": [
+      "0/1",
+      "0/1",
+      "0/1"
+    ],
+    "vertices_examined": 19,
+    "worst_case_efficiency": "2/3"
+  }
+}

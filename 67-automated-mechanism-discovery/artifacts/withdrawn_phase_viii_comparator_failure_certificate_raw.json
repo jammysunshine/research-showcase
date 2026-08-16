@@ -1,0 +1,12 @@
+{
+  "accepted": true,
+  "artifact_sha256": "10e735bc4f97dc87b5d7c4e28ee478c9ef8b0ab1c79f99310def4f6c25bf0a40",
+  "config_sha256": "3aa3f69a2392c6886273850f581711bd5bd0735e56a47460fbfdf10300bc9def",
+  "confirmation_threshold_passed": true,
+  "constraint_count": 40,
+  "dual_objective": "13/4",
+  "independent_checker": "fraction_primal_dual_replay_v1",
+  "primal_objective": "13/4",
+  "study": "phase_viii_joint_budget_ir_synthesis_v1",
+  "variable_count": 10
+}

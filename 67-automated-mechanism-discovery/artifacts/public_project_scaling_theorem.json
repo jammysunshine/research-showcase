@@ -1,0 +1,40 @@
+{
+  "artifact_crosschecks": {
+    "3": [
+      4,
+      4,
+      4,
+      1,
+      1,
+      1
+    ],
+    "6": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "construction_check_count": 806,
+  "construction_digest": "e2de0cc603cc4be2d15d476ea0da58a2fa364de2b7bb707a6f38efebc7d4c083",
+  "construction_domain": {
+    "costs": "1..2n",
+    "max_value": 2,
+    "n_agents": [
+      1,
+      12
+    ]
+  },
+  "formal_proof_status": "human-checkable finite-model theorem; script is a regression certificate",
+  "independent_failures": 0,
+  "proof_reference": "PUBLIC_PROJECT_THEOREM.md",
+  "theorem": "For every n>=1 and integer 1<=c<=2n, accepted rules are exactly q_k(v)=1 iff every value is at least 1 and at least k values equal 2, for k=0,...,n when c<=n, and only k=n when n<c<=2n."
+}

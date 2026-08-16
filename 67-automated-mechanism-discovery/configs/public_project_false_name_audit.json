@@ -1,0 +1,39 @@
+{
+  "study": "public_project_false_name_audit",
+  "description": "Post-hoc, non-preregistered supplement: does the canonical efficient/pivotal (sum-threshold, critical-value payment) mechanism resist a single real agent submitting extra fake report identities (false-name manipulation), instead of a coalition of distinct real agents?",
+  "domains": [
+    {
+      "n_real": 3,
+      "max_value": 2,
+      "costs": [1, 2, 3, 4, 5, 6],
+      "fake_budgets": [0, 1, 2],
+      "selected": [
+        {"cost": 3, "fake_budget": 0},
+        {"cost": 3, "fake_budget": 1},
+        {"cost": 3, "fake_budget": 2}
+      ]
+    },
+    {
+      "n_real": 4,
+      "max_value": 2,
+      "costs": [1, 2, 3, 4, 5, 6, 7, 8],
+      "fake_budgets": [0, 1, 2],
+      "selected": [
+        {"cost": 4, "fake_budget": 0},
+        {"cost": 4, "fake_budget": 1},
+        {"cost": 4, "fake_budget": 2}
+      ]
+    },
+    {
+      "n_real": 5,
+      "max_value": 2,
+      "costs": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+      "fake_budgets": [0, 1, 2],
+      "selected": [
+        {"cost": 5, "fake_budget": 0},
+        {"cost": 5, "fake_budget": 1},
+        {"cost": 5, "fake_budget": 2}
+      ]
+    }
+  ]
+}

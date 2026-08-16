@@ -1,0 +1,8 @@
+{
+  "study": "public_project_coalition_frontier",
+  "n_agents": 3,
+  "max_value": 2,
+  "costs": [1, 2, 3, 4, 5, 6],
+  "max_coalition_size": 2,
+  "heldout_profile_count_limit": null
+}

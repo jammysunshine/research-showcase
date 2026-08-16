@@ -1,0 +1,17 @@
+{
+  "benchmark": "phase_ix_rational_relu_scaling_v1",
+  "coefficient_denominator": 7,
+  "generator": "sha256_counter_mod_11_minus_5",
+  "acceptance": {
+    "compiler_source_certificate_equality": true,
+    "mutated_source_must_change_certificate": true,
+    "z3_strict_queries_per_case": 3
+  },
+  "cases": [
+    {"split": "development", "seed": 671001, "agents": 3, "width": 2},
+    {"split": "development", "seed": 671002, "agents": 4, "width": 2},
+    {"split": "development", "seed": 671003, "agents": 5, "width": 2},
+    {"split": "confirmation", "seed": 671101, "agents": 6, "width": 2},
+    {"split": "confirmation", "seed": 671102, "agents": 7, "width": 2}
+  ]
+}

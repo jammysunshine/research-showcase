@@ -1,0 +1,41 @@
+{
+  "checks": [
+    {
+      "name": "guo_aaai_2024_printed_4_agent",
+      "query": "strictly_negative_repaired_slack",
+      "result": "unsat"
+    },
+    {
+      "name": "fixture_670101",
+      "query": "strictly_negative_repaired_slack",
+      "result": "unsat"
+    },
+    {
+      "name": "fixture_670102",
+      "query": "strictly_negative_repaired_slack",
+      "result": "unsat"
+    },
+    {
+      "name": "fixture_670103",
+      "query": "strictly_negative_repaired_slack",
+      "result": "unsat"
+    },
+    {
+      "name": "fixture_670201",
+      "query": "strictly_negative_repaired_slack",
+      "result": "unsat"
+    },
+    {
+      "name": "fixture_670202",
+      "query": "strictly_negative_repaired_slack",
+      "result": "unsat"
+    },
+    {
+      "name": "fixture_670203",
+      "query": "strictly_negative_repaired_slack",
+      "result": "unsat"
+    }
+  ],
+  "source_sha256": "6978e7d21130f62136525abfc7e00a3f3df4af3442224263028b88f5ee71d3d2",
+  "z3_version": "5.0.0"
+}

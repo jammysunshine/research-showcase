@@ -1,0 +1,481 @@
+{
+  "accepted_tables": [
+    {
+      "heldout_welfare": {
+        "heldout_asymmetric": "11/8",
+        "heldout_diagonal_heavy": "1",
+        "heldout_disagreement_heavy": "1",
+        "heldout_point_00": "2",
+        "heldout_point_01": "1",
+        "heldout_point_10": "1",
+        "heldout_point_11": "0"
+      },
+      "independent_accepted": true,
+      "metrics": {
+        "description_length": 0.0,
+        "evaluation_profiles": 4.0,
+        "expected_allocative_welfare": 1.0,
+        "expected_revenue": 0.0,
+        "expected_utility_disparity": 0.5,
+        "expected_welfare": 1.0,
+        "max_utility_disparity": 1.0,
+        "worst_case_regret": 0.0
+      },
+      "pointwise_vs_baseline": {
+        "all_nonpositive": true,
+        "baseline_welfare": [
+          2,
+          1,
+          1,
+          2
+        ],
+        "candidate_welfare": [
+          2,
+          1,
+          1,
+          0
+        ],
+        "deltas": [
+          0,
+          0,
+          0,
+          -2
+        ]
+      },
+      "primary_accepted": true,
+      "table": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "heldout_welfare": {
+        "heldout_asymmetric": "13/8",
+        "heldout_diagonal_heavy": "7/4",
+        "heldout_disagreement_heavy": "5/4",
+        "heldout_point_00": "2",
+        "heldout_point_01": "1",
+        "heldout_point_10": "1",
+        "heldout_point_11": "2"
+      },
+      "independent_accepted": true,
+      "metrics": {
+        "description_length": 1.0,
+        "evaluation_profiles": 4.0,
+        "expected_allocative_welfare": 1.5,
+        "expected_revenue": 0.0,
+        "expected_utility_disparity": 0.5,
+        "expected_welfare": 1.5,
+        "max_utility_disparity": 1.0,
+        "worst_case_regret": 0.0
+      },
+      "pointwise_vs_baseline": {
+        "all_nonpositive": true,
+        "baseline_welfare": [
+          2,
+          1,
+          1,
+          2
+        ],
+        "candidate_welfare": [
+          2,
+          1,
+          1,
+          2
+        ],
+        "deltas": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "primary_accepted": true,
+      "table": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "heldout_welfare": {
+        "heldout_asymmetric": "13/8",
+        "heldout_diagonal_heavy": "7/4",
+        "heldout_disagreement_heavy": "5/4",
+        "heldout_point_00": "2",
+        "heldout_point_01": "1",
+        "heldout_point_10": "1",
+        "heldout_point_11": "2"
+      },
+      "independent_accepted": true,
+      "metrics": {
+        "description_length": 3.0,
+        "evaluation_profiles": 4.0,
+        "expected_allocative_welfare": 1.5,
+        "expected_revenue": 0.0,
+        "expected_utility_disparity": 0.5,
+        "expected_welfare": 1.5,
+        "max_utility_disparity": 1.0,
+        "worst_case_regret": 0.0
+      },
+      "pointwise_vs_baseline": {
+        "all_nonpositive": true,
+        "baseline_welfare": [
+          2,
+          1,
+          1,
+          2
+        ],
+        "candidate_welfare": [
+          2,
+          1,
+          1,
+          2
+        ],
+        "deltas": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "primary_accepted": true,
+      "table": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "heldout_welfare": {
+        "heldout_asymmetric": "5/8",
+        "heldout_diagonal_heavy": "1",
+        "heldout_disagreement_heavy": "1",
+        "heldout_point_00": "0",
+        "heldout_point_01": "1",
+        "heldout_point_10": "1",
+        "heldout_point_11": "2"
+      },
+      "independent_accepted": true,
+      "metrics": {
+        "description_length": 4.0,
+        "evaluation_profiles": 4.0,
+        "expected_allocative_welfare": 1.0,
+        "expected_revenue": 0.0,
+        "expected_utility_disparity": 0.5,
+        "expected_welfare": 1.0,
+        "max_utility_disparity": 1.0,
+        "worst_case_regret": 0.0
+      },
+      "pointwise_vs_baseline": {
+        "all_nonpositive": true,
+        "baseline_welfare": [
+          2,
+          1,
+          1,
+          2
+        ],
+        "candidate_welfare": [
+          0,
+          1,
+          1,
+          2
+        ],
+        "deltas": [
+          -2,
+          0,
+          0,
+          0
+        ]
+      },
+      "primary_accepted": true,
+      "table": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ]
+    }
+  ],
+  "baseline": {
+    "adversarial_audit": {
+      "coalition_pareto_deviation_count": 0,
+      "coalition_witnesses": [],
+      "magnitude_perturbation_failure_count": 0,
+      "magnitude_perturbation_witnesses": []
+    },
+    "heldout_welfare": {
+      "heldout_asymmetric": "13/8",
+      "heldout_diagonal_heavy": "7/4",
+      "heldout_disagreement_heavy": "5/4",
+      "heldout_point_00": "2",
+      "heldout_point_01": "1",
+      "heldout_point_10": "1",
+      "heldout_point_11": "2"
+    },
+    "independent": {
+      "accepted": true,
+      "failures": []
+    },
+    "name": "anonymous_or",
+    "primary": {
+      "accepted": true,
+      "anonymity": true,
+      "budget_balance": true,
+      "coalition_strategyproof": true,
+      "dsic": true,
+      "fairness": true,
+      "feasibility": true,
+      "ir": true,
+      "neutrality": false,
+      "witnesses": [
+        {
+          "agent": null,
+          "detail": "vs (1, 0)",
+          "deviation": null,
+          "profile": [
+            0,
+            1
+          ],
+          "property": "neutrality"
+        },
+        {
+          "agent": null,
+          "detail": "vs (0, 1)",
+          "deviation": null,
+          "profile": [
+            1,
+            0
+          ],
+          "property": "neutrality"
+        }
+      ]
+    },
+    "table": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "certificate_version": 1,
+  "confirmation_config": {
+    "path": "configs/confirmation_67.json",
+    "sha256": "3f2553cf3237dc13dd335bc60e672d68749832490cd8ecb8fa9ee15016650f3a"
+  },
+  "finite_domain": {
+    "accepted_count": 4,
+    "candidate_count": 1296,
+    "profiles": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ]
+  },
+  "finite_neutrality_impossibility": {
+    "accepted_and_neutral_count": 0,
+    "statement": "No accepted table in the frozen search space is neutral."
+  },
+  "independent_frontier_comparison": {
+    "independent_frontier_sha256": "3a729b20545161e401e7689ef4f3b491ce22269c9ecb49ef76e82d38145ab6e2",
+    "primary_frontier_sha256": "3a729b20545161e401e7689ef4f3b491ce22269c9ecb49ef76e82d38145ab6e2",
+    "set_equal": true
+  },
+  "minimal_zero_transfer_dsic_counterexample": {
+    "all_failures": [
+      {
+        "agent": 0,
+        "detail": "0->1",
+        "deviation": 1,
+        "profile": [
+          0,
+          1
+        ],
+        "property": "dsic"
+      },
+      {
+        "agent": 1,
+        "detail": "0->1",
+        "deviation": 1,
+        "profile": [
+          1,
+          0
+        ],
+        "property": "dsic"
+      },
+      {
+        "agent": 0,
+        "detail": "0->1",
+        "deviation": 0,
+        "profile": [
+          1,
+          1
+        ],
+        "property": "dsic"
+      },
+      {
+        "agent": 1,
+        "detail": "0->1",
+        "deviation": 0,
+        "profile": [
+          1,
+          1
+        ],
+        "property": "dsic"
+      },
+      {
+        "detail": "joint_report=[0, 1]",
+        "profile": [
+          1,
+          1
+        ],
+        "property": "coalition_strategyproof"
+      },
+      {
+        "detail": "joint_report=[1, 0]",
+        "profile": [
+          1,
+          1
+        ],
+        "property": "coalition_strategyproof"
+      }
+    ],
+    "distance_from_baseline_rows": 1,
+    "first_failure": {
+      "agent": 0,
+      "detail": "0->1",
+      "deviation": 1,
+      "profile": [
+        0,
+        1
+      ],
+      "property": "dsic"
+    },
+    "table": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "neutral_accepted_tables": [],
+  "scope_limits": {
+    "coalitions": "all nonempty coalitions of the two fixed identities; Pareto-improving joint report deviations",
+    "false_names_and_budget_reports": "out of model: two fixed identities and no budget-report field",
+    "perturbations": "independent value magnitudes in {0,1,2} with unchanged binary favorite alternative"
+  },
+  "strict_uniform_welfare_improvers_over_baseline": []
+}

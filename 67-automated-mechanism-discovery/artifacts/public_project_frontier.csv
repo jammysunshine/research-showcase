@@ -1,0 +1,7 @@
+cost,accepted_count,best_worst_case_regret,best_expected_welfare,best_mechanism
+1,4,3,1.037037037037037,anonymous_monotone_mask_960
+2,4,2,0.7407407407407407,anonymous_monotone_mask_960
+3,4,1,0.4444444444444444,anonymous_monotone_mask_896
+4,1,1,0.07407407407407407,anonymous_monotone_mask_512
+5,1,0,0.037037037037037035,anonymous_monotone_mask_512
+6,1,0,0.0,anonymous_monotone_mask_512

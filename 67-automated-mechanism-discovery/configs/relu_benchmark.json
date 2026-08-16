@@ -1,0 +1,13 @@
+{
+  "benchmark": "phase_v_rational_relu_crosscheck_v1",
+  "coefficient_denominator": 7,
+  "generator": "sha256_counter_mod_11_minus_5",
+  "cases": [
+    {"split": "development", "seed": 670101, "agents": 3, "width": 3},
+    {"split": "development", "seed": 670102, "agents": 4, "width": 3},
+    {"split": "development", "seed": 670103, "agents": 5, "width": 2},
+    {"split": "confirmation", "seed": 670201, "agents": 3, "width": 3},
+    {"split": "confirmation", "seed": 670202, "agents": 4, "width": 3},
+    {"split": "confirmation", "seed": 670203, "agents": 5, "width": 2}
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "cross_n_digest": "a04706cd4d754debd5847529e3b3ebe22a14de45efa9b94db8edfd91823a9cc8",
+  "cross_n_failure_count": 0,
+  "cross_n_rows": 74,
+  "heldout_sum_threshold_audit": [
+    {
+      "failures": 63,
+      "profiles": 64,
+      "threshold": 1
+    },
+    {
+      "failures": 60,
+      "profiles": 64,
+      "threshold": 2
+    },
+    {
+      "failures": 44,
+      "profiles": 64,
+      "threshold": 3
+    },
+    {
+      "failures": 26,
+      "profiles": 64,
+      "threshold": 4
+    },
+    {
+      "failures": 10,
+      "profiles": 64,
+      "threshold": 5
+    },
+    {
+      "failures": 4,
+      "profiles": 64,
+      "threshold": 6
+    }
+  ],
+  "heldout_total_failures": 207,
+  "independent_digest": "16e4f8d6f38faf5691a407f1da9bf60af9242b9bdf113465a3a59e6d255143be",
+  "independent_failure_count": 0,
+  "independent_rows": 4,
+  "primary_rows": 4,
+  "statement": "The independent checker agrees with every serialized accepted main-study row and every serialized cross-n row; held-out sum-threshold rules are checked on all 4^3 value profiles.",
+  "study": "public_project_exact_frontier"
+}

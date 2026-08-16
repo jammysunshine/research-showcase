@@ -1,0 +1,20 @@
+[
+  {"key":"nath_sandholm_2019","title":"Efficiency and Budget Balance in General Quasi-linear Domains","url":"https://ideas.repec.org/a/eee/gamebe/v113y2019icp673-693.html","type":"journal_record","accessed":"2026-08-15"},
+  {"key":"nath_sandholm_preprint","title":"Efficiency and Budget Balance in General Quasi-linear Domains","url":"https://arxiv.org/abs/1610.01443","type":"primary_preprint","accessed":"2026-08-15"},
+  {"key":"conitzer_sandholm_2002","title":"Computationally Feasible Automated Mechanism Design: General Approach and Case Studies","url":"https://ojs.aaai.org/index.php/AAAI/article/view/7708","type":"conference_paper","accessed":"2026-08-15"},
+  {"key":"guo_etal_2024","title":"Mechanism design for public projects via three machine learning based approaches","url":"https://link.springer.com/article/10.1007/s10458-024-09647-8","type":"journal_article","accessed":"2026-08-15"},
+  {"key":"guo_2019","title":"An Asymptotically Optimal VCG Redistribution Mechanism for the Public Project Problem","url":"https://www.ijcai.org/proceedings/2019/45","type":"conference_paper","accessed":"2026-08-15"},
+  {"key":"guo_shen_2017","title":"Three-agent optimal VCG redistribution rule, cited by Guo (IJCAI 2019) Equation (2)","url":"https://www.ijcai.org/Proceedings/2019/0045.pdf","type":"primary_source_reproduction","accessed":"2026-08-15"},
+  {"key":"guo_shen_2017_record","title":"An optimal VCG redistribution mechanism for public project problem","url":"https://digital.library.adelaide.edu.au/items/147ffe40-1f6b-430b-8db6-d10fa38d1b33","type":"official_repository_record","accessed":"2026-08-15"},
+  {"key":"guo_2016","title":"Competitive VCG Redistribution Mechanism for Public Project Problem","url":"https://cs.adelaide.edu.au/~mingyu/publication/primavcg.pdf","type":"conference_paper","accessed":"2026-08-15"},
+  {"key":"naroditskiy_etal_2012","title":"Redistribution of VCG payments in public project problems","url":"https://digital.library.adelaide.edu.au/items/261238eb-51d1-4b28-b23f-9e0f73eab495","type":"official_repository_record","accessed":"2026-08-15"},
+  {"key":"barthe_etal_2015","title":"Computer-aided verification in mechanism design","url":"https://arxiv.org/abs/1502.04052","type":"primary_preprint","accessed":"2026-08-15"},
+  {"key":"mittelmann_etal_2025","title":"Formal verification and synthesis of mechanisms for social choice","url":"https://www.sciencedirect.com/science/article/pii/S000437022400208X","type":"journal_article","accessed":"2026-08-15"},
+  {"key":"guo_aaai_2024","title":"Worst-Case VCG Redistribution Mechanism Design Based on the Lottery Ticket Hypothesis","url":"https://ojs.aaai.org/index.php/AAAI/article/view/28832","type":"conference_paper","accessed":"2026-08-15"},
+  {"key":"green_laffont_1979","title":"Incentives in Public Decision Making","url":"https://green.scholars.harvard.edu/publications/incentives-public-decision-making","type":"book_record","accessed":"2026-08-15"},
+  {"key":"ohseto_2000","title":"Characterization of strategy-proof and individually rational mechanisms for public projects","url":"https://www.sciencedirect.com/science/article/pii/S0899825699907558","type":"journal_article","accessed":"2026-08-15"},
+  {"key":"moulin_1994","title":"Serial cost-sharing of a public good: strategy-proofness, egalitarianism, and decentralization","url":"https://academic.oup.com/restud/article-abstract/61/2/305/1517585","type":"journal_article","accessed":"2026-08-15"},
+  {"key":"jmid_scope","title":"Journal of Mechanism and Institution Design: aims and scope","url":"https://www.mechanism-design.org/","type":"journal_scope","accessed":"2026-08-15"},
+  {"key":"aamas_scope","title":"Autonomous Agents and Multi-Agent Systems: overview and scope","url":"https://link.springer.com/journal/10458","type":"journal_scope","accessed":"2026-08-15"},
+  {"key":"jair_scope","title":"Journal of Artificial Intelligence Research: editorial charter","url":"https://www.jair.org/index.php/jair/about","type":"journal_scope","accessed":"2026-08-15"}
+]

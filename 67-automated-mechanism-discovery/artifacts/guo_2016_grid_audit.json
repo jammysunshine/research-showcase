@@ -1,0 +1,168 @@
+{
+  "audits": [
+    {
+      "agents": 3,
+      "denominator": 4,
+      "minimum_budget_slack": "64/81",
+      "minimum_budget_witness": [
+        "0/1",
+        "1/1",
+        "1/1"
+      ],
+      "minimum_efficiency": "-47/162",
+      "minimum_efficiency_witness": [
+        "0/1",
+        "0/1",
+        "1/1"
+      ],
+      "profiles_examined": 125
+    },
+    {
+      "agents": 4,
+      "denominator": 4,
+      "minimum_budget_slack": "2081/3888",
+      "minimum_budget_witness": [
+        "0/1",
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "minimum_efficiency": "-137/3888",
+      "minimum_efficiency_witness": [
+        "0/1",
+        "0/1",
+        "1/4",
+        "3/4"
+      ],
+      "profiles_examined": 625
+    },
+    {
+      "agents": 5,
+      "denominator": 4,
+      "minimum_budget_slack": "2/5",
+      "minimum_budget_witness": [
+        "0/1",
+        "0/1",
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "minimum_efficiency": "1/10",
+      "minimum_efficiency_witness": [
+        "0/1",
+        "0/1",
+        "0/1",
+        "1/4",
+        "3/4"
+      ],
+      "profiles_examined": 3125
+    },
+    {
+      "agents": 6,
+      "denominator": 4,
+      "minimum_budget_slack": "5623/16200",
+      "minimum_budget_witness": [
+        "0/1",
+        "0/1",
+        "0/1",
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "minimum_efficiency": "2477/16200",
+      "minimum_efficiency_witness": [
+        "0/1",
+        "0/1",
+        "0/1",
+        "1/4",
+        "1/4",
+        "1/2"
+      ],
+      "profiles_examined": 15625
+    }
+  ],
+  "independent_replay": [
+    {
+      "agents": 3,
+      "denominator": 4,
+      "minimum_budget_slack": "64/81",
+      "minimum_budget_witness": [
+        "0/1",
+        "1/1",
+        "1/1"
+      ],
+      "minimum_efficiency": "-47/162",
+      "minimum_efficiency_witness": [
+        "0/1",
+        "0/1",
+        "1/1"
+      ],
+      "profiles_examined": 125
+    },
+    {
+      "agents": 4,
+      "denominator": 4,
+      "minimum_budget_slack": "2081/3888",
+      "minimum_budget_witness": [
+        "0/1",
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "minimum_efficiency": "-137/3888",
+      "minimum_efficiency_witness": [
+        "0/1",
+        "0/1",
+        "1/4",
+        "3/4"
+      ],
+      "profiles_examined": 625
+    },
+    {
+      "agents": 5,
+      "denominator": 4,
+      "minimum_budget_slack": "2/5",
+      "minimum_budget_witness": [
+        "0/1",
+        "0/1",
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "minimum_efficiency": "1/10",
+      "minimum_efficiency_witness": [
+        "0/1",
+        "0/1",
+        "0/1",
+        "1/4",
+        "3/4"
+      ],
+      "profiles_examined": 3125
+    },
+    {
+      "agents": 6,
+      "denominator": 4,
+      "minimum_budget_slack": "5623/16200",
+      "minimum_budget_witness": [
+        "0/1",
+        "0/1",
+        "0/1",
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "minimum_efficiency": "2477/16200",
+      "minimum_efficiency_witness": [
+        "0/1",
+        "0/1",
+        "0/1",
+        "1/4",
+        "1/4",
+        "1/2"
+      ],
+      "profiles_examined": 15625
+    }
+  ],
+  "scope": "exhaustive rational grid {0,1/4,1/2,3/4,1}^n; not a continuous proof",
+  "source": "Guo (PRIMA 2016), Equation (3), Proposition 1, and Theorem 1"
+}

@@ -1,0 +1,216 @@
+{
+  "checks": [
+    {
+      "agent": 0,
+      "name": "guo_aaai_2024_printed_4_agent",
+      "query": "below_reported_minimum_utility",
+      "result": "unsat"
+    },
+    {
+      "agent": 1,
+      "name": "guo_aaai_2024_printed_4_agent",
+      "query": "below_reported_minimum_utility",
+      "result": "unsat"
+    },
+    {
+      "agent": 2,
+      "name": "guo_aaai_2024_printed_4_agent",
+      "query": "below_reported_minimum_utility",
+      "result": "unsat"
+    },
+    {
+      "agent": 3,
+      "name": "guo_aaai_2024_printed_4_agent",
+      "query": "below_reported_minimum_utility",
+      "result": "unsat"
+    },
+    {
+      "agent": 0,
+      "name": "guo_aaai_2024_printed_4_agent",
+      "query": "negative_repaired_utility",
+      "result": "sat"
+    },
+    {
+      "agent": 0,
+      "name": "fixture_670101",
+      "query": "below_reported_minimum_utility",
+      "result": "unsat"
+    },
+    {
+      "agent": 1,
+      "name": "fixture_670101",
+      "query": "below_reported_minimum_utility",
+      "result": "unsat"
+    },
+    {
+      "agent": 2,
+      "name": "fixture_670101",
+      "query": "below_reported_minimum_utility",
+      "result": "unsat"
+    },
+    {
+      "agent": 0,
+      "name": "fixture_670101",
+      "query": "negative_repaired_utility",
+      "result": "sat"
+    },
+    {
+      "agent": 0,
+      "name": "fixture_670102",
+      "query": "below_reported_minimum_utility",
+      "result": "unsat"
+    },
+    {
+      "agent": 1,
+      "name": "fixture_670102",
+      "query": "below_reported_minimum_utility",
+      "result": "unsat"
+    },
+    {
+      "agent": 2,
+      "name": "fixture_670102",
+      "query": "below_reported_minimum_utility",
+      "result": "unsat"
+    },
+    {
+      "agent": 3,
+      "name": "fixture_670102",
+      "query": "below_reported_minimum_utility",
+      "result": "unsat"
+    },
+    {
+      "agent": 0,
+      "name": "fixture_670102",
+      "query": "negative_repaired_utility",
+      "result": "sat"
+    },
+    {
+      "agent": 0,
+      "name": "fixture_670103",
+      "query": "below_reported_minimum_utility",
+      "result": "unsat"
+    },
+    {
+      "agent": 1,
+      "name": "fixture_670103",
+      "query": "below_reported_minimum_utility",
+      "result": "unsat"
+    },
+    {
+      "agent": 2,
+      "name": "fixture_670103",
+      "query": "below_reported_minimum_utility",
+      "result": "unsat"
+    },
+    {
+      "agent": 3,
+      "name": "fixture_670103",
+      "query": "below_reported_minimum_utility",
+      "result": "unsat"
+    },
+    {
+      "agent": 4,
+      "name": "fixture_670103",
+      "query": "below_reported_minimum_utility",
+      "result": "unsat"
+    },
+    {
+      "agent": 0,
+      "name": "fixture_670103",
+      "query": "negative_repaired_utility",
+      "result": "sat"
+    },
+    {
+      "agent": 0,
+      "name": "fixture_670201",
+      "query": "below_reported_minimum_utility",
+      "result": "unsat"
+    },
+    {
+      "agent": 1,
+      "name": "fixture_670201",
+      "query": "below_reported_minimum_utility",
+      "result": "unsat"
+    },
+    {
+      "agent": 2,
+      "name": "fixture_670201",
+      "query": "below_reported_minimum_utility",
+      "result": "unsat"
+    },
+    {
+      "agent": 0,
+      "name": "fixture_670201",
+      "query": "negative_repaired_utility",
+      "result": "sat"
+    },
+    {
+      "agent": 0,
+      "name": "fixture_670202",
+      "query": "below_reported_minimum_utility",
+      "result": "unsat"
+    },
+    {
+      "agent": 1,
+      "name": "fixture_670202",
+      "query": "below_reported_minimum_utility",
+      "result": "unsat"
+    },
+    {
+      "agent": 2,
+      "name": "fixture_670202",
+      "query": "below_reported_minimum_utility",
+      "result": "unsat"
+    },
+    {
+      "agent": 3,
+      "name": "fixture_670202",
+      "query": "below_reported_minimum_utility",
+      "result": "unsat"
+    },
+    {
+      "agent": 0,
+      "name": "fixture_670202",
+      "query": "negative_repaired_utility",
+      "result": "sat"
+    },
+    {
+      "agent": 0,
+      "name": "fixture_670203",
+      "query": "below_reported_minimum_utility",
+      "result": "unsat"
+    },
+    {
+      "agent": 1,
+      "name": "fixture_670203",
+      "query": "below_reported_minimum_utility",
+      "result": "unsat"
+    },
+    {
+      "agent": 2,
+      "name": "fixture_670203",
+      "query": "below_reported_minimum_utility",
+      "result": "unsat"
+    },
+    {
+      "agent": 3,
+      "name": "fixture_670203",
+      "query": "below_reported_minimum_utility",
+      "result": "unsat"
+    },
+    {
+      "agent": 4,
+      "name": "fixture_670203",
+      "query": "below_reported_minimum_utility",
+      "result": "unsat"
+    },
+    {
+      "agent": 0,
+      "name": "fixture_670203",
+      "query": "negative_repaired_utility",
+      "result": "sat"
+    }
+  ],
+  "source_sha256": "040e6a898ffe1d28c9053692280014c26ccbcc907f3c5e69d32023a93873d6a3",
+  "z3_version": "5.0.0"
+}

@@ -1,0 +1,1552 @@
+{
+  "baseline": {
+    "independent_verifier": {
+      "accepted": true,
+      "failures": []
+    },
+    "metrics": {
+      "description_length": 3.0,
+      "evaluation_profiles": 4.0,
+      "expected_allocative_welfare": 1.5,
+      "expected_revenue": 0.0,
+      "expected_utility_disparity": 0.5,
+      "expected_welfare": 1.5,
+      "max_utility_disparity": 1.0,
+      "worst_case_regret": 0.0
+    },
+    "name": "anonymous_or",
+    "outcomes": [
+      {
+        "choice": 0,
+        "payments": [
+          0,
+          0
+        ],
+        "profile": [
+          0,
+          0
+        ]
+      },
+      {
+        "choice": 1,
+        "payments": [
+          0,
+          0
+        ],
+        "profile": [
+          0,
+          1
+        ]
+      },
+      {
+        "choice": 1,
+        "payments": [
+          0,
+          0
+        ],
+        "profile": [
+          1,
+          0
+        ]
+      },
+      {
+        "choice": 1,
+        "payments": [
+          0,
+          0
+        ],
+        "profile": [
+          1,
+          1
+        ]
+      }
+    ],
+    "primary_verifier": {
+      "accepted": true,
+      "anonymity": true,
+      "budget_balance": true,
+      "coalition_strategyproof": true,
+      "dsic": true,
+      "fairness": true,
+      "feasibility": true,
+      "ir": true,
+      "neutrality": false,
+      "witnesses": [
+        {
+          "agent": null,
+          "detail": "vs (1, 0)",
+          "deviation": null,
+          "profile": [
+            0,
+            1
+          ],
+          "property": "neutrality"
+        },
+        {
+          "agent": null,
+          "detail": "vs (0, 1)",
+          "deviation": null,
+          "profile": [
+            1,
+            0
+          ],
+          "property": "neutrality"
+        }
+      ]
+    }
+  },
+  "canonical_baselines": [
+    {
+      "independent_verifier": {
+        "accepted": false,
+        "failures": [
+          {
+            "detail": "vs [1, 0]",
+            "profile": [
+              0,
+              1
+            ],
+            "property": "anonymity"
+          },
+          {
+            "detail": "vs [0, 1]",
+            "profile": [
+              1,
+              0
+            ],
+            "property": "anonymity"
+          }
+        ]
+      },
+      "metrics": {
+        "description_length": 2.0,
+        "evaluation_profiles": 4.0,
+        "expected_allocative_welfare": 1.5,
+        "expected_revenue": 0.0,
+        "expected_utility_disparity": 0.5,
+        "expected_welfare": 1.5,
+        "max_utility_disparity": 1.0,
+        "worst_case_regret": 0.0
+      },
+      "name": "serial_dictatorship_agent_0",
+      "outcomes": [
+        {
+          "choice": 0,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            0,
+            0
+          ]
+        },
+        {
+          "choice": 0,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            0,
+            1
+          ]
+        },
+        {
+          "choice": 1,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            1,
+            0
+          ]
+        },
+        {
+          "choice": 1,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            1,
+            1
+          ]
+        }
+      ],
+      "primary_verifier": {
+        "accepted": false,
+        "anonymity": false,
+        "budget_balance": true,
+        "coalition_strategyproof": true,
+        "dsic": true,
+        "fairness": false,
+        "feasibility": true,
+        "ir": true,
+        "neutrality": true,
+        "witnesses": [
+          {
+            "agent": null,
+            "detail": "vs (1, 0)",
+            "deviation": null,
+            "profile": [
+              0,
+              1
+            ],
+            "property": "anonymity"
+          },
+          {
+            "agent": null,
+            "detail": "vs (0, 1)",
+            "deviation": null,
+            "profile": [
+              1,
+              0
+            ],
+            "property": "anonymity"
+          }
+        ]
+      }
+    },
+    {
+      "independent_verifier": {
+        "accepted": false,
+        "failures": [
+          {
+            "detail": "vs [1, 0]",
+            "profile": [
+              0,
+              1
+            ],
+            "property": "anonymity"
+          },
+          {
+            "detail": "vs [0, 1]",
+            "profile": [
+              1,
+              0
+            ],
+            "property": "anonymity"
+          }
+        ]
+      },
+      "metrics": {
+        "description_length": 2.0,
+        "evaluation_profiles": 4.0,
+        "expected_allocative_welfare": 1.5,
+        "expected_revenue": 0.0,
+        "expected_utility_disparity": 0.5,
+        "expected_welfare": 1.5,
+        "max_utility_disparity": 1.0,
+        "worst_case_regret": 0.0
+      },
+      "name": "serial_dictatorship_agent_1",
+      "outcomes": [
+        {
+          "choice": 0,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            0,
+            0
+          ]
+        },
+        {
+          "choice": 1,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            0,
+            1
+          ]
+        },
+        {
+          "choice": 0,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            1,
+            0
+          ]
+        },
+        {
+          "choice": 1,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            1,
+            1
+          ]
+        }
+      ],
+      "primary_verifier": {
+        "accepted": false,
+        "anonymity": false,
+        "budget_balance": true,
+        "coalition_strategyproof": true,
+        "dsic": true,
+        "fairness": false,
+        "feasibility": true,
+        "ir": true,
+        "neutrality": true,
+        "witnesses": [
+          {
+            "agent": null,
+            "detail": "vs (1, 0)",
+            "deviation": null,
+            "profile": [
+              0,
+              1
+            ],
+            "property": "anonymity"
+          },
+          {
+            "agent": null,
+            "detail": "vs (0, 1)",
+            "deviation": null,
+            "profile": [
+              1,
+              0
+            ],
+            "property": "anonymity"
+          }
+        ]
+      }
+    },
+    {
+      "independent_verifier": {
+        "accepted": true,
+        "failures": []
+      },
+      "metrics": {
+        "description_length": 1.0,
+        "evaluation_profiles": 4.0,
+        "expected_allocative_welfare": 1.5,
+        "expected_revenue": 0.0,
+        "expected_utility_disparity": 0.5,
+        "expected_welfare": 1.5,
+        "max_utility_disparity": 1.0,
+        "worst_case_regret": 0.0
+      },
+      "name": "anonymous_and",
+      "outcomes": [
+        {
+          "choice": 0,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            0,
+            0
+          ]
+        },
+        {
+          "choice": 0,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            0,
+            1
+          ]
+        },
+        {
+          "choice": 0,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            1,
+            0
+          ]
+        },
+        {
+          "choice": 1,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            1,
+            1
+          ]
+        }
+      ],
+      "primary_verifier": {
+        "accepted": true,
+        "anonymity": true,
+        "budget_balance": true,
+        "coalition_strategyproof": true,
+        "dsic": true,
+        "fairness": true,
+        "feasibility": true,
+        "ir": true,
+        "neutrality": false,
+        "witnesses": [
+          {
+            "agent": null,
+            "detail": "vs (1, 0)",
+            "deviation": null,
+            "profile": [
+              0,
+              1
+            ],
+            "property": "neutrality"
+          },
+          {
+            "agent": null,
+            "detail": "vs (0, 1)",
+            "deviation": null,
+            "profile": [
+              1,
+              0
+            ],
+            "property": "neutrality"
+          }
+        ]
+      }
+    },
+    {
+      "independent_verifier": {
+        "accepted": true,
+        "failures": []
+      },
+      "metrics": {
+        "description_length": 3.0,
+        "evaluation_profiles": 4.0,
+        "expected_allocative_welfare": 1.5,
+        "expected_revenue": 0.0,
+        "expected_utility_disparity": 0.5,
+        "expected_welfare": 1.5,
+        "max_utility_disparity": 1.0,
+        "worst_case_regret": 0.0
+      },
+      "name": "anonymous_or",
+      "outcomes": [
+        {
+          "choice": 0,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            0,
+            0
+          ]
+        },
+        {
+          "choice": 1,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            0,
+            1
+          ]
+        },
+        {
+          "choice": 1,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            1,
+            0
+          ]
+        },
+        {
+          "choice": 1,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            1,
+            1
+          ]
+        }
+      ],
+      "primary_verifier": {
+        "accepted": true,
+        "anonymity": true,
+        "budget_balance": true,
+        "coalition_strategyproof": true,
+        "dsic": true,
+        "fairness": true,
+        "feasibility": true,
+        "ir": true,
+        "neutrality": false,
+        "witnesses": [
+          {
+            "agent": null,
+            "detail": "vs (1, 0)",
+            "deviation": null,
+            "profile": [
+              0,
+              1
+            ],
+            "property": "neutrality"
+          },
+          {
+            "agent": null,
+            "detail": "vs (0, 1)",
+            "deviation": null,
+            "profile": [
+              1,
+              0
+            ],
+            "property": "neutrality"
+          }
+        ]
+      }
+    },
+    {
+      "independent_verifier": {
+        "accepted": true,
+        "failures": []
+      },
+      "metrics": {
+        "description_length": 1.0,
+        "evaluation_profiles": 4.0,
+        "expected_allocative_welfare": 1.5,
+        "expected_revenue": 0.0,
+        "expected_utility_disparity": 0.5,
+        "expected_welfare": 1.5,
+        "max_utility_disparity": 1.0,
+        "worst_case_regret": 0.0
+      },
+      "name": "majority_tie_0",
+      "outcomes": [
+        {
+          "choice": 0,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            0,
+            0
+          ]
+        },
+        {
+          "choice": 0,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            0,
+            1
+          ]
+        },
+        {
+          "choice": 0,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            1,
+            0
+          ]
+        },
+        {
+          "choice": 1,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            1,
+            1
+          ]
+        }
+      ],
+      "primary_verifier": {
+        "accepted": true,
+        "anonymity": true,
+        "budget_balance": true,
+        "coalition_strategyproof": true,
+        "dsic": true,
+        "fairness": true,
+        "feasibility": true,
+        "ir": true,
+        "neutrality": false,
+        "witnesses": [
+          {
+            "agent": null,
+            "detail": "vs (1, 0)",
+            "deviation": null,
+            "profile": [
+              0,
+              1
+            ],
+            "property": "neutrality"
+          },
+          {
+            "agent": null,
+            "detail": "vs (0, 1)",
+            "deviation": null,
+            "profile": [
+              1,
+              0
+            ],
+            "property": "neutrality"
+          }
+        ]
+      }
+    },
+    {
+      "independent_verifier": {
+        "accepted": true,
+        "failures": []
+      },
+      "metrics": {
+        "description_length": 3.0,
+        "evaluation_profiles": 4.0,
+        "expected_allocative_welfare": 1.5,
+        "expected_revenue": 0.0,
+        "expected_utility_disparity": 0.5,
+        "expected_welfare": 1.5,
+        "max_utility_disparity": 1.0,
+        "worst_case_regret": 0.0
+      },
+      "name": "majority_tie_1",
+      "outcomes": [
+        {
+          "choice": 0,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            0,
+            0
+          ]
+        },
+        {
+          "choice": 1,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            0,
+            1
+          ]
+        },
+        {
+          "choice": 1,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            1,
+            0
+          ]
+        },
+        {
+          "choice": 1,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            1,
+            1
+          ]
+        }
+      ],
+      "primary_verifier": {
+        "accepted": true,
+        "anonymity": true,
+        "budget_balance": true,
+        "coalition_strategyproof": true,
+        "dsic": true,
+        "fairness": true,
+        "feasibility": true,
+        "ir": true,
+        "neutrality": false,
+        "witnesses": [
+          {
+            "agent": null,
+            "detail": "vs (1, 0)",
+            "deviation": null,
+            "profile": [
+              0,
+              1
+            ],
+            "property": "neutrality"
+          },
+          {
+            "agent": null,
+            "detail": "vs (0, 1)",
+            "deviation": null,
+            "profile": [
+              1,
+              0
+            ],
+            "property": "neutrality"
+          }
+        ]
+      }
+    },
+    {
+      "independent_verifier": {
+        "accepted": false,
+        "failures": [
+          {
+            "detail": "(1, 0)",
+            "profile": [
+              0,
+              1
+            ],
+            "property": "budget_balance"
+          },
+          {
+            "detail": "(0, 1)",
+            "profile": [
+              1,
+              0
+            ],
+            "property": "budget_balance"
+          }
+        ]
+      },
+      "metrics": {
+        "description_length": 3.0,
+        "evaluation_profiles": 4.0,
+        "expected_allocative_welfare": 1.5,
+        "expected_revenue": 0.5,
+        "expected_utility_disparity": 0.0,
+        "expected_welfare": 1.0,
+        "max_utility_disparity": 0.0,
+        "worst_case_regret": 0.0
+      },
+      "name": "vcg_pivot_tie_0",
+      "outcomes": [
+        {
+          "choice": 0,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            0,
+            0
+          ]
+        },
+        {
+          "choice": 0,
+          "payments": [
+            1,
+            0
+          ],
+          "profile": [
+            0,
+            1
+          ]
+        },
+        {
+          "choice": 0,
+          "payments": [
+            0,
+            1
+          ],
+          "profile": [
+            1,
+            0
+          ]
+        },
+        {
+          "choice": 1,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            1,
+            1
+          ]
+        }
+      ],
+      "primary_verifier": {
+        "accepted": false,
+        "anonymity": true,
+        "budget_balance": false,
+        "coalition_strategyproof": true,
+        "dsic": true,
+        "fairness": true,
+        "feasibility": true,
+        "ir": true,
+        "neutrality": false,
+        "witnesses": [
+          {
+            "agent": null,
+            "detail": "(1, 0)",
+            "deviation": null,
+            "profile": [
+              0,
+              1
+            ],
+            "property": "budget_balance"
+          },
+          {
+            "agent": null,
+            "detail": "(0, 1)",
+            "deviation": null,
+            "profile": [
+              1,
+              0
+            ],
+            "property": "budget_balance"
+          },
+          {
+            "agent": null,
+            "detail": "vs (1, 0)",
+            "deviation": null,
+            "profile": [
+              0,
+              1
+            ],
+            "property": "neutrality"
+          },
+          {
+            "agent": null,
+            "detail": "vs (0, 1)",
+            "deviation": null,
+            "profile": [
+              1,
+              0
+            ],
+            "property": "neutrality"
+          }
+        ]
+      }
+    },
+    {
+      "independent_verifier": {
+        "accepted": false,
+        "failures": [
+          {
+            "detail": "(0, 1)",
+            "profile": [
+              0,
+              1
+            ],
+            "property": "budget_balance"
+          },
+          {
+            "detail": "(1, 0)",
+            "profile": [
+              1,
+              0
+            ],
+            "property": "budget_balance"
+          }
+        ]
+      },
+      "metrics": {
+        "description_length": 5.0,
+        "evaluation_profiles": 4.0,
+        "expected_allocative_welfare": 1.5,
+        "expected_revenue": 0.5,
+        "expected_utility_disparity": 0.0,
+        "expected_welfare": 1.0,
+        "max_utility_disparity": 0.0,
+        "worst_case_regret": 0.0
+      },
+      "name": "vcg_pivot_tie_1",
+      "outcomes": [
+        {
+          "choice": 0,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            0,
+            0
+          ]
+        },
+        {
+          "choice": 1,
+          "payments": [
+            0,
+            1
+          ],
+          "profile": [
+            0,
+            1
+          ]
+        },
+        {
+          "choice": 1,
+          "payments": [
+            1,
+            0
+          ],
+          "profile": [
+            1,
+            0
+          ]
+        },
+        {
+          "choice": 1,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            1,
+            1
+          ]
+        }
+      ],
+      "primary_verifier": {
+        "accepted": false,
+        "anonymity": true,
+        "budget_balance": false,
+        "coalition_strategyproof": true,
+        "dsic": true,
+        "fairness": true,
+        "feasibility": true,
+        "ir": true,
+        "neutrality": false,
+        "witnesses": [
+          {
+            "agent": null,
+            "detail": "(0, 1)",
+            "deviation": null,
+            "profile": [
+              0,
+              1
+            ],
+            "property": "budget_balance"
+          },
+          {
+            "agent": null,
+            "detail": "(1, 0)",
+            "deviation": null,
+            "profile": [
+              1,
+              0
+            ],
+            "property": "budget_balance"
+          },
+          {
+            "agent": null,
+            "detail": "vs (1, 0)",
+            "deviation": null,
+            "profile": [
+              0,
+              1
+            ],
+            "property": "neutrality"
+          },
+          {
+            "agent": null,
+            "detail": "vs (0, 1)",
+            "deviation": null,
+            "profile": [
+              1,
+              0
+            ],
+            "property": "neutrality"
+          }
+        ]
+      }
+    },
+    {
+      "independent_verifier": {
+        "accepted": true,
+        "failures": []
+      },
+      "metrics": {
+        "description_length": 0.0,
+        "evaluation_profiles": 4.0,
+        "expected_allocative_welfare": 1.0,
+        "expected_revenue": 0.0,
+        "expected_utility_disparity": 0.5,
+        "expected_welfare": 1.0,
+        "max_utility_disparity": 1.0,
+        "worst_case_regret": 0.0
+      },
+      "name": "constant_0",
+      "outcomes": [
+        {
+          "choice": 0,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            0,
+            0
+          ]
+        },
+        {
+          "choice": 0,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            0,
+            1
+          ]
+        },
+        {
+          "choice": 0,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            1,
+            0
+          ]
+        },
+        {
+          "choice": 0,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            1,
+            1
+          ]
+        }
+      ],
+      "primary_verifier": {
+        "accepted": true,
+        "anonymity": true,
+        "budget_balance": true,
+        "coalition_strategyproof": true,
+        "dsic": true,
+        "fairness": true,
+        "feasibility": true,
+        "ir": true,
+        "neutrality": false,
+        "witnesses": [
+          {
+            "agent": null,
+            "detail": "vs (1, 1)",
+            "deviation": null,
+            "profile": [
+              0,
+              0
+            ],
+            "property": "neutrality"
+          },
+          {
+            "agent": null,
+            "detail": "vs (1, 0)",
+            "deviation": null,
+            "profile": [
+              0,
+              1
+            ],
+            "property": "neutrality"
+          },
+          {
+            "agent": null,
+            "detail": "vs (0, 1)",
+            "deviation": null,
+            "profile": [
+              1,
+              0
+            ],
+            "property": "neutrality"
+          },
+          {
+            "agent": null,
+            "detail": "vs (0, 0)",
+            "deviation": null,
+            "profile": [
+              1,
+              1
+            ],
+            "property": "neutrality"
+          }
+        ]
+      }
+    },
+    {
+      "independent_verifier": {
+        "accepted": true,
+        "failures": []
+      },
+      "metrics": {
+        "description_length": 4.0,
+        "evaluation_profiles": 4.0,
+        "expected_allocative_welfare": 1.0,
+        "expected_revenue": 0.0,
+        "expected_utility_disparity": 0.5,
+        "expected_welfare": 1.0,
+        "max_utility_disparity": 1.0,
+        "worst_case_regret": 0.0
+      },
+      "name": "constant_1",
+      "outcomes": [
+        {
+          "choice": 1,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            0,
+            0
+          ]
+        },
+        {
+          "choice": 1,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            0,
+            1
+          ]
+        },
+        {
+          "choice": 1,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            1,
+            0
+          ]
+        },
+        {
+          "choice": 1,
+          "payments": [
+            0,
+            0
+          ],
+          "profile": [
+            1,
+            1
+          ]
+        }
+      ],
+      "primary_verifier": {
+        "accepted": true,
+        "anonymity": true,
+        "budget_balance": true,
+        "coalition_strategyproof": true,
+        "dsic": true,
+        "fairness": true,
+        "feasibility": true,
+        "ir": true,
+        "neutrality": false,
+        "witnesses": [
+          {
+            "agent": null,
+            "detail": "vs (1, 1)",
+            "deviation": null,
+            "profile": [
+              0,
+              0
+            ],
+            "property": "neutrality"
+          },
+          {
+            "agent": null,
+            "detail": "vs (1, 0)",
+            "deviation": null,
+            "profile": [
+              0,
+              1
+            ],
+            "property": "neutrality"
+          },
+          {
+            "agent": null,
+            "detail": "vs (0, 1)",
+            "deviation": null,
+            "profile": [
+              1,
+              0
+            ],
+            "property": "neutrality"
+          },
+          {
+            "agent": null,
+            "detail": "vs (0, 0)",
+            "deviation": null,
+            "profile": [
+              1,
+              1
+            ],
+            "property": "neutrality"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "acceptance": "DSIC, ex-post IR, exact budget balance, binary feasibility, anonymity, truthful utility disparity <= 1, and two-agent coalition strategyproofness on every profile; baseline passes both checkers",
+    "distribution": "uniform over four truthful type profiles",
+    "domain": {
+      "agents": 2,
+      "alternatives": [
+        0,
+        1
+      ],
+      "payment_grid": [
+        -1,
+        0,
+        1
+      ],
+      "types": [
+        0,
+        1
+      ]
+    },
+    "evolutionary": {
+      "generations": 40,
+      "population_size": 64,
+      "seed": 67
+    },
+    "exhaustive_candidates": 1296
+  },
+  "diagnostic_priority_baseline": {
+    "independent_verifier": {
+      "accepted": false,
+      "failures": [
+        {
+          "detail": "vs [1, 0]",
+          "profile": [
+            0,
+            1
+          ],
+          "property": "anonymity"
+        },
+        {
+          "detail": "vs [0, 1]",
+          "profile": [
+            1,
+            0
+          ],
+          "property": "anonymity"
+        }
+      ]
+    },
+    "metrics": {
+      "description_length": 2.0,
+      "evaluation_profiles": 4.0,
+      "expected_allocative_welfare": 1.5,
+      "expected_revenue": 0.0,
+      "expected_utility_disparity": 0.5,
+      "expected_welfare": 1.5,
+      "max_utility_disparity": 1.0,
+      "worst_case_regret": 0.0
+    },
+    "name": "priority_majority_agent_0",
+    "primary_verifier": {
+      "accepted": false,
+      "anonymity": false,
+      "budget_balance": true,
+      "coalition_strategyproof": true,
+      "dsic": true,
+      "fairness": false,
+      "feasibility": true,
+      "ir": true,
+      "neutrality": true,
+      "witnesses": [
+        {
+          "agent": null,
+          "detail": "vs (1, 0)",
+          "deviation": null,
+          "profile": [
+            0,
+            1
+          ],
+          "property": "anonymity"
+        },
+        {
+          "agent": null,
+          "detail": "vs (0, 1)",
+          "deviation": null,
+          "profile": [
+            1,
+            0
+          ],
+          "property": "anonymity"
+        }
+      ]
+    }
+  },
+  "evolutionary_search": {
+    "accepted": 661,
+    "best_choices": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "evaluated": 2560,
+    "generations": 40,
+    "population_size": 64,
+    "seed": 67
+  },
+  "exhaustive_search": {
+    "accepted_count": 4,
+    "candidate_count": 1296,
+    "frontier": [
+      {
+        "metrics": {
+          "description_length": 0.0,
+          "evaluation_profiles": 4.0,
+          "expected_allocative_welfare": 1.0,
+          "expected_revenue": 0.0,
+          "expected_utility_disparity": 0.5,
+          "expected_welfare": 1.0,
+          "max_utility_disparity": 1.0,
+          "worst_case_regret": 0.0
+        },
+        "outcomes": [
+          {
+            "choice": 0,
+            "payments": [
+              0,
+              0
+            ],
+            "profile": [
+              0,
+              0
+            ]
+          },
+          {
+            "choice": 0,
+            "payments": [
+              0,
+              0
+            ],
+            "profile": [
+              0,
+              1
+            ]
+          },
+          {
+            "choice": 0,
+            "payments": [
+              0,
+              0
+            ],
+            "profile": [
+              1,
+              0
+            ]
+          },
+          {
+            "choice": 0,
+            "payments": [
+              0,
+              0
+            ],
+            "profile": [
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "metrics": {
+          "description_length": 1.0,
+          "evaluation_profiles": 4.0,
+          "expected_allocative_welfare": 1.5,
+          "expected_revenue": 0.0,
+          "expected_utility_disparity": 0.5,
+          "expected_welfare": 1.5,
+          "max_utility_disparity": 1.0,
+          "worst_case_regret": 0.0
+        },
+        "outcomes": [
+          {
+            "choice": 0,
+            "payments": [
+              0,
+              0
+            ],
+            "profile": [
+              0,
+              0
+            ]
+          },
+          {
+            "choice": 0,
+            "payments": [
+              0,
+              0
+            ],
+            "profile": [
+              0,
+              1
+            ]
+          },
+          {
+            "choice": 0,
+            "payments": [
+              0,
+              0
+            ],
+            "profile": [
+              1,
+              0
+            ]
+          },
+          {
+            "choice": 1,
+            "payments": [
+              0,
+              0
+            ],
+            "profile": [
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "metrics": {
+          "description_length": 3.0,
+          "evaluation_profiles": 4.0,
+          "expected_allocative_welfare": 1.5,
+          "expected_revenue": 0.0,
+          "expected_utility_disparity": 0.5,
+          "expected_welfare": 1.5,
+          "max_utility_disparity": 1.0,
+          "worst_case_regret": 0.0
+        },
+        "outcomes": [
+          {
+            "choice": 0,
+            "payments": [
+              0,
+              0
+            ],
+            "profile": [
+              0,
+              0
+            ]
+          },
+          {
+            "choice": 1,
+            "payments": [
+              0,
+              0
+            ],
+            "profile": [
+              0,
+              1
+            ]
+          },
+          {
+            "choice": 1,
+            "payments": [
+              0,
+              0
+            ],
+            "profile": [
+              1,
+              0
+            ]
+          },
+          {
+            "choice": 1,
+            "payments": [
+              0,
+              0
+            ],
+            "profile": [
+              1,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "metrics": {
+          "description_length": 4.0,
+          "evaluation_profiles": 4.0,
+          "expected_allocative_welfare": 1.0,
+          "expected_revenue": 0.0,
+          "expected_utility_disparity": 0.5,
+          "expected_welfare": 1.0,
+          "max_utility_disparity": 1.0,
+          "worst_case_regret": 0.0
+        },
+        "outcomes": [
+          {
+            "choice": 1,
+            "payments": [
+              0,
+              0
+            ],
+            "profile": [
+              0,
+              0
+            ]
+          },
+          {
+            "choice": 1,
+            "payments": [
+              0,
+              0
+            ],
+            "profile": [
+              0,
+              1
+            ]
+          },
+          {
+            "choice": 1,
+            "payments": [
+              0,
+              0
+            ],
+            "profile": [
+              1,
+              0
+            ]
+          },
+          {
+            "choice": 1,
+            "payments": [
+              0,
+              0
+            ],
+            "profile": [
+              1,
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

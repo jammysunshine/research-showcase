@@ -1,0 +1,7 @@
+{
+  "domain": {"agents": 2, "types": [0, 1], "alternatives": [0, 1], "payment_grid": [-1, 0, 1]},
+  "distribution": "uniform over four truthful type profiles",
+  "acceptance": "DSIC, ex-post IR, exact budget balance, binary feasibility, anonymity, truthful utility disparity <= 1, and two-agent coalition strategyproofness on every profile; baseline passes both checkers",
+  "exhaustive_candidates": 1296,
+  "evolutionary": {"seed": 67, "population_size": 64, "generations": 40}
+}

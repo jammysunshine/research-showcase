@@ -1,0 +1,17 @@
+{
+  "experiment": "67_three_agent_extension_confirmation",
+  "value_magnitudes": [0, 1, 2],
+  "distributions": [
+    {"name": "uniform", "weights": [1, 1, 1, 1, 1, 1, 1, 1]},
+    {"name": "all_zero_heavy", "weights": [8, 1, 1, 1, 1, 1, 1, 1]},
+    {"name": "all_one_heavy", "weights": [1, 1, 1, 1, 1, 1, 1, 8]},
+    {"name": "split_profiles", "weights": [1, 4, 4, 1, 4, 1, 1, 4]}
+  ],
+  "threat_models": [
+    "all eight true binary profiles",
+    "all nonempty report coalitions",
+    "value magnitudes 0, 1, and 2",
+    "weighted held-out welfare distributions"
+  ],
+  "frozen_before_run": true
+}
