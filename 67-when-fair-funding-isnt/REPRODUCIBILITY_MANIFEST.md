@@ -150,8 +150,8 @@ Hashes for the clean run:
 
 ```text
 configs/public_project_study.json          58d3de51c22a1136a5af8445bd2999b0067b0f439624ffab689026caa3808e58
-artifacts/public_project_study.json        069096fd620b7ec995e57619c1edee8024718a705cf4e8506846d8763672dbbb
-artifacts/public_project_certificate.json  59d43612156d6800e2163c809015ac6bdc5bd726d58c3041d82c718f8adf6760
+artifacts/public_project_study.json        7ad59ce4b31cd52255df989a64d4950ea363bd9f4a7dbfa1de66427ca44168d5
+artifacts/public_project_certificate.json  7ee0d5ab0f55e98c43c376b11dd12d05cd8d35bf9581c884827264986f58f43c
 artifacts/public_project_scaling.csv       ed52a586503579a1c7c929c6faae5a557bfbd095c735649f838680dd034b6b4b
 artifacts/public_project_frontier.csv      18bfe664fb845cc25bddb2f82368ed9864dc85a6bba2e1192cb9d0aa594bb3d5
 reports/public_project_frontier.svg        fe2f6e1d346aee94b2470be42f0da5d2217f547058ce4c0f83547d7d7ba34b5e

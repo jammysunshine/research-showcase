@@ -103,9 +103,11 @@
       "verification": {
         "accepted": true,
         "anonymity": true,
+        "coalitional_dsic": true,
         "dsic": true,
         "ex_post_ir": true,
         "feasibility": true,
+        "max_coalition_size": 1,
         "weak_budget_balance": true,
         "witnesses": []
       }
@@ -213,9 +215,11 @@
       "verification": {
         "accepted": true,
         "anonymity": true,
+        "coalitional_dsic": true,
         "dsic": true,
         "ex_post_ir": true,
         "feasibility": true,
+        "max_coalition_size": 1,
         "weak_budget_balance": true,
         "witnesses": []
       }
@@ -323,9 +327,11 @@
       "verification": {
         "accepted": true,
         "anonymity": true,
+        "coalitional_dsic": true,
         "dsic": true,
         "ex_post_ir": true,
         "feasibility": true,
+        "max_coalition_size": 1,
         "weak_budget_balance": true,
         "witnesses": []
       }
@@ -433,9 +439,11 @@
       "verification": {
         "accepted": true,
         "anonymity": true,
+        "coalitional_dsic": true,
         "dsic": true,
         "ex_post_ir": true,
         "feasibility": true,
+        "max_coalition_size": 1,
         "weak_budget_balance": true,
         "witnesses": []
       }
@@ -533,9 +541,11 @@
   "baseline_efficient_verification": {
     "accepted": false,
     "anonymity": true,
+    "coalitional_dsic": true,
     "dsic": true,
     "ex_post_ir": true,
     "feasibility": true,
+    "max_coalition_size": 1,
     "weak_budget_balance": false,
     "witnesses": [
       {

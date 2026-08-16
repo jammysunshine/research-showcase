@@ -10,7 +10,7 @@ The preregistered run enumerates 16 rules; the exploratory extension enumerates
 serialized rows (`cross_n_failure_count=0`, cross-agent digest
 `a04706cd4d754debd5847529e3b3ebe22a14de45efa9b94db8edfd91823a9cc8`); the
 original four cost-3 rows retain digest
-`16e4f8d6f38faf5691a407f1da9bf60af9242b9bdf113465a3a59e6d255143be`.
+`4ad7d6cfc60828e3b042a72cac79d0e4ce3737d1b3579aa9fa5bc612ca0361e1`.
 The efficient comparator has a budget witness at `(0,2,2)` with payments
 `(0,1,1)` and cost 3. Held-out checks cover all 64 profiles for each threshold
 1–6 and report 207 failures.
