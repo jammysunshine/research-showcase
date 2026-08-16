@@ -1,0 +1,3217 @@
+{
+  "candidate_count_at_frozen_cost": 16,
+  "coalitional_frontier": [
+    {
+      "mechanism": {
+        "allocation_by_state": [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            0
+          ],
+          [
+            [
+              0,
+              0,
+              1
+            ],
+            0
+          ],
+          [
+            [
+              0,
+              0,
+              2
+            ],
+            0
+          ],
+          [
+            [
+              0,
+              1,
+              1
+            ],
+            0
+          ],
+          [
+            [
+              0,
+              1,
+              2
+            ],
+            0
+          ],
+          [
+            [
+              0,
+              2,
+              2
+            ],
+            0
+          ],
+          [
+            [
+              1,
+              1,
+              1
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              1,
+              2
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              2,
+              2
+            ],
+            1
+          ],
+          [
+            [
+              2,
+              2,
+              2
+            ],
+            1
+          ]
+        ],
+        "cost": 3,
+        "max_value": 2,
+        "n_agents": 3,
+        "name": "anonymous_monotone_mask_960"
+      },
+      "metrics": {
+        "expected_optimal_welfare": 0.5555555555555556,
+        "expected_regret": 0.1111111111111111,
+        "expected_welfare": 0.4444444444444444,
+        "max_revenue": 3,
+        "positive_optimum_profiles": 10,
+        "profile_count": 27,
+        "project_rate": 0.2962962962962963,
+        "state_count": 10,
+        "worst_case_regret": 1
+      },
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "feasibility": true,
+        "max_coalition_size": 2,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "mechanism": {
+        "allocation_by_state": [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            0
+          ],
+          [
+            [
+              0,
+              0,
+              1
+            ],
+            0
+          ],
+          [
+            [
+              0,
+              0,
+              2
+            ],
+            0
+          ],
+          [
+            [
+              0,
+              1,
+              1
+            ],
+            0
+          ],
+          [
+            [
+              0,
+              1,
+              2
+            ],
+            0
+          ],
+          [
+            [
+              0,
+              2,
+              2
+            ],
+            0
+          ],
+          [
+            [
+              1,
+              1,
+              1
+            ],
+            0
+          ],
+          [
+            [
+              1,
+              1,
+              2
+            ],
+            0
+          ],
+          [
+            [
+              1,
+              2,
+              2
+            ],
+            0
+          ],
+          [
+            [
+              2,
+              2,
+              2
+            ],
+            1
+          ]
+        ],
+        "cost": 3,
+        "max_value": 2,
+        "n_agents": 3,
+        "name": "anonymous_monotone_mask_512"
+      },
+      "metrics": {
+        "expected_optimal_welfare": 0.5555555555555556,
+        "expected_regret": 0.4444444444444444,
+        "expected_welfare": 0.1111111111111111,
+        "max_revenue": 6,
+        "positive_optimum_profiles": 10,
+        "profile_count": 27,
+        "project_rate": 0.037037037037037035,
+        "state_count": 10,
+        "worst_case_regret": 2
+      },
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "feasibility": true,
+        "max_coalition_size": 2,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    }
+  ],
+  "configuration": {
+    "costs": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "heldout_profile_count_limit": null,
+    "max_coalition_size": 2,
+    "max_value": 2,
+    "n_agents": 3,
+    "study": "public_project_coalition_frontier"
+  },
+  "cost_frontier": {
+    "1": {
+      "accepted_count_coalitional": 2,
+      "accepted_count_unrestricted": 4,
+      "candidate_count": 16,
+      "survivors_coalitional": [
+        {
+          "mechanism": {
+            "allocation_by_state": [
+              [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  1
+                ],
+                1
+              ],
+              [
+                [
+                  1,
+                  1,
+                  2
+                ],
+                1
+              ],
+              [
+                [
+                  1,
+                  2,
+                  2
+                ],
+                1
+              ],
+              [
+                [
+                  2,
+                  2,
+                  2
+                ],
+                1
+              ]
+            ],
+            "cost": 1,
+            "max_value": 2,
+            "n_agents": 3,
+            "name": "anonymous_monotone_mask_960"
+          },
+          "metrics": {
+            "expected_optimal_welfare": 2.037037037037037,
+            "expected_regret": 1.0,
+            "expected_welfare": 1.037037037037037,
+            "max_revenue": 3,
+            "positive_optimum_profiles": 23,
+            "profile_count": 27,
+            "project_rate": 0.2962962962962963,
+            "state_count": 10,
+            "worst_case_regret": 3
+          },
+          "verification": {
+            "accepted": true,
+            "anonymity": true,
+            "coalitional_dsic": true,
+            "dsic": true,
+            "ex_post_ir": true,
+            "feasibility": true,
+            "max_coalition_size": 2,
+            "weak_budget_balance": true,
+            "witnesses": []
+          }
+        },
+        {
+          "mechanism": {
+            "allocation_by_state": [
+              [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  2,
+                  2,
+                  2
+                ],
+                1
+              ]
+            ],
+            "cost": 1,
+            "max_value": 2,
+            "n_agents": 3,
+            "name": "anonymous_monotone_mask_512"
+          },
+          "metrics": {
+            "expected_optimal_welfare": 2.037037037037037,
+            "expected_regret": 1.8518518518518519,
+            "expected_welfare": 0.18518518518518517,
+            "max_revenue": 6,
+            "positive_optimum_profiles": 23,
+            "profile_count": 27,
+            "project_rate": 0.037037037037037035,
+            "state_count": 10,
+            "worst_case_regret": 4
+          },
+          "verification": {
+            "accepted": true,
+            "anonymity": true,
+            "coalitional_dsic": true,
+            "dsic": true,
+            "ex_post_ir": true,
+            "feasibility": true,
+            "max_coalition_size": 2,
+            "weak_budget_balance": true,
+            "witnesses": []
+          }
+        }
+      ],
+      "survivors_unrestricted": [
+        {
+          "mechanism": {
+            "allocation_by_state": [
+              [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  1
+                ],
+                1
+              ],
+              [
+                [
+                  1,
+                  1,
+                  2
+                ],
+                1
+              ],
+              [
+                [
+                  1,
+                  2,
+                  2
+                ],
+                1
+              ],
+              [
+                [
+                  2,
+                  2,
+                  2
+                ],
+                1
+              ]
+            ],
+            "cost": 1,
+            "max_value": 2,
+            "n_agents": 3,
+            "name": "anonymous_monotone_mask_960"
+          },
+          "metrics": {
+            "expected_optimal_welfare": 2.037037037037037,
+            "expected_regret": 1.0,
+            "expected_welfare": 1.037037037037037,
+            "max_revenue": 3,
+            "positive_optimum_profiles": 23,
+            "profile_count": 27,
+            "project_rate": 0.2962962962962963,
+            "state_count": 10,
+            "worst_case_regret": 3
+          },
+          "verification": {
+            "accepted": true,
+            "anonymity": true,
+            "coalitional_dsic": true,
+            "dsic": true,
+            "ex_post_ir": true,
+            "feasibility": true,
+            "max_coalition_size": 1,
+            "weak_budget_balance": true,
+            "witnesses": []
+          }
+        },
+        {
+          "mechanism": {
+            "allocation_by_state": [
+              [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  2
+                ],
+                1
+              ],
+              [
+                [
+                  1,
+                  2,
+                  2
+                ],
+                1
+              ],
+              [
+                [
+                  2,
+                  2,
+                  2
+                ],
+                1
+              ]
+            ],
+            "cost": 1,
+            "max_value": 2,
+            "n_agents": 3,
+            "name": "anonymous_monotone_mask_896"
+          },
+          "metrics": {
+            "expected_optimal_welfare": 2.037037037037037,
+            "expected_regret": 1.0740740740740742,
+            "expected_welfare": 0.9629629629629629,
+            "max_revenue": 4,
+            "positive_optimum_profiles": 23,
+            "profile_count": 27,
+            "project_rate": 0.25925925925925924,
+            "state_count": 10,
+            "worst_case_regret": 3
+          },
+          "verification": {
+            "accepted": true,
+            "anonymity": true,
+            "coalitional_dsic": true,
+            "dsic": true,
+            "ex_post_ir": true,
+            "feasibility": true,
+            "max_coalition_size": 1,
+            "weak_budget_balance": true,
+            "witnesses": []
+          }
+        },
+        {
+          "mechanism": {
+            "allocation_by_state": [
+              [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  2,
+                  2
+                ],
+                1
+              ],
+              [
+                [
+                  2,
+                  2,
+                  2
+                ],
+                1
+              ]
+            ],
+            "cost": 1,
+            "max_value": 2,
+            "n_agents": 3,
+            "name": "anonymous_monotone_mask_768"
+          },
+          "metrics": {
+            "expected_optimal_welfare": 2.037037037037037,
+            "expected_regret": 1.4074074074074074,
+            "expected_welfare": 0.6296296296296297,
+            "max_revenue": 5,
+            "positive_optimum_profiles": 23,
+            "profile_count": 27,
+            "project_rate": 0.14814814814814814,
+            "state_count": 10,
+            "worst_case_regret": 3
+          },
+          "verification": {
+            "accepted": true,
+            "anonymity": true,
+            "coalitional_dsic": true,
+            "dsic": true,
+            "ex_post_ir": true,
+            "feasibility": true,
+            "max_coalition_size": 1,
+            "weak_budget_balance": true,
+            "witnesses": []
+          }
+        },
+        {
+          "mechanism": {
+            "allocation_by_state": [
+              [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  2,
+                  2,
+                  2
+                ],
+                1
+              ]
+            ],
+            "cost": 1,
+            "max_value": 2,
+            "n_agents": 3,
+            "name": "anonymous_monotone_mask_512"
+          },
+          "metrics": {
+            "expected_optimal_welfare": 2.037037037037037,
+            "expected_regret": 1.8518518518518519,
+            "expected_welfare": 0.18518518518518517,
+            "max_revenue": 6,
+            "positive_optimum_profiles": 23,
+            "profile_count": 27,
+            "project_rate": 0.037037037037037035,
+            "state_count": 10,
+            "worst_case_regret": 4
+          },
+          "verification": {
+            "accepted": true,
+            "anonymity": true,
+            "coalitional_dsic": true,
+            "dsic": true,
+            "ex_post_ir": true,
+            "feasibility": true,
+            "max_coalition_size": 1,
+            "weak_budget_balance": true,
+            "witnesses": []
+          }
+        }
+      ]
+    },
+    "2": {
+      "accepted_count_coalitional": 2,
+      "accepted_count_unrestricted": 4,
+      "candidate_count": 16,
+      "survivors_coalitional": [
+        {
+          "mechanism": {
+            "allocation_by_state": [
+              [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  1
+                ],
+                1
+              ],
+              [
+                [
+                  1,
+                  1,
+                  2
+                ],
+                1
+              ],
+              [
+                [
+                  1,
+                  2,
+                  2
+                ],
+                1
+              ],
+              [
+                [
+                  2,
+                  2,
+                  2
+                ],
+                1
+              ]
+            ],
+            "cost": 2,
+            "max_value": 2,
+            "n_agents": 3,
+            "name": "anonymous_monotone_mask_960"
+          },
+          "metrics": {
+            "expected_optimal_welfare": 1.1851851851851851,
+            "expected_regret": 0.4444444444444444,
+            "expected_welfare": 0.7407407407407407,
+            "max_revenue": 3,
+            "positive_optimum_profiles": 17,
+            "profile_count": 27,
+            "project_rate": 0.2962962962962963,
+            "state_count": 10,
+            "worst_case_regret": 2
+          },
+          "verification": {
+            "accepted": true,
+            "anonymity": true,
+            "coalitional_dsic": true,
+            "dsic": true,
+            "ex_post_ir": true,
+            "feasibility": true,
+            "max_coalition_size": 2,
+            "weak_budget_balance": true,
+            "witnesses": []
+          }
+        },
+        {
+          "mechanism": {
+            "allocation_by_state": [
+              [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  2,
+                  2,
+                  2
+                ],
+                1
+              ]
+            ],
+            "cost": 2,
+            "max_value": 2,
+            "n_agents": 3,
+            "name": "anonymous_monotone_mask_512"
+          },
+          "metrics": {
+            "expected_optimal_welfare": 1.1851851851851851,
+            "expected_regret": 1.037037037037037,
+            "expected_welfare": 0.14814814814814814,
+            "max_revenue": 6,
+            "positive_optimum_profiles": 17,
+            "profile_count": 27,
+            "project_rate": 0.037037037037037035,
+            "state_count": 10,
+            "worst_case_regret": 3
+          },
+          "verification": {
+            "accepted": true,
+            "anonymity": true,
+            "coalitional_dsic": true,
+            "dsic": true,
+            "ex_post_ir": true,
+            "feasibility": true,
+            "max_coalition_size": 2,
+            "weak_budget_balance": true,
+            "witnesses": []
+          }
+        }
+      ],
+      "survivors_unrestricted": [
+        {
+          "mechanism": {
+            "allocation_by_state": [
+              [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  1
+                ],
+                1
+              ],
+              [
+                [
+                  1,
+                  1,
+                  2
+                ],
+                1
+              ],
+              [
+                [
+                  1,
+                  2,
+                  2
+                ],
+                1
+              ],
+              [
+                [
+                  2,
+                  2,
+                  2
+                ],
+                1
+              ]
+            ],
+            "cost": 2,
+            "max_value": 2,
+            "n_agents": 3,
+            "name": "anonymous_monotone_mask_960"
+          },
+          "metrics": {
+            "expected_optimal_welfare": 1.1851851851851851,
+            "expected_regret": 0.4444444444444444,
+            "expected_welfare": 0.7407407407407407,
+            "max_revenue": 3,
+            "positive_optimum_profiles": 17,
+            "profile_count": 27,
+            "project_rate": 0.2962962962962963,
+            "state_count": 10,
+            "worst_case_regret": 2
+          },
+          "verification": {
+            "accepted": true,
+            "anonymity": true,
+            "coalitional_dsic": true,
+            "dsic": true,
+            "ex_post_ir": true,
+            "feasibility": true,
+            "max_coalition_size": 1,
+            "weak_budget_balance": true,
+            "witnesses": []
+          }
+        },
+        {
+          "mechanism": {
+            "allocation_by_state": [
+              [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  2
+                ],
+                1
+              ],
+              [
+                [
+                  1,
+                  2,
+                  2
+                ],
+                1
+              ],
+              [
+                [
+                  2,
+                  2,
+                  2
+                ],
+                1
+              ]
+            ],
+            "cost": 2,
+            "max_value": 2,
+            "n_agents": 3,
+            "name": "anonymous_monotone_mask_896"
+          },
+          "metrics": {
+            "expected_optimal_welfare": 1.1851851851851851,
+            "expected_regret": 0.48148148148148145,
+            "expected_welfare": 0.7037037037037037,
+            "max_revenue": 4,
+            "positive_optimum_profiles": 17,
+            "profile_count": 27,
+            "project_rate": 0.25925925925925924,
+            "state_count": 10,
+            "worst_case_regret": 2
+          },
+          "verification": {
+            "accepted": true,
+            "anonymity": true,
+            "coalitional_dsic": true,
+            "dsic": true,
+            "ex_post_ir": true,
+            "feasibility": true,
+            "max_coalition_size": 1,
+            "weak_budget_balance": true,
+            "witnesses": []
+          }
+        },
+        {
+          "mechanism": {
+            "allocation_by_state": [
+              [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  2,
+                  2
+                ],
+                1
+              ],
+              [
+                [
+                  2,
+                  2,
+                  2
+                ],
+                1
+              ]
+            ],
+            "cost": 2,
+            "max_value": 2,
+            "n_agents": 3,
+            "name": "anonymous_monotone_mask_768"
+          },
+          "metrics": {
+            "expected_optimal_welfare": 1.1851851851851851,
+            "expected_regret": 0.7037037037037037,
+            "expected_welfare": 0.48148148148148145,
+            "max_revenue": 5,
+            "positive_optimum_profiles": 17,
+            "profile_count": 27,
+            "project_rate": 0.14814814814814814,
+            "state_count": 10,
+            "worst_case_regret": 2
+          },
+          "verification": {
+            "accepted": true,
+            "anonymity": true,
+            "coalitional_dsic": true,
+            "dsic": true,
+            "ex_post_ir": true,
+            "feasibility": true,
+            "max_coalition_size": 1,
+            "weak_budget_balance": true,
+            "witnesses": []
+          }
+        },
+        {
+          "mechanism": {
+            "allocation_by_state": [
+              [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  2,
+                  2,
+                  2
+                ],
+                1
+              ]
+            ],
+            "cost": 2,
+            "max_value": 2,
+            "n_agents": 3,
+            "name": "anonymous_monotone_mask_512"
+          },
+          "metrics": {
+            "expected_optimal_welfare": 1.1851851851851851,
+            "expected_regret": 1.037037037037037,
+            "expected_welfare": 0.14814814814814814,
+            "max_revenue": 6,
+            "positive_optimum_profiles": 17,
+            "profile_count": 27,
+            "project_rate": 0.037037037037037035,
+            "state_count": 10,
+            "worst_case_regret": 3
+          },
+          "verification": {
+            "accepted": true,
+            "anonymity": true,
+            "coalitional_dsic": true,
+            "dsic": true,
+            "ex_post_ir": true,
+            "feasibility": true,
+            "max_coalition_size": 1,
+            "weak_budget_balance": true,
+            "witnesses": []
+          }
+        }
+      ]
+    },
+    "3": {
+      "accepted_count_coalitional": 2,
+      "accepted_count_unrestricted": 4,
+      "candidate_count": 16,
+      "survivors_coalitional": [
+        {
+          "mechanism": {
+            "allocation_by_state": [
+              [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  1
+                ],
+                1
+              ],
+              [
+                [
+                  1,
+                  1,
+                  2
+                ],
+                1
+              ],
+              [
+                [
+                  1,
+                  2,
+                  2
+                ],
+                1
+              ],
+              [
+                [
+                  2,
+                  2,
+                  2
+                ],
+                1
+              ]
+            ],
+            "cost": 3,
+            "max_value": 2,
+            "n_agents": 3,
+            "name": "anonymous_monotone_mask_960"
+          },
+          "metrics": {
+            "expected_optimal_welfare": 0.5555555555555556,
+            "expected_regret": 0.1111111111111111,
+            "expected_welfare": 0.4444444444444444,
+            "max_revenue": 3,
+            "positive_optimum_profiles": 10,
+            "profile_count": 27,
+            "project_rate": 0.2962962962962963,
+            "state_count": 10,
+            "worst_case_regret": 1
+          },
+          "verification": {
+            "accepted": true,
+            "anonymity": true,
+            "coalitional_dsic": true,
+            "dsic": true,
+            "ex_post_ir": true,
+            "feasibility": true,
+            "max_coalition_size": 2,
+            "weak_budget_balance": true,
+            "witnesses": []
+          }
+        },
+        {
+          "mechanism": {
+            "allocation_by_state": [
+              [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  2,
+                  2,
+                  2
+                ],
+                1
+              ]
+            ],
+            "cost": 3,
+            "max_value": 2,
+            "n_agents": 3,
+            "name": "anonymous_monotone_mask_512"
+          },
+          "metrics": {
+            "expected_optimal_welfare": 0.5555555555555556,
+            "expected_regret": 0.4444444444444444,
+            "expected_welfare": 0.1111111111111111,
+            "max_revenue": 6,
+            "positive_optimum_profiles": 10,
+            "profile_count": 27,
+            "project_rate": 0.037037037037037035,
+            "state_count": 10,
+            "worst_case_regret": 2
+          },
+          "verification": {
+            "accepted": true,
+            "anonymity": true,
+            "coalitional_dsic": true,
+            "dsic": true,
+            "ex_post_ir": true,
+            "feasibility": true,
+            "max_coalition_size": 2,
+            "weak_budget_balance": true,
+            "witnesses": []
+          }
+        }
+      ],
+      "survivors_unrestricted": [
+        {
+          "mechanism": {
+            "allocation_by_state": [
+              [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  2
+                ],
+                1
+              ],
+              [
+                [
+                  1,
+                  2,
+                  2
+                ],
+                1
+              ],
+              [
+                [
+                  2,
+                  2,
+                  2
+                ],
+                1
+              ]
+            ],
+            "cost": 3,
+            "max_value": 2,
+            "n_agents": 3,
+            "name": "anonymous_monotone_mask_896"
+          },
+          "metrics": {
+            "expected_optimal_welfare": 0.5555555555555556,
+            "expected_regret": 0.1111111111111111,
+            "expected_welfare": 0.4444444444444444,
+            "max_revenue": 4,
+            "positive_optimum_profiles": 10,
+            "profile_count": 27,
+            "project_rate": 0.25925925925925924,
+            "state_count": 10,
+            "worst_case_regret": 1
+          },
+          "verification": {
+            "accepted": true,
+            "anonymity": true,
+            "coalitional_dsic": true,
+            "dsic": true,
+            "ex_post_ir": true,
+            "feasibility": true,
+            "max_coalition_size": 1,
+            "weak_budget_balance": true,
+            "witnesses": []
+          }
+        },
+        {
+          "mechanism": {
+            "allocation_by_state": [
+              [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  1
+                ],
+                1
+              ],
+              [
+                [
+                  1,
+                  1,
+                  2
+                ],
+                1
+              ],
+              [
+                [
+                  1,
+                  2,
+                  2
+                ],
+                1
+              ],
+              [
+                [
+                  2,
+                  2,
+                  2
+                ],
+                1
+              ]
+            ],
+            "cost": 3,
+            "max_value": 2,
+            "n_agents": 3,
+            "name": "anonymous_monotone_mask_960"
+          },
+          "metrics": {
+            "expected_optimal_welfare": 0.5555555555555556,
+            "expected_regret": 0.1111111111111111,
+            "expected_welfare": 0.4444444444444444,
+            "max_revenue": 3,
+            "positive_optimum_profiles": 10,
+            "profile_count": 27,
+            "project_rate": 0.2962962962962963,
+            "state_count": 10,
+            "worst_case_regret": 1
+          },
+          "verification": {
+            "accepted": true,
+            "anonymity": true,
+            "coalitional_dsic": true,
+            "dsic": true,
+            "ex_post_ir": true,
+            "feasibility": true,
+            "max_coalition_size": 1,
+            "weak_budget_balance": true,
+            "witnesses": []
+          }
+        },
+        {
+          "mechanism": {
+            "allocation_by_state": [
+              [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  2,
+                  2
+                ],
+                1
+              ],
+              [
+                [
+                  2,
+                  2,
+                  2
+                ],
+                1
+              ]
+            ],
+            "cost": 3,
+            "max_value": 2,
+            "n_agents": 3,
+            "name": "anonymous_monotone_mask_768"
+          },
+          "metrics": {
+            "expected_optimal_welfare": 0.5555555555555556,
+            "expected_regret": 0.2222222222222222,
+            "expected_welfare": 0.3333333333333333,
+            "max_revenue": 5,
+            "positive_optimum_profiles": 10,
+            "profile_count": 27,
+            "project_rate": 0.14814814814814814,
+            "state_count": 10,
+            "worst_case_regret": 1
+          },
+          "verification": {
+            "accepted": true,
+            "anonymity": true,
+            "coalitional_dsic": true,
+            "dsic": true,
+            "ex_post_ir": true,
+            "feasibility": true,
+            "max_coalition_size": 1,
+            "weak_budget_balance": true,
+            "witnesses": []
+          }
+        },
+        {
+          "mechanism": {
+            "allocation_by_state": [
+              [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  2,
+                  2,
+                  2
+                ],
+                1
+              ]
+            ],
+            "cost": 3,
+            "max_value": 2,
+            "n_agents": 3,
+            "name": "anonymous_monotone_mask_512"
+          },
+          "metrics": {
+            "expected_optimal_welfare": 0.5555555555555556,
+            "expected_regret": 0.4444444444444444,
+            "expected_welfare": 0.1111111111111111,
+            "max_revenue": 6,
+            "positive_optimum_profiles": 10,
+            "profile_count": 27,
+            "project_rate": 0.037037037037037035,
+            "state_count": 10,
+            "worst_case_regret": 2
+          },
+          "verification": {
+            "accepted": true,
+            "anonymity": true,
+            "coalitional_dsic": true,
+            "dsic": true,
+            "ex_post_ir": true,
+            "feasibility": true,
+            "max_coalition_size": 1,
+            "weak_budget_balance": true,
+            "witnesses": []
+          }
+        }
+      ]
+    },
+    "4": {
+      "accepted_count_coalitional": 1,
+      "accepted_count_unrestricted": 1,
+      "candidate_count": 16,
+      "survivors_coalitional": [
+        {
+          "mechanism": {
+            "allocation_by_state": [
+              [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  2,
+                  2,
+                  2
+                ],
+                1
+              ]
+            ],
+            "cost": 4,
+            "max_value": 2,
+            "n_agents": 3,
+            "name": "anonymous_monotone_mask_512"
+          },
+          "metrics": {
+            "expected_optimal_welfare": 0.18518518518518517,
+            "expected_regret": 0.1111111111111111,
+            "expected_welfare": 0.07407407407407407,
+            "max_revenue": 6,
+            "positive_optimum_profiles": 4,
+            "profile_count": 27,
+            "project_rate": 0.037037037037037035,
+            "state_count": 10,
+            "worst_case_regret": 1
+          },
+          "verification": {
+            "accepted": true,
+            "anonymity": true,
+            "coalitional_dsic": true,
+            "dsic": true,
+            "ex_post_ir": true,
+            "feasibility": true,
+            "max_coalition_size": 2,
+            "weak_budget_balance": true,
+            "witnesses": []
+          }
+        }
+      ],
+      "survivors_unrestricted": [
+        {
+          "mechanism": {
+            "allocation_by_state": [
+              [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  2,
+                  2,
+                  2
+                ],
+                1
+              ]
+            ],
+            "cost": 4,
+            "max_value": 2,
+            "n_agents": 3,
+            "name": "anonymous_monotone_mask_512"
+          },
+          "metrics": {
+            "expected_optimal_welfare": 0.18518518518518517,
+            "expected_regret": 0.1111111111111111,
+            "expected_welfare": 0.07407407407407407,
+            "max_revenue": 6,
+            "positive_optimum_profiles": 4,
+            "profile_count": 27,
+            "project_rate": 0.037037037037037035,
+            "state_count": 10,
+            "worst_case_regret": 1
+          },
+          "verification": {
+            "accepted": true,
+            "anonymity": true,
+            "coalitional_dsic": true,
+            "dsic": true,
+            "ex_post_ir": true,
+            "feasibility": true,
+            "max_coalition_size": 1,
+            "weak_budget_balance": true,
+            "witnesses": []
+          }
+        }
+      ]
+    },
+    "5": {
+      "accepted_count_coalitional": 1,
+      "accepted_count_unrestricted": 1,
+      "candidate_count": 16,
+      "survivors_coalitional": [
+        {
+          "mechanism": {
+            "allocation_by_state": [
+              [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  2,
+                  2,
+                  2
+                ],
+                1
+              ]
+            ],
+            "cost": 5,
+            "max_value": 2,
+            "n_agents": 3,
+            "name": "anonymous_monotone_mask_512"
+          },
+          "metrics": {
+            "expected_optimal_welfare": 0.037037037037037035,
+            "expected_regret": 0.0,
+            "expected_welfare": 0.037037037037037035,
+            "max_revenue": 6,
+            "positive_optimum_profiles": 1,
+            "profile_count": 27,
+            "project_rate": 0.037037037037037035,
+            "state_count": 10,
+            "worst_case_regret": 0
+          },
+          "verification": {
+            "accepted": true,
+            "anonymity": true,
+            "coalitional_dsic": true,
+            "dsic": true,
+            "ex_post_ir": true,
+            "feasibility": true,
+            "max_coalition_size": 2,
+            "weak_budget_balance": true,
+            "witnesses": []
+          }
+        }
+      ],
+      "survivors_unrestricted": [
+        {
+          "mechanism": {
+            "allocation_by_state": [
+              [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  2,
+                  2,
+                  2
+                ],
+                1
+              ]
+            ],
+            "cost": 5,
+            "max_value": 2,
+            "n_agents": 3,
+            "name": "anonymous_monotone_mask_512"
+          },
+          "metrics": {
+            "expected_optimal_welfare": 0.037037037037037035,
+            "expected_regret": 0.0,
+            "expected_welfare": 0.037037037037037035,
+            "max_revenue": 6,
+            "positive_optimum_profiles": 1,
+            "profile_count": 27,
+            "project_rate": 0.037037037037037035,
+            "state_count": 10,
+            "worst_case_regret": 0
+          },
+          "verification": {
+            "accepted": true,
+            "anonymity": true,
+            "coalitional_dsic": true,
+            "dsic": true,
+            "ex_post_ir": true,
+            "feasibility": true,
+            "max_coalition_size": 1,
+            "weak_budget_balance": true,
+            "witnesses": []
+          }
+        }
+      ]
+    },
+    "6": {
+      "accepted_count_coalitional": 1,
+      "accepted_count_unrestricted": 1,
+      "candidate_count": 16,
+      "survivors_coalitional": [
+        {
+          "mechanism": {
+            "allocation_by_state": [
+              [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  2,
+                  2,
+                  2
+                ],
+                1
+              ]
+            ],
+            "cost": 6,
+            "max_value": 2,
+            "n_agents": 3,
+            "name": "anonymous_monotone_mask_512"
+          },
+          "metrics": {
+            "expected_optimal_welfare": 0.0,
+            "expected_regret": 0.0,
+            "expected_welfare": 0.0,
+            "max_revenue": 6,
+            "positive_optimum_profiles": 0,
+            "profile_count": 27,
+            "project_rate": 0.037037037037037035,
+            "state_count": 10,
+            "worst_case_regret": 0
+          },
+          "verification": {
+            "accepted": true,
+            "anonymity": true,
+            "coalitional_dsic": true,
+            "dsic": true,
+            "ex_post_ir": true,
+            "feasibility": true,
+            "max_coalition_size": 2,
+            "weak_budget_balance": true,
+            "witnesses": []
+          }
+        }
+      ],
+      "survivors_unrestricted": [
+        {
+          "mechanism": {
+            "allocation_by_state": [
+              [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  0,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  0,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  1
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  1,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  1,
+                  2,
+                  2
+                ],
+                0
+              ],
+              [
+                [
+                  2,
+                  2,
+                  2
+                ],
+                1
+              ]
+            ],
+            "cost": 6,
+            "max_value": 2,
+            "n_agents": 3,
+            "name": "anonymous_monotone_mask_512"
+          },
+          "metrics": {
+            "expected_optimal_welfare": 0.0,
+            "expected_regret": 0.0,
+            "expected_welfare": 0.0,
+            "max_revenue": 6,
+            "positive_optimum_profiles": 0,
+            "profile_count": 27,
+            "project_rate": 0.037037037037037035,
+            "state_count": 10,
+            "worst_case_regret": 0
+          },
+          "verification": {
+            "accepted": true,
+            "anonymity": true,
+            "coalitional_dsic": true,
+            "dsic": true,
+            "ex_post_ir": true,
+            "feasibility": true,
+            "max_coalition_size": 1,
+            "weak_budget_balance": true,
+            "witnesses": []
+          }
+        }
+      ]
+    }
+  },
+  "frozen_cost": 3,
+  "question": "Do frontier rules remain DSIC under bounded coalition deviations (up to size 2) in the frozen ternary public-project domain?",
+  "selected_frontier": [
+    {
+      "mechanism": {
+        "allocation_by_state": [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            0
+          ],
+          [
+            [
+              0,
+              0,
+              1
+            ],
+            0
+          ],
+          [
+            [
+              0,
+              0,
+              2
+            ],
+            0
+          ],
+          [
+            [
+              0,
+              1,
+              1
+            ],
+            0
+          ],
+          [
+            [
+              0,
+              1,
+              2
+            ],
+            0
+          ],
+          [
+            [
+              0,
+              2,
+              2
+            ],
+            0
+          ],
+          [
+            [
+              1,
+              1,
+              1
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              1,
+              2
+            ],
+            1
+          ],
+          [
+            [
+              1,
+              2,
+              2
+            ],
+            1
+          ],
+          [
+            [
+              2,
+              2,
+              2
+            ],
+            1
+          ]
+        ],
+        "cost": 3,
+        "max_value": 2,
+        "n_agents": 3,
+        "name": "anonymous_monotone_mask_960"
+      },
+      "metrics": {
+        "expected_optimal_welfare": 0.5555555555555556,
+        "expected_regret": 0.1111111111111111,
+        "expected_welfare": 0.4444444444444444,
+        "max_revenue": 3,
+        "positive_optimum_profiles": 10,
+        "profile_count": 27,
+        "project_rate": 0.2962962962962963,
+        "state_count": 10,
+        "worst_case_regret": 1
+      },
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "feasibility": true,
+        "max_coalition_size": 2,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "mechanism": {
+        "allocation_by_state": [
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            0
+          ],
+          [
+            [
+              0,
+              0,
+              1
+            ],
+            0
+          ],
+          [
+            [
+              0,
+              0,
+              2
+            ],
+            0
+          ],
+          [
+            [
+              0,
+              1,
+              1
+            ],
+            0
+          ],
+          [
+            [
+              0,
+              1,
+              2
+            ],
+            0
+          ],
+          [
+            [
+              0,
+              2,
+              2
+            ],
+            0
+          ],
+          [
+            [
+              1,
+              1,
+              1
+            ],
+            0
+          ],
+          [
+            [
+              1,
+              1,
+              2
+            ],
+            0
+          ],
+          [
+            [
+              1,
+              2,
+              2
+            ],
+            0
+          ],
+          [
+            [
+              2,
+              2,
+              2
+            ],
+            1
+          ]
+        ],
+        "cost": 3,
+        "max_value": 2,
+        "n_agents": 3,
+        "name": "anonymous_monotone_mask_512"
+      },
+      "metrics": {
+        "expected_optimal_welfare": 0.5555555555555556,
+        "expected_regret": 0.4444444444444444,
+        "expected_welfare": 0.1111111111111111,
+        "max_revenue": 6,
+        "positive_optimum_profiles": 10,
+        "profile_count": 27,
+        "project_rate": 0.037037037037037035,
+        "state_count": 10,
+        "worst_case_regret": 2
+      },
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "feasibility": true,
+        "max_coalition_size": 2,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    }
+  ],
+  "study": "public_project_coalition_frontier"
+}

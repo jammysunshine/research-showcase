@@ -1,0 +1,60 @@
+{
+  "extended_cross_check": {
+    "rows_checked": 70,
+    "exact_matches": 70,
+    "mismatch_count": 0,
+    "mismatches": [],
+    "fragile_rows": 65,
+    "max_gain_observed": 5,
+    "gain_examples": [
+      {
+        "n_agents": 3,
+        "max_value": 5,
+        "cost": 5,
+        "min_failing_coalition_size": 2,
+        "max_value_units_of_free_gain": 5
+      },
+      {
+        "n_agents": 3,
+        "max_value": 5,
+        "cost": 6,
+        "min_failing_coalition_size": 2,
+        "max_value_units_of_free_gain": 5
+      },
+      {
+        "n_agents": 3,
+        "max_value": 5,
+        "cost": 7,
+        "min_failing_coalition_size": 2,
+        "max_value_units_of_free_gain": 5
+      },
+      {
+        "n_agents": 3,
+        "max_value": 5,
+        "cost": 8,
+        "min_failing_coalition_size": 2,
+        "max_value_units_of_free_gain": 5
+      },
+      {
+        "n_agents": 3,
+        "max_value": 5,
+        "cost": 9,
+        "min_failing_coalition_size": 2,
+        "max_value_units_of_free_gain": 5
+      }
+    ]
+  },
+  "large_scale_formula_sweep": {
+    "note": "Formula-only: relies on the convexity proof already verified exact against 145 brute-force rows in parts 1-2; brute force is infeasible at these agent counts, so this part is not independently re-verified.",
+    "triples_swept": 252,
+    "fragile_at_coalition_size_2": 250,
+    "fraction_fragile_at_size_2": 0.9921,
+    "max_gain_seen_at_size_2": 15
+  },
+  "combined_exact_match_total": {
+    "original_baseline_audit_rows": 75,
+    "new_rows_this_script": 70,
+    "total_independently_verified_rows": 145
+  },
+  "digest": "43cd5d121d99ae11835223dfeaef7654e8e703cabe2587173438e4c607efe9e5"
+}

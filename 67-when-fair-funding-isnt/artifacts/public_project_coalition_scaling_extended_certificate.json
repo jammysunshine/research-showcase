@@ -1,0 +1,1352 @@
+{
+  "artifact": "/Users/mohitmendiratta/Projects/personal/research/automated-mechanism-discovery/artifacts/public_project_coalition_scaling_extended.json",
+  "diagnostics": [
+    {
+      "cost_rows": 6,
+      "cost_summaries": [
+        {
+          "candidate_count": 16,
+          "cap_digests": {
+            "1": "256a0ff46a1022051398429fdb8d201f8fbf5d915d08cd79684904692b8cf05d",
+            "2": "d6d720c15c69b83f0261bbea0698aeb5cbbcdadc20c3c0853eae04fd35b2af11",
+            "3": "bd0db7014a4ea718286365c2e3766a93173aa8658feba0bf46b76425b295ff00"
+          },
+          "cap_failures": 0,
+          "cost": 1,
+          "counts_by_cap": {
+            "1": 4,
+            "2": 2,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 4,
+            "2": 2,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 16,
+          "cap_digests": {
+            "1": "256a0ff46a1022051398429fdb8d201f8fbf5d915d08cd79684904692b8cf05d",
+            "2": "d6d720c15c69b83f0261bbea0698aeb5cbbcdadc20c3c0853eae04fd35b2af11",
+            "3": "bd0db7014a4ea718286365c2e3766a93173aa8658feba0bf46b76425b295ff00"
+          },
+          "cap_failures": 0,
+          "cost": 2,
+          "counts_by_cap": {
+            "1": 4,
+            "2": 2,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 4,
+            "2": 2,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 16,
+          "cap_digests": {
+            "1": "256a0ff46a1022051398429fdb8d201f8fbf5d915d08cd79684904692b8cf05d",
+            "2": "d6d720c15c69b83f0261bbea0698aeb5cbbcdadc20c3c0853eae04fd35b2af11",
+            "3": "bd0db7014a4ea718286365c2e3766a93173aa8658feba0bf46b76425b295ff00"
+          },
+          "cap_failures": 0,
+          "cost": 3,
+          "counts_by_cap": {
+            "1": 4,
+            "2": 2,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 4,
+            "2": 2,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 16,
+          "cap_digests": {
+            "1": "75cff4ae9b773cfb92e383a60785dfa7208d30797940ad3fe44c0c5988644674",
+            "2": "82215afd741328ef2df3d305967876c10811bc798066ce49ae74fa8c50b0dda6",
+            "3": "bd0db7014a4ea718286365c2e3766a93173aa8658feba0bf46b76425b295ff00"
+          },
+          "cap_failures": 0,
+          "cost": 4,
+          "counts_by_cap": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 16,
+          "cap_digests": {
+            "1": "75cff4ae9b773cfb92e383a60785dfa7208d30797940ad3fe44c0c5988644674",
+            "2": "82215afd741328ef2df3d305967876c10811bc798066ce49ae74fa8c50b0dda6",
+            "3": "bd0db7014a4ea718286365c2e3766a93173aa8658feba0bf46b76425b295ff00"
+          },
+          "cap_failures": 0,
+          "cost": 5,
+          "counts_by_cap": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 16,
+          "cap_digests": {
+            "1": "75cff4ae9b773cfb92e383a60785dfa7208d30797940ad3fe44c0c5988644674",
+            "2": "82215afd741328ef2df3d305967876c10811bc798066ce49ae74fa8c50b0dda6",
+            "3": "bd0db7014a4ea718286365c2e3766a93173aa8658feba0bf46b76425b295ff00"
+          },
+          "cap_failures": 0,
+          "cost": 6,
+          "counts_by_cap": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          }
+        }
+      ],
+      "max_cost": 6,
+      "n_agents": 3,
+      "selected_cost_rows": [
+        3
+      ]
+    },
+    {
+      "cost_rows": 8,
+      "cost_summaries": [
+        {
+          "candidate_count": 32,
+          "cap_digests": {
+            "1": "80713b2a2355947ec701225b509beea6953e66be39202a5bf0c38eae549b811f",
+            "2": "aaf43b21868ab7a38a3109e1f00296a8947dc105cca2059ebea823d966a406df",
+            "3": "72b8c3d2013228411faf89a106c41e75be319e3ead06ae9572fdc3668dd8c61a"
+          },
+          "cap_failures": 0,
+          "cost": 1,
+          "counts_by_cap": {
+            "1": 5,
+            "2": 2,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 5,
+            "2": 2,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 32,
+          "cap_digests": {
+            "1": "80713b2a2355947ec701225b509beea6953e66be39202a5bf0c38eae549b811f",
+            "2": "aaf43b21868ab7a38a3109e1f00296a8947dc105cca2059ebea823d966a406df",
+            "3": "72b8c3d2013228411faf89a106c41e75be319e3ead06ae9572fdc3668dd8c61a"
+          },
+          "cap_failures": 0,
+          "cost": 2,
+          "counts_by_cap": {
+            "1": 5,
+            "2": 2,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 5,
+            "2": 2,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 32,
+          "cap_digests": {
+            "1": "80713b2a2355947ec701225b509beea6953e66be39202a5bf0c38eae549b811f",
+            "2": "aaf43b21868ab7a38a3109e1f00296a8947dc105cca2059ebea823d966a406df",
+            "3": "72b8c3d2013228411faf89a106c41e75be319e3ead06ae9572fdc3668dd8c61a"
+          },
+          "cap_failures": 0,
+          "cost": 3,
+          "counts_by_cap": {
+            "1": 5,
+            "2": 2,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 5,
+            "2": 2,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 32,
+          "cap_digests": {
+            "1": "80713b2a2355947ec701225b509beea6953e66be39202a5bf0c38eae549b811f",
+            "2": "aaf43b21868ab7a38a3109e1f00296a8947dc105cca2059ebea823d966a406df",
+            "3": "72b8c3d2013228411faf89a106c41e75be319e3ead06ae9572fdc3668dd8c61a"
+          },
+          "cap_failures": 0,
+          "cost": 4,
+          "counts_by_cap": {
+            "1": 5,
+            "2": 2,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 5,
+            "2": 2,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 32,
+          "cap_digests": {
+            "1": "be175d4438de08d8831b569fdbe9374fba25400e9353f50c86fb1eac5191f262",
+            "2": "65f026c11090a098ff77c25e154e726769846d798e81a129438c89a469af35c6",
+            "3": "72b8c3d2013228411faf89a106c41e75be319e3ead06ae9572fdc3668dd8c61a"
+          },
+          "cap_failures": 0,
+          "cost": 5,
+          "counts_by_cap": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 32,
+          "cap_digests": {
+            "1": "be175d4438de08d8831b569fdbe9374fba25400e9353f50c86fb1eac5191f262",
+            "2": "65f026c11090a098ff77c25e154e726769846d798e81a129438c89a469af35c6",
+            "3": "72b8c3d2013228411faf89a106c41e75be319e3ead06ae9572fdc3668dd8c61a"
+          },
+          "cap_failures": 0,
+          "cost": 6,
+          "counts_by_cap": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 32,
+          "cap_digests": {
+            "1": "be175d4438de08d8831b569fdbe9374fba25400e9353f50c86fb1eac5191f262",
+            "2": "65f026c11090a098ff77c25e154e726769846d798e81a129438c89a469af35c6",
+            "3": "72b8c3d2013228411faf89a106c41e75be319e3ead06ae9572fdc3668dd8c61a"
+          },
+          "cap_failures": 0,
+          "cost": 7,
+          "counts_by_cap": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 32,
+          "cap_digests": {
+            "1": "be175d4438de08d8831b569fdbe9374fba25400e9353f50c86fb1eac5191f262",
+            "2": "65f026c11090a098ff77c25e154e726769846d798e81a129438c89a469af35c6",
+            "3": "72b8c3d2013228411faf89a106c41e75be319e3ead06ae9572fdc3668dd8c61a"
+          },
+          "cap_failures": 0,
+          "cost": 8,
+          "counts_by_cap": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          }
+        }
+      ],
+      "max_cost": 8,
+      "n_agents": 4,
+      "selected_cost_rows": [
+        4
+      ]
+    },
+    {
+      "cost_rows": 10,
+      "cost_summaries": [
+        {
+          "candidate_count": 64,
+          "cap_digests": {
+            "1": "e66669c57e466161d8734c0ec4e828d1d5ee71d467b71b06c49027cc39385bc9",
+            "2": "0e595e1f5db659a58f1ad8c79adc8bc5f00ed9ba529a522dc58ad1327686a083",
+            "3": "ff9a4714b164da25a6979ebd7d184843ea095e737afff18a5bcbe61a4dfe2eec"
+          },
+          "cap_failures": 0,
+          "cost": 1,
+          "counts_by_cap": {
+            "1": 6,
+            "2": 2,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 6,
+            "2": 2,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 64,
+          "cap_digests": {
+            "1": "e66669c57e466161d8734c0ec4e828d1d5ee71d467b71b06c49027cc39385bc9",
+            "2": "0e595e1f5db659a58f1ad8c79adc8bc5f00ed9ba529a522dc58ad1327686a083",
+            "3": "ff9a4714b164da25a6979ebd7d184843ea095e737afff18a5bcbe61a4dfe2eec"
+          },
+          "cap_failures": 0,
+          "cost": 2,
+          "counts_by_cap": {
+            "1": 6,
+            "2": 2,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 6,
+            "2": 2,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 64,
+          "cap_digests": {
+            "1": "e66669c57e466161d8734c0ec4e828d1d5ee71d467b71b06c49027cc39385bc9",
+            "2": "0e595e1f5db659a58f1ad8c79adc8bc5f00ed9ba529a522dc58ad1327686a083",
+            "3": "ff9a4714b164da25a6979ebd7d184843ea095e737afff18a5bcbe61a4dfe2eec"
+          },
+          "cap_failures": 0,
+          "cost": 3,
+          "counts_by_cap": {
+            "1": 6,
+            "2": 2,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 6,
+            "2": 2,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 64,
+          "cap_digests": {
+            "1": "e66669c57e466161d8734c0ec4e828d1d5ee71d467b71b06c49027cc39385bc9",
+            "2": "0e595e1f5db659a58f1ad8c79adc8bc5f00ed9ba529a522dc58ad1327686a083",
+            "3": "ff9a4714b164da25a6979ebd7d184843ea095e737afff18a5bcbe61a4dfe2eec"
+          },
+          "cap_failures": 0,
+          "cost": 4,
+          "counts_by_cap": {
+            "1": 6,
+            "2": 2,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 6,
+            "2": 2,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 64,
+          "cap_digests": {
+            "1": "e66669c57e466161d8734c0ec4e828d1d5ee71d467b71b06c49027cc39385bc9",
+            "2": "0e595e1f5db659a58f1ad8c79adc8bc5f00ed9ba529a522dc58ad1327686a083",
+            "3": "ff9a4714b164da25a6979ebd7d184843ea095e737afff18a5bcbe61a4dfe2eec"
+          },
+          "cap_failures": 0,
+          "cost": 5,
+          "counts_by_cap": {
+            "1": 6,
+            "2": 2,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 6,
+            "2": 2,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 64,
+          "cap_digests": {
+            "1": "ba2d00e6266b0244b6b72d27e09069ea6e4d8e041321b43380c71f630bc4306a",
+            "2": "b536a85dfb008c7244a561b7f29005dab231f50814715ad1b47c1c53e6b0e60d",
+            "3": "ff9a4714b164da25a6979ebd7d184843ea095e737afff18a5bcbe61a4dfe2eec"
+          },
+          "cap_failures": 0,
+          "cost": 6,
+          "counts_by_cap": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 64,
+          "cap_digests": {
+            "1": "ba2d00e6266b0244b6b72d27e09069ea6e4d8e041321b43380c71f630bc4306a",
+            "2": "b536a85dfb008c7244a561b7f29005dab231f50814715ad1b47c1c53e6b0e60d",
+            "3": "ff9a4714b164da25a6979ebd7d184843ea095e737afff18a5bcbe61a4dfe2eec"
+          },
+          "cap_failures": 0,
+          "cost": 7,
+          "counts_by_cap": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 64,
+          "cap_digests": {
+            "1": "ba2d00e6266b0244b6b72d27e09069ea6e4d8e041321b43380c71f630bc4306a",
+            "2": "b536a85dfb008c7244a561b7f29005dab231f50814715ad1b47c1c53e6b0e60d",
+            "3": "ff9a4714b164da25a6979ebd7d184843ea095e737afff18a5bcbe61a4dfe2eec"
+          },
+          "cap_failures": 0,
+          "cost": 8,
+          "counts_by_cap": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 64,
+          "cap_digests": {
+            "1": "ba2d00e6266b0244b6b72d27e09069ea6e4d8e041321b43380c71f630bc4306a",
+            "2": "b536a85dfb008c7244a561b7f29005dab231f50814715ad1b47c1c53e6b0e60d",
+            "3": "ff9a4714b164da25a6979ebd7d184843ea095e737afff18a5bcbe61a4dfe2eec"
+          },
+          "cap_failures": 0,
+          "cost": 9,
+          "counts_by_cap": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 64,
+          "cap_digests": {
+            "1": "ba2d00e6266b0244b6b72d27e09069ea6e4d8e041321b43380c71f630bc4306a",
+            "2": "b536a85dfb008c7244a561b7f29005dab231f50814715ad1b47c1c53e6b0e60d",
+            "3": "ff9a4714b164da25a6979ebd7d184843ea095e737afff18a5bcbe61a4dfe2eec"
+          },
+          "cap_failures": 0,
+          "cost": 10,
+          "counts_by_cap": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          }
+        }
+      ],
+      "max_cost": 10,
+      "n_agents": 5,
+      "selected_cost_rows": [
+        5
+      ]
+    },
+    {
+      "cost_rows": 12,
+      "cost_summaries": [
+        {
+          "candidate_count": 128,
+          "cap_digests": {
+            "1": "b4c0f05bd0443bed324cb42e8531799475486040e349dc774999f2459224a1d2",
+            "2": "13f5c6e6822bb7668ffb5892ece962db8b87df2f7f79d8c55db6fbb9497da777",
+            "3": "12cf1e48bade72516cc96f8d0eab3456b24d9d6af912d4a306dcf018503005b0"
+          },
+          "cap_failures": 0,
+          "cost": 1,
+          "counts_by_cap": {
+            "1": 7,
+            "2": 2,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 7,
+            "2": 2,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 128,
+          "cap_digests": {
+            "1": "b4c0f05bd0443bed324cb42e8531799475486040e349dc774999f2459224a1d2",
+            "2": "13f5c6e6822bb7668ffb5892ece962db8b87df2f7f79d8c55db6fbb9497da777",
+            "3": "12cf1e48bade72516cc96f8d0eab3456b24d9d6af912d4a306dcf018503005b0"
+          },
+          "cap_failures": 0,
+          "cost": 2,
+          "counts_by_cap": {
+            "1": 7,
+            "2": 2,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 7,
+            "2": 2,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 128,
+          "cap_digests": {
+            "1": "b4c0f05bd0443bed324cb42e8531799475486040e349dc774999f2459224a1d2",
+            "2": "13f5c6e6822bb7668ffb5892ece962db8b87df2f7f79d8c55db6fbb9497da777",
+            "3": "12cf1e48bade72516cc96f8d0eab3456b24d9d6af912d4a306dcf018503005b0"
+          },
+          "cap_failures": 0,
+          "cost": 3,
+          "counts_by_cap": {
+            "1": 7,
+            "2": 2,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 7,
+            "2": 2,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 128,
+          "cap_digests": {
+            "1": "b4c0f05bd0443bed324cb42e8531799475486040e349dc774999f2459224a1d2",
+            "2": "13f5c6e6822bb7668ffb5892ece962db8b87df2f7f79d8c55db6fbb9497da777",
+            "3": "12cf1e48bade72516cc96f8d0eab3456b24d9d6af912d4a306dcf018503005b0"
+          },
+          "cap_failures": 0,
+          "cost": 4,
+          "counts_by_cap": {
+            "1": 7,
+            "2": 2,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 7,
+            "2": 2,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 128,
+          "cap_digests": {
+            "1": "b4c0f05bd0443bed324cb42e8531799475486040e349dc774999f2459224a1d2",
+            "2": "13f5c6e6822bb7668ffb5892ece962db8b87df2f7f79d8c55db6fbb9497da777",
+            "3": "12cf1e48bade72516cc96f8d0eab3456b24d9d6af912d4a306dcf018503005b0"
+          },
+          "cap_failures": 0,
+          "cost": 5,
+          "counts_by_cap": {
+            "1": 7,
+            "2": 2,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 7,
+            "2": 2,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 128,
+          "cap_digests": {
+            "1": "b4c0f05bd0443bed324cb42e8531799475486040e349dc774999f2459224a1d2",
+            "2": "13f5c6e6822bb7668ffb5892ece962db8b87df2f7f79d8c55db6fbb9497da777",
+            "3": "12cf1e48bade72516cc96f8d0eab3456b24d9d6af912d4a306dcf018503005b0"
+          },
+          "cap_failures": 0,
+          "cost": 6,
+          "counts_by_cap": {
+            "1": 7,
+            "2": 2,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 7,
+            "2": 2,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 128,
+          "cap_digests": {
+            "1": "75d108064ecb86306d9b4d64fae8413a69f17607fe0711bb5a2606da3a44cd9c",
+            "2": "d92a9ee7c436660ee9187ec57d1241525b0b67211a46372f045c42a70206437a",
+            "3": "12cf1e48bade72516cc96f8d0eab3456b24d9d6af912d4a306dcf018503005b0"
+          },
+          "cap_failures": 0,
+          "cost": 7,
+          "counts_by_cap": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 128,
+          "cap_digests": {
+            "1": "75d108064ecb86306d9b4d64fae8413a69f17607fe0711bb5a2606da3a44cd9c",
+            "2": "d92a9ee7c436660ee9187ec57d1241525b0b67211a46372f045c42a70206437a",
+            "3": "12cf1e48bade72516cc96f8d0eab3456b24d9d6af912d4a306dcf018503005b0"
+          },
+          "cap_failures": 0,
+          "cost": 8,
+          "counts_by_cap": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 128,
+          "cap_digests": {
+            "1": "75d108064ecb86306d9b4d64fae8413a69f17607fe0711bb5a2606da3a44cd9c",
+            "2": "d92a9ee7c436660ee9187ec57d1241525b0b67211a46372f045c42a70206437a",
+            "3": "12cf1e48bade72516cc96f8d0eab3456b24d9d6af912d4a306dcf018503005b0"
+          },
+          "cap_failures": 0,
+          "cost": 9,
+          "counts_by_cap": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 128,
+          "cap_digests": {
+            "1": "75d108064ecb86306d9b4d64fae8413a69f17607fe0711bb5a2606da3a44cd9c",
+            "2": "d92a9ee7c436660ee9187ec57d1241525b0b67211a46372f045c42a70206437a",
+            "3": "12cf1e48bade72516cc96f8d0eab3456b24d9d6af912d4a306dcf018503005b0"
+          },
+          "cap_failures": 0,
+          "cost": 10,
+          "counts_by_cap": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 128,
+          "cap_digests": {
+            "1": "75d108064ecb86306d9b4d64fae8413a69f17607fe0711bb5a2606da3a44cd9c",
+            "2": "d92a9ee7c436660ee9187ec57d1241525b0b67211a46372f045c42a70206437a",
+            "3": "12cf1e48bade72516cc96f8d0eab3456b24d9d6af912d4a306dcf018503005b0"
+          },
+          "cap_failures": 0,
+          "cost": 11,
+          "counts_by_cap": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          }
+        },
+        {
+          "candidate_count": 128,
+          "cap_digests": {
+            "1": "75d108064ecb86306d9b4d64fae8413a69f17607fe0711bb5a2606da3a44cd9c",
+            "2": "d92a9ee7c436660ee9187ec57d1241525b0b67211a46372f045c42a70206437a",
+            "3": "12cf1e48bade72516cc96f8d0eab3456b24d9d6af912d4a306dcf018503005b0"
+          },
+          "cap_failures": 0,
+          "cost": 12,
+          "counts_by_cap": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "counts_by_cap_observed": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          }
+        }
+      ],
+      "max_cost": 12,
+      "n_agents": 6,
+      "selected_cost_rows": [
+        6
+      ]
+    }
+  ],
+  "independent_digest": "5fb957dc1ef2fa327800d6072139f3d89fe0aa2df06a6f5beca23cd4dd2aedf1",
+  "independent_failures": 0,
+  "max_coalition_size": 3,
+  "selected_checks": [
+    {
+      "cap": 1,
+      "cost": 3,
+      "min_failing_coalition_size": null,
+      "n_agents": 3,
+      "name": "anonymous_monotone_mask_512",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 1,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 1,
+      "cost": 3,
+      "min_failing_coalition_size": null,
+      "n_agents": 3,
+      "name": "anonymous_monotone_mask_768",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 1,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 1,
+      "cost": 3,
+      "min_failing_coalition_size": null,
+      "n_agents": 3,
+      "name": "anonymous_monotone_mask_896",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 1,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 1,
+      "cost": 3,
+      "min_failing_coalition_size": null,
+      "n_agents": 3,
+      "name": "anonymous_monotone_mask_960",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 1,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 2,
+      "cost": 3,
+      "min_failing_coalition_size": null,
+      "n_agents": 3,
+      "name": "anonymous_monotone_mask_512",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 2,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 2,
+      "cost": 3,
+      "min_failing_coalition_size": null,
+      "n_agents": 3,
+      "name": "anonymous_monotone_mask_960",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 2,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 3,
+      "cost": 3,
+      "min_failing_coalition_size": null,
+      "n_agents": 3,
+      "name": "anonymous_monotone_mask_512",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 3,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 1,
+      "cost": 4,
+      "min_failing_coalition_size": null,
+      "n_agents": 4,
+      "name": "anonymous_monotone_mask_16384",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 1,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 1,
+      "cost": 4,
+      "min_failing_coalition_size": null,
+      "n_agents": 4,
+      "name": "anonymous_monotone_mask_24576",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 1,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 1,
+      "cost": 4,
+      "min_failing_coalition_size": null,
+      "n_agents": 4,
+      "name": "anonymous_monotone_mask_28672",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 1,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 1,
+      "cost": 4,
+      "min_failing_coalition_size": null,
+      "n_agents": 4,
+      "name": "anonymous_monotone_mask_30720",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 1,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 1,
+      "cost": 4,
+      "min_failing_coalition_size": null,
+      "n_agents": 4,
+      "name": "anonymous_monotone_mask_31744",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 1,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 2,
+      "cost": 4,
+      "min_failing_coalition_size": null,
+      "n_agents": 4,
+      "name": "anonymous_monotone_mask_16384",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 2,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 2,
+      "cost": 4,
+      "min_failing_coalition_size": null,
+      "n_agents": 4,
+      "name": "anonymous_monotone_mask_31744",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 2,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 3,
+      "cost": 4,
+      "min_failing_coalition_size": null,
+      "n_agents": 4,
+      "name": "anonymous_monotone_mask_16384",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 3,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 1,
+      "cost": 5,
+      "min_failing_coalition_size": null,
+      "n_agents": 5,
+      "name": "anonymous_monotone_mask_1048576",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 1,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 1,
+      "cost": 5,
+      "min_failing_coalition_size": null,
+      "n_agents": 5,
+      "name": "anonymous_monotone_mask_1572864",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 1,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 1,
+      "cost": 5,
+      "min_failing_coalition_size": null,
+      "n_agents": 5,
+      "name": "anonymous_monotone_mask_1835008",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 1,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 1,
+      "cost": 5,
+      "min_failing_coalition_size": null,
+      "n_agents": 5,
+      "name": "anonymous_monotone_mask_1966080",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 1,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 1,
+      "cost": 5,
+      "min_failing_coalition_size": null,
+      "n_agents": 5,
+      "name": "anonymous_monotone_mask_2031616",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 1,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 1,
+      "cost": 5,
+      "min_failing_coalition_size": null,
+      "n_agents": 5,
+      "name": "anonymous_monotone_mask_2064384",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 1,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 2,
+      "cost": 5,
+      "min_failing_coalition_size": null,
+      "n_agents": 5,
+      "name": "anonymous_monotone_mask_1048576",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 2,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 2,
+      "cost": 5,
+      "min_failing_coalition_size": null,
+      "n_agents": 5,
+      "name": "anonymous_monotone_mask_2064384",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 2,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 3,
+      "cost": 5,
+      "min_failing_coalition_size": null,
+      "n_agents": 5,
+      "name": "anonymous_monotone_mask_1048576",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 3,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 1,
+      "cost": 6,
+      "min_failing_coalition_size": null,
+      "n_agents": 6,
+      "name": "anonymous_monotone_mask_134217728",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 1,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 1,
+      "cost": 6,
+      "min_failing_coalition_size": null,
+      "n_agents": 6,
+      "name": "anonymous_monotone_mask_201326592",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 1,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 1,
+      "cost": 6,
+      "min_failing_coalition_size": null,
+      "n_agents": 6,
+      "name": "anonymous_monotone_mask_234881024",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 1,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 1,
+      "cost": 6,
+      "min_failing_coalition_size": null,
+      "n_agents": 6,
+      "name": "anonymous_monotone_mask_251658240",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 1,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 1,
+      "cost": 6,
+      "min_failing_coalition_size": null,
+      "n_agents": 6,
+      "name": "anonymous_monotone_mask_260046848",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 1,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 1,
+      "cost": 6,
+      "min_failing_coalition_size": null,
+      "n_agents": 6,
+      "name": "anonymous_monotone_mask_264241152",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 1,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 1,
+      "cost": 6,
+      "min_failing_coalition_size": null,
+      "n_agents": 6,
+      "name": "anonymous_monotone_mask_266338304",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 1,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 2,
+      "cost": 6,
+      "min_failing_coalition_size": null,
+      "n_agents": 6,
+      "name": "anonymous_monotone_mask_134217728",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 2,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 2,
+      "cost": 6,
+      "min_failing_coalition_size": null,
+      "n_agents": 6,
+      "name": "anonymous_monotone_mask_266338304",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 2,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    },
+    {
+      "cap": 3,
+      "cost": 6,
+      "min_failing_coalition_size": null,
+      "n_agents": 6,
+      "name": "anonymous_monotone_mask_134217728",
+      "verification": {
+        "accepted": true,
+        "anonymity": true,
+        "coalitional_dsic": true,
+        "dsic": true,
+        "ex_post_ir": true,
+        "max_coalition_size": 3,
+        "weak_budget_balance": true,
+        "witnesses": []
+      }
+    }
+  ],
+  "selected_checks_count": 34,
+  "selected_failures": 0,
+  "statement": "Every serialized mechanism in the scaling artifact is rechecked at every cap up to the configured coalition cap. Selected rows are rechecked independently at each cap and all fragile/min-failing summaries are recomputed.",
+  "study": "public_project_coalition_scaling_extended"
+}

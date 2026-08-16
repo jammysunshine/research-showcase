@@ -1,0 +1,96 @@
+{
+  "checks": [
+    {
+      "query": "strictly_lower_budget_slack",
+      "result": "unsat",
+      "seed": 670101
+    },
+    {
+      "query": "strictly_lower_charge_ratio",
+      "result": "unsat",
+      "seed": 670101
+    },
+    {
+      "query": "strictly_higher_charge_ratio",
+      "result": "unsat",
+      "seed": 670101
+    },
+    {
+      "query": "strictly_lower_budget_slack",
+      "result": "unsat",
+      "seed": 670102
+    },
+    {
+      "query": "strictly_lower_charge_ratio",
+      "result": "unsat",
+      "seed": 670102
+    },
+    {
+      "query": "strictly_higher_charge_ratio",
+      "result": "unsat",
+      "seed": 670102
+    },
+    {
+      "query": "strictly_lower_budget_slack",
+      "result": "unsat",
+      "seed": 670103
+    },
+    {
+      "query": "strictly_lower_charge_ratio",
+      "result": "unsat",
+      "seed": 670103
+    },
+    {
+      "query": "strictly_higher_charge_ratio",
+      "result": "unsat",
+      "seed": 670103
+    },
+    {
+      "query": "strictly_lower_budget_slack",
+      "result": "unsat",
+      "seed": 670201
+    },
+    {
+      "query": "strictly_lower_charge_ratio",
+      "result": "unsat",
+      "seed": 670201
+    },
+    {
+      "query": "strictly_higher_charge_ratio",
+      "result": "unsat",
+      "seed": 670201
+    },
+    {
+      "query": "strictly_lower_budget_slack",
+      "result": "unsat",
+      "seed": 670202
+    },
+    {
+      "query": "strictly_lower_charge_ratio",
+      "result": "unsat",
+      "seed": 670202
+    },
+    {
+      "query": "strictly_higher_charge_ratio",
+      "result": "unsat",
+      "seed": 670202
+    },
+    {
+      "query": "strictly_lower_budget_slack",
+      "result": "unsat",
+      "seed": 670203
+    },
+    {
+      "query": "strictly_lower_charge_ratio",
+      "result": "unsat",
+      "seed": 670203
+    },
+    {
+      "query": "strictly_higher_charge_ratio",
+      "result": "unsat",
+      "seed": 670203
+    }
+  ],
+  "source_sha256": "8589d83fb5fcd4b3c9721ff4d3c2de2d7723c71a08fb5c46a518c88f96fd5cbd",
+  "z3_version": "5.0.0"
+}

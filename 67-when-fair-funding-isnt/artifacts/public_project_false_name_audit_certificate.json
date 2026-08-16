@@ -1,0 +1,11 @@
+{
+  "artifact": "/Users/mohitmendiratta/Projects/personal/research/automated-mechanism-discovery/artifacts/public_project_false_name_audit.json",
+  "control_failure_count": 0,
+  "independent_digest": "9e2e5ca254dfde9b2c3987f6cf35973e836fc15e429213a5356dcb3bd1ea69d3",
+  "independent_failure_count": 0,
+  "independent_failures": [],
+  "manipulable_row_count": 48,
+  "row_count": 72,
+  "statement": "Every audited (n_real, cost, fake_budget) row is independently rebuilt from the closed-form sum-threshold/critical-value formula, without importing public_project.py, and rechecked for manipulable-count agreement. fake_budget=0 is a positive control and must show zero manipulable rows.",
+  "study": "public_project_false_name_audit"
+}

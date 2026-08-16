@@ -1,0 +1,43 @@
+{
+  "lemma": "For the sum-threshold/critical-value public-project mechanism, if cost <= (n-1)*max_value, the grand-coalition all-max deviation builds the project at zero payment to every agent, weakly Pareto-dominating truthful reporting for the whole coalition.",
+  "baseline_audit_cross_check": {
+    "rows_checked": 75,
+    "predicted_fragile_count": 56,
+    "false_positive_count": 0,
+    "false_positives": [],
+    "construction_mismatch_count": 0,
+    "construction_mismatches": []
+  },
+  "boundary_payment_forcing_checks": [
+    {
+      "n": 3,
+      "m": 2,
+      "cost": 6,
+      "checked": 36,
+      "counterexamples": []
+    },
+    {
+      "n": 3,
+      "m": 3,
+      "cost": 9,
+      "checked": 60,
+      "counterexamples": []
+    },
+    {
+      "n": 4,
+      "m": 2,
+      "cost": 8,
+      "checked": 174,
+      "counterexamples": []
+    },
+    {
+      "n": 4,
+      "m": 3,
+      "cost": 12,
+      "checked": 368,
+      "counterexamples": []
+    }
+  ],
+  "boundary_counterexample_count": 0,
+  "digest": "f60500178da6141ee09fdd9a3ec2c20ff972a91108e91d205e18d7297ed3682e"
+}

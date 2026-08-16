@@ -1,0 +1,408 @@
+{
+  "artifact": "/Users/mohitmendiratta/Projects/personal/research/automated-mechanism-discovery/artifacts/public_project_coalition_baseline_audit.json",
+  "fragile_row_count": 66,
+  "fragile_rows": [
+    {
+      "cost": 1,
+      "domain": "frontier",
+      "min_failing_coalition_size": 2,
+      "n_agents": 3
+    },
+    {
+      "cost": 2,
+      "domain": "frontier",
+      "min_failing_coalition_size": 2,
+      "n_agents": 3
+    },
+    {
+      "cost": 3,
+      "domain": "frontier",
+      "min_failing_coalition_size": 2,
+      "n_agents": 3
+    },
+    {
+      "cost": 4,
+      "domain": "frontier",
+      "min_failing_coalition_size": 2,
+      "n_agents": 3
+    },
+    {
+      "cost": 5,
+      "domain": "frontier",
+      "min_failing_coalition_size": 2,
+      "n_agents": 3
+    },
+    {
+      "cost": 1,
+      "domain": "scaling",
+      "min_failing_coalition_size": 2,
+      "n_agents": 3
+    },
+    {
+      "cost": 2,
+      "domain": "scaling",
+      "min_failing_coalition_size": 2,
+      "n_agents": 3
+    },
+    {
+      "cost": 3,
+      "domain": "scaling",
+      "min_failing_coalition_size": 2,
+      "n_agents": 3
+    },
+    {
+      "cost": 4,
+      "domain": "scaling",
+      "min_failing_coalition_size": 2,
+      "n_agents": 3
+    },
+    {
+      "cost": 5,
+      "domain": "scaling",
+      "min_failing_coalition_size": 2,
+      "n_agents": 3
+    },
+    {
+      "cost": 1,
+      "domain": "scaling",
+      "min_failing_coalition_size": 2,
+      "n_agents": 4
+    },
+    {
+      "cost": 2,
+      "domain": "scaling",
+      "min_failing_coalition_size": 2,
+      "n_agents": 4
+    },
+    {
+      "cost": 3,
+      "domain": "scaling",
+      "min_failing_coalition_size": 2,
+      "n_agents": 4
+    },
+    {
+      "cost": 4,
+      "domain": "scaling",
+      "min_failing_coalition_size": 2,
+      "n_agents": 4
+    },
+    {
+      "cost": 5,
+      "domain": "scaling",
+      "min_failing_coalition_size": 2,
+      "n_agents": 4
+    },
+    {
+      "cost": 6,
+      "domain": "scaling",
+      "min_failing_coalition_size": 2,
+      "n_agents": 4
+    },
+    {
+      "cost": 7,
+      "domain": "scaling",
+      "min_failing_coalition_size": 2,
+      "n_agents": 4
+    },
+    {
+      "cost": 1,
+      "domain": "scaling",
+      "min_failing_coalition_size": 2,
+      "n_agents": 5
+    },
+    {
+      "cost": 2,
+      "domain": "scaling",
+      "min_failing_coalition_size": 2,
+      "n_agents": 5
+    },
+    {
+      "cost": 3,
+      "domain": "scaling",
+      "min_failing_coalition_size": 2,
+      "n_agents": 5
+    },
+    {
+      "cost": 4,
+      "domain": "scaling",
+      "min_failing_coalition_size": 2,
+      "n_agents": 5
+    },
+    {
+      "cost": 5,
+      "domain": "scaling",
+      "min_failing_coalition_size": 2,
+      "n_agents": 5
+    },
+    {
+      "cost": 6,
+      "domain": "scaling",
+      "min_failing_coalition_size": 2,
+      "n_agents": 5
+    },
+    {
+      "cost": 7,
+      "domain": "scaling",
+      "min_failing_coalition_size": 2,
+      "n_agents": 5
+    },
+    {
+      "cost": 8,
+      "domain": "scaling",
+      "min_failing_coalition_size": 2,
+      "n_agents": 5
+    },
+    {
+      "cost": 9,
+      "domain": "scaling",
+      "min_failing_coalition_size": 2,
+      "n_agents": 5
+    },
+    {
+      "cost": 1,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 3
+    },
+    {
+      "cost": 2,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 3
+    },
+    {
+      "cost": 3,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 3
+    },
+    {
+      "cost": 4,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 3
+    },
+    {
+      "cost": 5,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 3
+    },
+    {
+      "cost": 1,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 4
+    },
+    {
+      "cost": 2,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 4
+    },
+    {
+      "cost": 3,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 4
+    },
+    {
+      "cost": 4,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 4
+    },
+    {
+      "cost": 5,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 4
+    },
+    {
+      "cost": 6,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 4
+    },
+    {
+      "cost": 7,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 4
+    },
+    {
+      "cost": 1,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 5
+    },
+    {
+      "cost": 2,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 5
+    },
+    {
+      "cost": 3,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 5
+    },
+    {
+      "cost": 4,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 5
+    },
+    {
+      "cost": 5,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 5
+    },
+    {
+      "cost": 6,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 5
+    },
+    {
+      "cost": 7,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 5
+    },
+    {
+      "cost": 8,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 5
+    },
+    {
+      "cost": 9,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 5
+    },
+    {
+      "cost": 1,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 6
+    },
+    {
+      "cost": 2,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 6
+    },
+    {
+      "cost": 3,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 6
+    },
+    {
+      "cost": 4,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 6
+    },
+    {
+      "cost": 5,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 6
+    },
+    {
+      "cost": 6,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 6
+    },
+    {
+      "cost": 7,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 6
+    },
+    {
+      "cost": 8,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 6
+    },
+    {
+      "cost": 9,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 6
+    },
+    {
+      "cost": 10,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 6
+    },
+    {
+      "cost": 11,
+      "domain": "scaling_extended",
+      "min_failing_coalition_size": 2,
+      "n_agents": 6
+    },
+    {
+      "cost": 1,
+      "domain": "value3_frontier",
+      "min_failing_coalition_size": 2,
+      "n_agents": 3
+    },
+    {
+      "cost": 2,
+      "domain": "value3_frontier",
+      "min_failing_coalition_size": 2,
+      "n_agents": 3
+    },
+    {
+      "cost": 3,
+      "domain": "value3_frontier",
+      "min_failing_coalition_size": 2,
+      "n_agents": 3
+    },
+    {
+      "cost": 4,
+      "domain": "value3_frontier",
+      "min_failing_coalition_size": 2,
+      "n_agents": 3
+    },
+    {
+      "cost": 5,
+      "domain": "value3_frontier",
+      "min_failing_coalition_size": 2,
+      "n_agents": 3
+    },
+    {
+      "cost": 6,
+      "domain": "value3_frontier",
+      "min_failing_coalition_size": 2,
+      "n_agents": 3
+    },
+    {
+      "cost": 7,
+      "domain": "value3_frontier",
+      "min_failing_coalition_size": 2,
+      "n_agents": 3
+    },
+    {
+      "cost": 8,
+      "domain": "value3_frontier",
+      "min_failing_coalition_size": 2,
+      "n_agents": 3
+    }
+  ],
+  "independent_digest": "825ded27f5889dd1a48b9ff4ae6459a4fc566dfb5919bf64bfdf345217e86f96",
+  "independent_failure_count": 0,
+  "independent_failures": [],
+  "row_count": 75,
+  "statement": "Every audited (domain, n, cost) row's canonical efficient/pivotal mechanism is independently rebuilt and rechecked at coalition cap 1 and at each domain's frozen max_coalition_size using a standalone checker that does not import public_project.py.",
+  "study": "public_project_coalition_baseline_audit"
+}

@@ -1,0 +1,8 @@
+{
+  "characterization": "min_payment(k, S_O, cost) = k * max(0, (cost - S_O) - (k-1) * max_value) is the exact minimum achievable coalition payment; existence of a profitable size-k coalition deviation is decided by a bounded sweep over (V_T, S_O) rather than full profile/report enumeration.",
+  "rows_checked": 75,
+  "exact_matches": 75,
+  "mismatch_count": 0,
+  "mismatches": [],
+  "digest": "e83c6ab9488691c447167a7ba0423d1120067bf32fa69d2941bffe677fc4084e"
+}
