@@ -32,9 +32,7 @@ python3 scripts/verify_scaling_theorem.py
 The public-project outputs are `artifacts/public_project_study.json`,
 `artifacts/public_project_certificate.json`, `artifacts/public_project_scaling.csv`,
 `artifacts/public_project_frontier.csv`, and `reports/public_project_frontier.svg`.
-Read `MECHANISM_SPEC.md` and `LIMITATIONS.md` before interpreting them; the
-full preregistration and prior-art record live in the working repository
-linked above.
+Read `MECHANISM_SPEC.md` and `LIMITATIONS.md` before interpreting them.
 The six-agent artifact is `artifacts/public_project_n6_extension.json`; its
 protocol is frozen in `SCALING_N6_EXTENSION_PROTOCOL.md`.
 The all-agent construction certificate is

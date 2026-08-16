@@ -2,6 +2,8 @@
 
 ### When the "fair" funding rule isn't: an exact map of how coalitions break threshold public-goods mechanisms, and by how much
 
+Code, data, and independent verification scripts: [research-showcase/67-when-fair-funding-isnt](https://github.com/jammysunshine/research-showcase/tree/main/67-when-fair-funding-isnt)
+
 ## Abstract
 
 Automated mechanism design is only scientifically useful when proposed rules
@@ -752,6 +754,8 @@ claims, which stand on the independently replayed proofs and certificates,
 not on who or what typed them.
 
 ## 10. Reproduction
+
+Repository: https://github.com/jammysunshine/research-showcase/tree/main/67-when-fair-funding-isnt
 
 ```bash
 python3 -m unittest discover -s tests -v

@@ -1,5 +1,7 @@
 # Executive summary
 
+Repository: https://github.com/jammysunshine/research-showcase/tree/main/67-when-fair-funding-isnt
+
 Experiment 67 is a certificate-first study of deterministic public-project
 mechanisms. Its core result is an exact finite value-lattice characterization:
 for any agent count `n`, integer value cap `m`, and integer cost `c`, accepted
