@@ -13,6 +13,10 @@ allocation audits remain regression baselines.
 
 ## Reproduce
 
+Environment and full command sequence: `REPRODUCIBILITY_MANIFEST.md`. Z3-backed
+verification scripts require `pip install -r requirements-verification.txt`
+(pins `z3-solver==5.0.0.0`) in addition to the stdlib-only commands below.
+
 ```bash
 python3 -m unittest discover -s tests -v
 python3 scripts/run_public_project_study.py
