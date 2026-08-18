@@ -57,6 +57,21 @@ Additive Gaussian noise at 0%, 0.1%, 1%, 5% of state standard deviation; 5 seeds
 
 ## 4. Results
 
+![Figure 1: (A) SINDy recovery grid across all regimes and noise levels. (B) Koopman/EDMD reversal at noise=5%. (C) Delay-embedding closes the gap. (D) lambda_min(G) sign reversal for EDMD vs. SINDy's own predictor.](reports/figures/fig1_main_results.png)
+
+**Figure 1.** Main results across all three discovery methods. Panel A: SINDy recovery (checkmark = pass, X = fail) across every regime x noise cell at degree=2 -- controls (period_2, pre-chaotic, stable_fp) are a clean red row of failures, chaotic regimes a clean green row of passes. Panel B: Koopman/EDMD one-step error at noise=5%, chaotic (red) 6.7-10.9x higher than matched control (grey) for both logistic and Lorenz. Panel C: delay-embedded observation collapses both regimes below the recovery threshold -- the gap vanishes. Panel D: lambda_min(G), the exact persistent-excitation quantity Gallo et al. use to predict SINDy/SR's identifiability ceiling, correlates with *worse* (not better) EDMD one-step error -- the opposite sign from its role in SINDy/SR.
+
+| Method | Test | Chaotic | Control | Direction |
+|---|---|---|---|---|
+| SINDy | Tier A grid (132 cond.) | 5/5, degrades gracefully | 0/5 in every cell | chaos helps |
+| Symbolic regression | logistic/Lorenz | 0/30 (matches SINDy) | 0/30 | chaos helps |
+| Symbolic regression | Duffing pair | 0/30 | 18/30 | **reverses** |
+| Koopman/EDMD | degenerate controls (logistic, Lorenz) | error 6.7-10.9x higher | baseline | **reverses** |
+| Koopman/EDMD | rich control (harmonic/Rossler) | error <= control | baseline | chaos helps (no reversal) |
+| Delay embedding (Tier C) | single-coordinate, 140 cond. | 0.011 mean err | 0.0009 mean err | **gap closes** (both below threshold) |
+
+**Table 1.** Headline direction of the chaos-vs-control effect, by method and test. "Direction" states which way the identifiability gap points, not whether it is statistically significant (see SS3.4/SS4 for effect sizes and CIs).
+
 ### 4.1 SINDy: broad coverage aids recovery (Tier A, 132 conditions)
 
 Every non-chaotic control (logistic period-2, Lorenz stable fixed point, Lorenz pre-chaotic) is 0/5 recovered in every noise x degree cell (0/60 combined). Every chaotic regime starts at 5/5 and degrades only under high noise/degree=3. The harmonic oscillator -- the one rich, non-degenerate, non-chaotic regime -- recovers 5/5 in every cell at degree=2, identical to chaotic regimes (Figure 1A).
@@ -69,6 +84,10 @@ Every non-chaotic control (logistic period-2, Lorenz stable fixed point, Lorenz 
 - Lorenz: chaotic mean = 0.014 vs. control mean = 0.001 (ratio 10.9x [6.2x, 19.4x] 95% CI)
 
 Cliff's delta = 0.556 (large) for both families. CIs are non-overlapping in every noise/degree cell (Figure 1B, Figure 2). Four checks confirm the reversal is not an artifact of this project's implementation or metric, holding it against degenerate controls (logistic, Lorenz):
+
+![Figure 2: Koopman/EDMD per-seed one-step error by noise level, logistic map and Lorenz system, control vs. chaotic.](reports/figures/fig2_koopman_per_seed.png)
+
+**Figure 2.** Per-seed Koopman/EDMD one-step error at noise={1%, 5%} for logistic (left) and Lorenz (right). Individual seed dots (black) show the reversal is not a mean-only artifact of a single lucky/unlucky run -- every seed in the chaotic (red) group exceeds every seed in the control (grey) group at both noise levels, both families.
 
 1. **Lyapunov normalization**: reversal survives after accounting for local expansion rates
 2. **pykoopman cross-check**: 6-significant-figure agreement with self-written EDMD
@@ -108,6 +127,10 @@ A coupled van der Pol experiment (120 conditions: 3 regimes x 4 noise levels x 2
 - **Periodic** (mu=1.0): limit cycle, 1D support on a 2D attractor
 - **Quasi-periodic** (mu=1.0, omega=1.618): 2-torus, 2D support
 - **Chaotic** (mu=8.0): strange attractor, fractal support
+
+![Figure 3: Coverage experiment across periodic, quasi-periodic, and chaotic regimes of coupled van der Pol -- SINDy error, Koopman/EDMD error, and ridge-regularization sensitivity.](reports/figures/fig3_coverage_experiment.png)
+
+**Figure 3.** Coupled van der Pol coverage experiment. Left: SINDy one-step error across noise levels -- chaotic (0.0% noise: ~88) is far worse than periodic/quasi-periodic (both <10), a genuine SINDy failure mode when the degree=2 library is insufficient. Middle: Koopman/EDMD error, log scale -- quasi-periodic (2-torus) outperforms even the periodic limit cycle, chaotic is worst by roughly two orders of magnitude. Right: ridge-regularization sensitivity at noise=5% -- the periodic/quasi-periodic/chaotic ordering is stable across regularization strength, ruling out a regularization-choice artifact.
 
 **Results** (Figure 3):
 
