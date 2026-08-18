@@ -1,4 +1,6 @@
-# When Does Phase-Space Coverage Aid Equation Identifiability? A Multi-Method, Multi-System Empirical Study
+# The Chaos Paradox: Why Messier Data Can Mean Cleaner Equations
+
+*(A Multi-Method, Multi-System Empirical Study of Phase-Space Coverage and Equation Identifiability)*
 
 ## Abstract
 
