@@ -2,6 +2,10 @@
 
 *(A Multi-Method, Multi-System Empirical Study of Phase-Space Coverage and Equation Identifiability)*
 
+**Mohit Mendiratta**
+Independent Researcher
+Correspondence: mohit.mendiratta@gmail.com
+
 **Keywords:** system identification; sparse regression; SINDy; Koopman operator; dynamic mode decomposition; chaos; persistent excitation; symbolic regression
 **MSC 2020:** 37M10, 37N99, 62J99, 93B30
 
@@ -9,7 +13,7 @@
 
 Can the governing equations of a nonlinear dynamical system be uniquely recovered from observed trajectories? Gallo, Anselmi, and Lazzari (2026) proved, theoretically, that chaotic trajectories improve identifiability via sparse regression, through persistent excitation of a candidate-function library. We stress-test this claim empirically across six system families, three discovery algorithms (SINDy, symbolic regression, Koopman/EDMD), finite noisy samples, and restricted function libraries -- the exact conditions the original proof abstracts away.
 
-Three findings. **First**, the "coverage aids identifiability" pattern replicates cleanly for SINDy: 5/5 recovery in every chaotic regime tested, 0/5 in every degenerate non-chaotic control, large effect sizes (Cliff's d = 0.556, ratio 6.7x--10.9x, 95% CIs non-overlapping). **Second**, for Koopman/EDMD the same excitation **reverses the pattern outright** against degenerate controls: dense linear surrogates fit fixed points and short cycles better than chaotic attractors, for a mechanistically identified reason -- persistent excitation helps sparse recovery and hurts uniform linear approximation. **Third**, and most consequential for interpreting both results: every contrast above pits chaos against a maximally degenerate control (a fixed point, a short cycle). An adversarial review of our own design flagged this as the obvious confound, so we added a matched pair between the one rich, non-degenerate, non-chaotic regime already in the study (harmonic oscillator) and a chaotic Rossler attractor, run through the identical three-method pipeline. Against this harder, fairer control, the results split by method rather than resolving in one direction: SINDy's chaos-aids-identifiability pattern **replicates and strengthens** (Rossler 30/30 vs. harmonic 16/30 on the primary off-trajectory metric), while the Koopman/EDMD reversal **does not replicate** (Rossler's one-step error is lower than or comparable to harmonic's in all six noise/degree cells). The Koopman reversal, in other words, was partly an artifact of comparing chaos to degenerate controls -- not a universal chaos-vs-non-chaos property. A second, independent test (coupled van der Pol across periodic, quasi-periodic, and chaotic regimes) corroborates the SINDy finding and complicates the Koopman one further: full results and the resulting tension are in SS5.
+We report three findings. First, the coverage-aids-identifiability pattern replicates cleanly for SINDy, with large effect sizes and non-overlapping confidence intervals across every chaotic regime and degenerate non-chaotic control tested (Section 4.1). Second, for Koopman/EDMD the same excitation reverses the pattern against degenerate controls: dense linear surrogates fit fixed points and short cycles better than chaotic attractors, for a mechanistically identified reason -- persistent excitation aids sparse recovery but degrades uniform linear approximation (Section 4.2, Section 4.6). Third, and most consequential for interpreting both results, every contrast above pits chaos against a maximally degenerate control. An adversarial review of our own design flagged this as the obvious confound, so we added a matched pair between the one rich, non-degenerate, non-chaotic regime already in the study (a harmonic oscillator) and a chaotic Rossler attractor, run through the identical three-method pipeline. Against this harder, fairer control, the results split by method: the SINDy pattern replicates and strengthens, while the Koopman/EDMD reversal does not replicate -- indicating that reversal was partly an artifact of comparing chaos to degenerate controls, not a universal chaos-vs-non-chaos property. A second, independent test on a coupled van der Pol system, across periodic, quasi-periodic, and chaotic regimes, corroborates the SINDy finding and further complicates the Koopman one; full results and the resulting tension between the two tests are reported in Section 5.
 
 **Data and code availability.** All simulation code, raw result JSONs, and reproduction instructions are openly available at https://github.com/jammysunshine/research-showcase/tree/main/68-Chaos-Paradox-Why-Messier-Data-Can-Mean-Cleaner-Equations.
 
@@ -41,9 +45,9 @@ We study six system families with matched chaotic/non-chaotic regime pairs:
 
 - **Logistic map**: period-2 (r=3.2), period-4 (r=3.5), period-3-window (r=3.83), chaotic (r=4.0)
 - **Lorenz system**: stable fixed point (rho=14), pre-chaotic (rho=22, 24.5), classic chaotic (rho=28), high-chaos (rho=100)
-- **Harmonic oscillator**: conservative; originally no chaotic partner (a degenerate-control gap), later matched against chaotic Rossler (below) as the study's one rich-non-chaotic-vs-chaos pair (SS5)
+- **Harmonic oscillator**: conservative; originally no chaotic partner (a degenerate-control gap), later matched against chaotic Rossler (below) as the study's one rich-non-chaotic-vs-chaos pair (Section 5)
 - **Duffing oscillator**: unforced/conservative vs. forced/chaotic
-- **Rossler system**: c=3.0 control vs. chaotic (a=0.2, b=0.2, c=5.7) for held-out confirmation; the same chaotic regime is also the harmonic oscillator's Tier B match (SS5)
+- **Rossler system**: c=3.0 control vs. chaotic (a=0.2, b=0.2, c=5.7) for held-out confirmation; the same chaotic regime is also the harmonic oscillator's Tier B match (Section 5)
 - **Lorenz-96 (N=6)**: F=1.0 control vs. F=8.0 chaotic (extension)
 
 ### 3.2 Discovery methods
@@ -79,7 +83,7 @@ Additive Gaussian noise at 0%, 0.1%, 1%, 5% of state standard deviation; 5 seeds
 | Koopman/EDMD | rich control (harmonic/Rossler) | error <= control | baseline | chaos helps (no reversal) |
 | Delay embedding (Tier C) | single-coordinate, 140 cond. | 0.011 mean err | 0.0009 mean err | **gap closes** (both below threshold) |
 
-**Table 1.** Headline direction of the chaos-vs-control effect, by method and test. "Direction" states which way the identifiability gap points, not whether it is statistically significant (see SS3.4/SS4 for effect sizes and CIs).
+**Table 1.** Headline direction of the chaos-vs-control effect, by method and test. "Direction" indicates which way the identifiability gap points, not whether it is statistically significant (see Section 3.4/Section 4 for effect sizes and CIs).
 
 ### 4.1 SINDy: broad coverage aids recovery (Tier A, 132 conditions)
 
@@ -87,7 +91,7 @@ Every non-chaotic control (logistic period-2, Lorenz stable fixed point, Lorenz 
 
 ### 4.2 Koopman/EDMD: reversal (Tier B, 210 conditions)
 
-**The headline pattern reverses outright.** Chaotic error is 6.7x--10.9x higher than matched non-chaotic controls at noise=5%:
+The pattern reverses outright. Chaotic error is 6.7x--10.9x higher than matched non-chaotic controls at noise=5%:
 
 - Logistic: chaotic mean = 0.034 vs. control mean = 0.005 (ratio 6.7x [3.8x, 12.0x] 95% CI)
 - Lorenz: chaotic mean = 0.014 vs. control mean = 0.001 (ratio 10.9x [6.2x, 19.4x] 95% CI)
@@ -103,7 +107,7 @@ Cliff's delta = 0.556 (large) for both families. CIs are non-overlapping in ever
 3. **Neural-network Koopman**: same reversal at comparable or larger magnitude (5.8--61x)
 4. **Gram-matrix analysis**: lambda_min(G) -- Gallo et al.'s own identifiability predictor -- carries the **opposite sign** for EDMD
 
-**But the reversal does not generalize to a rich non-chaotic control.** Matching harmonic (non-chaotic, but a continuum of states on a closed orbit) against a chaotic Rossler attractor through the identical pipeline, Rossler's one-step error is lower than or comparable to harmonic's in all 6 noise/degree cells -- the opposite direction from logistic and Lorenz. Harmonic's own per-seed EDMD fits are also markedly less stable (a ~26x spread at noise=0%/degree=2 vs. Rossler's ~1.2x), the opposite of what a "chaos degrades conditioning" story predicts. The Koopman/EDMD reversal is therefore method-and-pair-dependent: real and robust against degenerate controls, but not a universal law about chaos vs. non-chaos (SS5 has the full matched-pair breakdown).
+However, the reversal does not generalize to a rich non-chaotic control. Matching harmonic (non-chaotic, but a continuum of states on a closed orbit) against a chaotic Rossler attractor through the identical pipeline, Rossler's one-step error is lower than or comparable to harmonic's in all 6 noise/degree cells -- the opposite direction from logistic and Lorenz. Harmonic's own per-seed EDMD fits are also markedly less stable (a ~26x spread at noise=0%/degree=2 vs. Rossler's ~1.2x), the opposite of what a "chaos degrades conditioning" story predicts. The Koopman/EDMD reversal is therefore method-and-pair-dependent: real and robust against degenerate controls, but not a universal law about chaos vs. non-chaos (Section 5 has the full matched-pair breakdown).
 
 ### 4.3 Symbolic regression: mixed (Tier B)
 
@@ -127,7 +131,7 @@ The non-chaotic controls used in Tiers A/B are mostly degenerate: fixed points o
 
 - **SINDy**: the chaos-aids-identifiability pattern replicates and strengthens against the rich control. Rossler passes the primary off-trajectory VF-error gate in 30/30 cells; harmonic passes only 16/30, degrading at higher degree and noise. Chaos, not just broad coverage, does the work here.
 - **Symbolic regression**: harmonic outperforms Rossler (30/30 vs. 10/30 joint-pass), but this tracks 3D cross-term dimensionality, not chaos vs. non-chaos -- consistent with the already-established Duffing SR reversal.
-- **Koopman/EDMD**: the reversal seen against degenerate controls (SS4.2) **disappears**. Rossler's one-step error is lower than or comparable to harmonic's in all 6 noise/degree cells -- opposite the logistic/Lorenz direction. This means the Koopman reversal was partly a degenerate-control artifact, not a universal chaos-vs-non-chaos property.
+- **Koopman/EDMD**: the reversal seen against degenerate controls (Section 4.2) **disappears**. Rossler's one-step error is lower than or comparable to harmonic's in all 6 noise/degree cells -- opposite the logistic/Lorenz direction. This means the Koopman reversal was partly a degenerate-control artifact, not a universal chaos-vs-non-chaos property.
 
 Net read: "chaos specifically aids identifiability" now has direct, non-degenerate-control support for SINDy (this project's primary comparator), while the Koopman/EDMD reversal -- the study's most novel finding -- is shown to be pair-dependent rather than a general law. This is evidence from one matched pair, not a systematic sweep of non-chaotic richness.
 
@@ -149,25 +153,33 @@ For **Koopman/EDMD**, the ordering is quasi-periodic (0.02) < periodic (0.07) <<
 
 The quasi-periodic regime's superior Koopman performance is a new finding: a 2-torus provides more state-space coverage than a limit cycle (helping the dictionary approximation) without the sensitivity of chaos (which hurts linear prediction). This is consistent with the "coverage helps, chaos hurts" interpretation but cannot distinguish it from a simpler "complexity of dynamics hurts" explanation.
 
-**Tension between the two direct tests, reported rather than resolved.** Within coupled van der Pol, chaos hurts Koopman even against a rich quasi-periodic (2-torus) control -- the reversal holds. Against the harmonic/Rossler pair, it does not. Both are genuine within-dimension, rich-non-chaotic-vs-chaos comparisons; they disagree. A plausible reconciliation is that coupled vdP's quasi-periodic regime and its chaotic regime differ mainly in dynamical complexity at matched coverage, while harmonic and Rossler differ in both coverage (2D closed orbit vs. 3D strange attractor) and dimension -- but with n=2 direct tests this is speculation, not a resolved mechanism. The honest summary is that the Koopman/EDMD reversal is real, mechanistically grounded (SS4.6), and reproduces against degenerate controls, but its behavior against rich non-chaotic controls is inconsistent across the two systems tested here.
+**Tension between the two direct tests, reported rather than resolved.** Within coupled van der Pol, chaos hurts Koopman even against a rich quasi-periodic (2-torus) control -- the reversal holds. Against the harmonic/Rossler pair, it does not. Both are genuine within-dimension, rich-non-chaotic-vs-chaos comparisons; they disagree. A plausible reconciliation is that coupled vdP's quasi-periodic regime and its chaotic regime differ mainly in dynamical complexity at matched coverage, while harmonic and Rossler differ in both coverage (2D closed orbit vs. 3D strange attractor) and dimension -- but with n=2 direct tests this is speculation, not a resolved mechanism. In summary, the Koopman/EDMD reversal is real, mechanistically grounded (Section 4.6), and reproduces against degenerate controls, but its behavior against rich non-chaotic controls is inconsistent across the two systems tested here.
 
 ## 6. Limitations
 
-- **Coverage vs. chaos partially resolved, method-dependent** -- SINDy: chaos-specific (replicates against a rich control, SS5). Koopman/EDMD: unresolved and now internally inconsistent -- reverses against degenerate controls, holds within coupled vdP's rich control, but not against harmonic/Rossler (SS5). Based on n=2 direct rich-control tests; not a systematic sweep.
+- **Coverage vs. chaos partially resolved, method-dependent** -- SINDy: chaos-specific (replicates against a rich control, Section 5). Koopman/EDMD: unresolved and now internally inconsistent -- reverses against degenerate controls, holds within coupled vdP's rich control, but not against harmonic/Rossler (Section 5). Based on n=2 direct rich-control tests; not a systematic sweep.
 - **Symbolic regression unreliable on Lorenz y-dimension** at both degrees, independent of noise/chaos
 - **Off-trajectory metric under-stresses periodic/fixed-point attractors** (mitigated by off-attractor grid)
 - **Extension-scale runs used 3 seeds** (vs. frozen tiers' 5), explicitly flagged as reduced power
 - **Ridge regularization sweep** added post-hoc for EDMD, not preregistered
 
-## 7. Conclusion
+## 7. Discussion
 
 Across three discovery methods, six system families, and multiple robustness checks, we find no single universal "chaos aids identifiability" law. Instead:
 
 - For **SINDy**, chaos specifically aids recovery, not just broad coverage generically -- this now has direct support against a rich non-chaotic control (Rossler 30/30 vs. harmonic 16/30), not just against degenerate ones, with large effect sizes (Cliff's d = 0.56, ratio 6.7x--10.9x, non-overlapping CIs) -- but only when the function library is rich enough. On the coupled van der Pol (a 4D system with degree-2 library), all three regimes fail equally.
-- For **Koopman/EDMD**, the same excitation that helps sparse recovery actively hurts dense linear approximation against degenerate controls, for a mechanistically identified reason (SS4.6) -- but this reversal does not hold universally. It reproduces within coupled van der Pol's rich quasi-periodic control, yet disappears against the harmonic/Rossler pair. The reversal is real and mechanistically grounded where it appears, but is not a general law about chaos vs. non-chaos.
+- For **Koopman/EDMD**, the same excitation that helps sparse recovery actively hurts dense linear approximation against degenerate controls, for a mechanistically identified reason (Section 4.6) -- but this reversal does not hold universally. It reproduces within coupled van der Pol's rich quasi-periodic control, yet disappears against the harmonic/Rossler pair. The reversal is real and mechanistically grounded where it appears, but is not a general law about chaos vs. non-chaos.
 - **Symbolic regression** disagrees with SINDy's direction on 3D systems with genuine cross-terms (Duffing, Lorenz's xz dimension, harmonic/Rossler) regardless of chaos -- this looks like a gplearn search-difficulty effect, not evidence about identifiability itself.
 
 The clean version of the claim -- "chaos aids identifiability" -- is not what this study supports, and treating it as settled would overstate the evidence in either direction. The precise version is: chaos specifically (not just coverage) aids identifiability for sparse/symbolic equation discovery under matched, finite, noisy conditions when the function library is sufficient, and this replicates against both degenerate and rich non-chaotic controls. The same excitation hurts dense linear (Koopman) surrogates against degenerate controls, for an identified mechanism, but that reversal is inconsistent against rich controls across the two systems tested (holds for coupled vdP, reverses for harmonic/Rossler) and should not be generalized further without more matched pairs. Under partial observation, the entire effect -- in both directions, for every method -- disappears. Any claim that skips these qualifiers is not one this data supports.
+
+## 8. Conclusion
+
+Chaos specifically, not just phase-space coverage generically, measurably aids equation recovery for sparse and symbolic discovery methods under finite, noisy, matched-pair conditions, and this holds against both degenerate and rich non-chaotic controls. The same property degrades dense linear (Koopman/EDMD) approximation, but only reliably so against degenerate controls; against rich controls the effect is inconsistent and requires further matched-pair testing before it can be generalized. Under partial observation, the effect disappears entirely for every method tested. Future work should prioritize a systematic sweep of non-chaotic richness for Koopman/EDMD, rather than treating either direction of this result as settled.
+
+## Acknowledgments
+
+No external funding was received for this work. All experiments were designed, run, and analyzed by the author, with computational assistance for implementation. An independent adversarial review of the study design (documented in Section 5) informed the harmonic/Rossler matched-pair extension.
 
 ## References
 
