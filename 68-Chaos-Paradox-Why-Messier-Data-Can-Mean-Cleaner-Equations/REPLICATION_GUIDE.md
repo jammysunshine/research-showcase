@@ -13,7 +13,7 @@ How to reproduce the key results in this repository.
 
 ```bash
 # Clone and set up environment
-cd 68-chaotic-equation-identifiability
+cd 68-Chaos-Paradox-Why-Messier-Data-Can-Mean-Cleaner-Equations
 python3 -m venv .venv
 .venv/bin/pip install numpy scipy sympy matplotlib pysindy pytest gplearn scikit-learn torch
 ```
