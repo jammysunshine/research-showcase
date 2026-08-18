@@ -1,0 +1,1262 @@
+[
+  {
+    "key": "logistic|period_2|0.0|2|0",
+    "family": "logistic",
+    "regime": "period_2",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 0,
+    "wall_clock_s": 0.0018258094787597656
+  },
+  {
+    "key": "logistic|period_2|0.0|2|1",
+    "family": "logistic",
+    "regime": "period_2",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 1,
+    "wall_clock_s": 0.0021398067474365234
+  },
+  {
+    "key": "logistic|period_2|0.0|2|2",
+    "family": "logistic",
+    "regime": "period_2",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 2,
+    "wall_clock_s": 0.002144336700439453
+  },
+  {
+    "key": "logistic|period_2|0.0|2|3",
+    "family": "logistic",
+    "regime": "period_2",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 3,
+    "wall_clock_s": 0.00225830078125
+  },
+  {
+    "key": "logistic|period_2|0.0|2|4",
+    "family": "logistic",
+    "regime": "period_2",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 4,
+    "wall_clock_s": 0.002080202102661133
+  },
+  {
+    "key": "logistic|period_2|0.0|3|0",
+    "family": "logistic",
+    "regime": "period_2",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 0,
+    "wall_clock_s": 0.0022878646850585938
+  },
+  {
+    "key": "logistic|period_2|0.0|3|1",
+    "family": "logistic",
+    "regime": "period_2",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 1,
+    "wall_clock_s": 0.002132892608642578
+  },
+  {
+    "key": "logistic|period_2|0.0|3|2",
+    "family": "logistic",
+    "regime": "period_2",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 2,
+    "wall_clock_s": 0.002092123031616211
+  },
+  {
+    "key": "logistic|period_2|0.0|3|3",
+    "family": "logistic",
+    "regime": "period_2",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 3,
+    "wall_clock_s": 0.0020608901977539062
+  },
+  {
+    "key": "logistic|period_2|0.01|2|0",
+    "family": "logistic",
+    "regime": "period_2",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 0,
+    "wall_clock_s": 0.002056121826171875
+  },
+  {
+    "key": "logistic|period_2|0.01|2|1",
+    "family": "logistic",
+    "regime": "period_2",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 1,
+    "wall_clock_s": 0.0020499229431152344
+  },
+  {
+    "key": "logistic|period_2|0.01|2|2",
+    "family": "logistic",
+    "regime": "period_2",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 2,
+    "wall_clock_s": 0.002235889434814453
+  },
+  {
+    "key": "logistic|period_2|0.0|3|4",
+    "family": "logistic",
+    "regime": "period_2",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 4,
+    "wall_clock_s": 0.0033740997314453125
+  },
+  {
+    "key": "logistic|period_2|0.01|2|4",
+    "family": "logistic",
+    "regime": "period_2",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 4,
+    "wall_clock_s": 0.0018990039825439453
+  },
+  {
+    "key": "logistic|period_2|0.01|3|0",
+    "family": "logistic",
+    "regime": "period_2",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 0,
+    "wall_clock_s": 0.002004384994506836
+  },
+  {
+    "key": "logistic|period_2|0.01|2|3",
+    "family": "logistic",
+    "regime": "period_2",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 3,
+    "wall_clock_s": 0.0032351016998291016
+  },
+  {
+    "key": "logistic|period_2|0.01|3|2",
+    "family": "logistic",
+    "regime": "period_2",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 2,
+    "wall_clock_s": 0.002054929733276367
+  },
+  {
+    "key": "logistic|period_2|0.01|3|3",
+    "family": "logistic",
+    "regime": "period_2",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 3,
+    "wall_clock_s": 0.002006053924560547
+  },
+  {
+    "key": "logistic|period_2|0.01|3|4",
+    "family": "logistic",
+    "regime": "period_2",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 4,
+    "wall_clock_s": 0.002007007598876953
+  },
+  {
+    "key": "logistic|period_2|0.01|3|1",
+    "family": "logistic",
+    "regime": "period_2",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 1,
+    "wall_clock_s": 0.004044055938720703
+  },
+  {
+    "key": "logistic|chaotic|0.0|2|1",
+    "family": "logistic",
+    "regime": "chaotic",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 1,
+    "wall_clock_s": 0.0017993450164794922
+  },
+  {
+    "key": "logistic|chaotic|0.0|2|2",
+    "family": "logistic",
+    "regime": "chaotic",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 2,
+    "wall_clock_s": 0.0017600059509277344
+  },
+  {
+    "key": "logistic|chaotic|0.0|2|3",
+    "family": "logistic",
+    "regime": "chaotic",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 3,
+    "wall_clock_s": 0.0017440319061279297
+  },
+  {
+    "key": "logistic|chaotic|0.0|2|0",
+    "family": "logistic",
+    "regime": "chaotic",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 0,
+    "wall_clock_s": 0.0035970211029052734
+  },
+  {
+    "key": "logistic|chaotic|0.0|3|0",
+    "family": "logistic",
+    "regime": "chaotic",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 0,
+    "wall_clock_s": 0.0018377304077148438
+  },
+  {
+    "key": "logistic|chaotic|0.0|3|1",
+    "family": "logistic",
+    "regime": "chaotic",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 1,
+    "wall_clock_s": 0.0018699169158935547
+  },
+  {
+    "key": "logistic|chaotic|0.0|3|2",
+    "family": "logistic",
+    "regime": "chaotic",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 2,
+    "wall_clock_s": 0.0018482208251953125
+  },
+  {
+    "key": "logistic|chaotic|0.0|2|4",
+    "family": "logistic",
+    "regime": "chaotic",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 4,
+    "wall_clock_s": 0.0035932064056396484
+  },
+  {
+    "key": "logistic|chaotic|0.0|3|4",
+    "family": "logistic",
+    "regime": "chaotic",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 4,
+    "wall_clock_s": 0.0018808841705322266
+  },
+  {
+    "key": "logistic|chaotic|0.01|2|0",
+    "family": "logistic",
+    "regime": "chaotic",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 0,
+    "wall_clock_s": 0.0018780231475830078
+  },
+  {
+    "key": "logistic|chaotic|0.01|2|1",
+    "family": "logistic",
+    "regime": "chaotic",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 1,
+    "wall_clock_s": 0.0018842220306396484
+  },
+  {
+    "key": "logistic|chaotic|0.0|3|3",
+    "family": "logistic",
+    "regime": "chaotic",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 3,
+    "wall_clock_s": 0.0038449764251708984
+  },
+  {
+    "key": "logistic|chaotic|0.01|2|3",
+    "family": "logistic",
+    "regime": "chaotic",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 3,
+    "wall_clock_s": 0.001857757568359375
+  },
+  {
+    "key": "logistic|chaotic|0.01|2|2",
+    "family": "logistic",
+    "regime": "chaotic",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 2,
+    "wall_clock_s": 0.002907991409301758
+  },
+  {
+    "key": "logistic|chaotic|0.01|3|1",
+    "family": "logistic",
+    "regime": "chaotic",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 1,
+    "wall_clock_s": 0.0019791126251220703
+  },
+  {
+    "key": "logistic|chaotic|0.01|3|2",
+    "family": "logistic",
+    "regime": "chaotic",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 2,
+    "wall_clock_s": 0.0018990039825439453
+  },
+  {
+    "key": "logistic|chaotic|0.01|2|4",
+    "family": "logistic",
+    "regime": "chaotic",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 4,
+    "wall_clock_s": 0.002988100051879883
+  },
+  {
+    "key": "logistic|chaotic|0.01|3|3",
+    "family": "logistic",
+    "regime": "chaotic",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 3,
+    "wall_clock_s": 0.001947164535522461
+  },
+  {
+    "key": "logistic|chaotic|0.01|3|0",
+    "family": "logistic",
+    "regime": "chaotic",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 0,
+    "wall_clock_s": 0.0034890174865722656
+  },
+  {
+    "key": "logistic|chaotic|0.01|3|4",
+    "family": "logistic",
+    "regime": "chaotic",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 4,
+    "wall_clock_s": 0.0019261837005615234
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.0|2|0",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 0,
+    "wall_clock_s": 0.08363103866577148
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.0|2|4",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 4,
+    "wall_clock_s": 0.08233284950256348
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.0|2|3",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 3,
+    "wall_clock_s": 0.08393502235412598
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.0|2|1",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 1,
+    "wall_clock_s": 0.08645987510681152
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.0|2|2",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 2,
+    "wall_clock_s": 0.08827996253967285
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.0|3|0",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 0,
+    "wall_clock_s": 0.09481501579284668
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.0|3|2",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 2,
+    "wall_clock_s": 0.08442306518554688
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.0|3|3",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 3,
+    "wall_clock_s": 0.08651900291442871
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.0|3|4",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 4,
+    "wall_clock_s": 0.0848541259765625
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.0|3|1",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 1,
+    "wall_clock_s": 0.09447503089904785
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.01|2|0",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 0,
+    "wall_clock_s": 0.3583979606628418
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.01|2|1",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 1,
+    "wall_clock_s": 0.3833198547363281
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.01|2|2",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 2,
+    "wall_clock_s": 0.3490629196166992
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.01|2|3",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 3,
+    "wall_clock_s": 0.3603959083557129
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.01|2|4",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 4,
+    "wall_clock_s": 0.36516904830932617
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.01|3|0",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 0,
+    "wall_clock_s": 0.5415000915527344
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.0|2|0",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 0,
+    "wall_clock_s": 0.42007017135620117
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.01|3|2",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 2,
+    "wall_clock_s": 0.4762442111968994
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.01|3|1",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 1,
+    "wall_clock_s": 0.594182014465332
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.01|3|3",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 3,
+    "wall_clock_s": 0.5442218780517578
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.01|3|4",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 4,
+    "wall_clock_s": 0.563701868057251
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.0|2|1",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 1,
+    "wall_clock_s": 0.4159080982208252
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.0|2|2",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 2,
+    "wall_clock_s": 0.4155559539794922
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.0|2|3",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 3,
+    "wall_clock_s": 0.4220709800720215
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.0|2|4",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 4,
+    "wall_clock_s": 0.4258749485015869
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.0|3|0",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 0,
+    "wall_clock_s": 0.5037569999694824
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.0|3|1",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 1,
+    "wall_clock_s": 0.5019047260284424
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.0|3|2",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 2,
+    "wall_clock_s": 0.4971451759338379
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.0|3|3",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 3,
+    "wall_clock_s": 0.49439287185668945
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.0|3|4",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 4,
+    "wall_clock_s": 0.5011558532714844
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.01|2|0",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 0,
+    "wall_clock_s": 0.4228940010070801
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.01|2|1",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 1,
+    "wall_clock_s": 0.42386317253112793
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.01|2|2",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 2,
+    "wall_clock_s": 0.4134218692779541
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.01|2|3",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 3,
+    "wall_clock_s": 0.42748427391052246
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.01|2|4",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 4,
+    "wall_clock_s": 0.40335893630981445
+  },
+  {
+    "key": "harmonic|conservative|0.0|2|0",
+    "family": "harmonic",
+    "regime": "conservative",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 0,
+    "wall_clock_s": 0.05185890197753906
+  },
+  {
+    "key": "harmonic|conservative|0.0|2|1",
+    "family": "harmonic",
+    "regime": "conservative",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 1,
+    "wall_clock_s": 0.05154705047607422
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.01|3|0",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 0,
+    "wall_clock_s": 0.5093562602996826
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.01|3|1",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 1,
+    "wall_clock_s": 0.5192389488220215
+  },
+  {
+    "key": "harmonic|conservative|0.0|2|2",
+    "family": "harmonic",
+    "regime": "conservative",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 2,
+    "wall_clock_s": 0.056017160415649414
+  },
+  {
+    "key": "harmonic|conservative|0.0|2|3",
+    "family": "harmonic",
+    "regime": "conservative",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 3,
+    "wall_clock_s": 0.05365610122680664
+  },
+  {
+    "key": "harmonic|conservative|0.0|2|4",
+    "family": "harmonic",
+    "regime": "conservative",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 4,
+    "wall_clock_s": 0.05418086051940918
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.01|3|2",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 2,
+    "wall_clock_s": 0.49741077423095703
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.01|3|3",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 3,
+    "wall_clock_s": 0.4788520336151123
+  },
+  {
+    "key": "harmonic|conservative|0.0|3|0",
+    "family": "harmonic",
+    "regime": "conservative",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 0,
+    "wall_clock_s": 0.06536388397216797
+  },
+  {
+    "key": "harmonic|conservative|0.0|3|1",
+    "family": "harmonic",
+    "regime": "conservative",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 1,
+    "wall_clock_s": 0.0747530460357666
+  },
+  {
+    "key": "harmonic|conservative|0.0|3|2",
+    "family": "harmonic",
+    "regime": "conservative",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 2,
+    "wall_clock_s": 0.07236289978027344
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.01|3|4",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 4,
+    "wall_clock_s": 0.4858410358428955
+  },
+  {
+    "key": "harmonic|conservative|0.01|2|0",
+    "family": "harmonic",
+    "regime": "conservative",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 0,
+    "wall_clock_s": 0.05580902099609375
+  },
+  {
+    "key": "harmonic|conservative|0.0|3|3",
+    "family": "harmonic",
+    "regime": "conservative",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 3,
+    "wall_clock_s": 0.06731390953063965
+  },
+  {
+    "key": "harmonic|conservative|0.0|3|4",
+    "family": "harmonic",
+    "regime": "conservative",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 4,
+    "wall_clock_s": 0.0660548210144043
+  },
+  {
+    "key": "harmonic|conservative|0.01|2|1",
+    "family": "harmonic",
+    "regime": "conservative",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 1,
+    "wall_clock_s": 0.06682705879211426
+  },
+  {
+    "key": "harmonic|conservative|0.01|2|4",
+    "family": "harmonic",
+    "regime": "conservative",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 4,
+    "wall_clock_s": 0.04821300506591797
+  },
+  {
+    "key": "harmonic|conservative|0.01|2|3",
+    "family": "harmonic",
+    "regime": "conservative",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 3,
+    "wall_clock_s": 0.05877113342285156
+  },
+  {
+    "key": "harmonic|conservative|0.01|3|1",
+    "family": "harmonic",
+    "regime": "conservative",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 1,
+    "wall_clock_s": 0.054799795150756836
+  },
+  {
+    "key": "harmonic|conservative|0.01|3|0",
+    "family": "harmonic",
+    "regime": "conservative",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 0,
+    "wall_clock_s": 0.05629110336303711
+  },
+  {
+    "key": "harmonic|conservative|0.01|2|2",
+    "family": "harmonic",
+    "regime": "conservative",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 2,
+    "wall_clock_s": 0.08894205093383789
+  },
+  {
+    "key": "harmonic|conservative|0.01|3|3",
+    "family": "harmonic",
+    "regime": "conservative",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 3,
+    "wall_clock_s": 0.06193995475769043
+  },
+  {
+    "key": "harmonic|conservative|0.01|3|2",
+    "family": "harmonic",
+    "regime": "conservative",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 2,
+    "wall_clock_s": 0.08469629287719727
+  },
+  {
+    "key": "harmonic|conservative|0.01|3|4",
+    "family": "harmonic",
+    "regime": "conservative",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 4,
+    "wall_clock_s": 0.10328817367553711
+  },
+  {
+    "key": "duffing_unforced|conservative|0.0|2|0",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 0,
+    "wall_clock_s": 0.20345401763916016
+  },
+  {
+    "key": "duffing_unforced|conservative|0.0|2|1",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 1,
+    "wall_clock_s": 0.2053077220916748
+  },
+  {
+    "key": "duffing_unforced|conservative|0.0|2|2",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 2,
+    "wall_clock_s": 0.22783899307250977
+  },
+  {
+    "key": "duffing_unforced|conservative|0.0|2|3",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 3,
+    "wall_clock_s": 0.21534514427185059
+  },
+  {
+    "key": "duffing_unforced|conservative|0.0|2|4",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 4,
+    "wall_clock_s": 0.22382521629333496
+  },
+  {
+    "key": "duffing_unforced|conservative|0.0|3|0",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 0,
+    "wall_clock_s": 0.2353818416595459
+  },
+  {
+    "key": "duffing_unforced|conservative|0.0|3|2",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 2,
+    "wall_clock_s": 0.23026371002197266
+  },
+  {
+    "key": "duffing_unforced|conservative|0.0|3|1",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 1,
+    "wall_clock_s": 0.23775124549865723
+  },
+  {
+    "key": "duffing_unforced|conservative|0.0|3|3",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 3,
+    "wall_clock_s": 0.23307490348815918
+  },
+  {
+    "key": "duffing_unforced|conservative|0.0|3|4",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 4,
+    "wall_clock_s": 0.23178601264953613
+  },
+  {
+    "key": "duffing_unforced|conservative|0.01|2|0",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 0,
+    "wall_clock_s": 0.21846985816955566
+  },
+  {
+    "key": "duffing_unforced|conservative|0.01|2|1",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 1,
+    "wall_clock_s": 0.21268200874328613
+  },
+  {
+    "key": "duffing_unforced|conservative|0.01|2|3",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 3,
+    "wall_clock_s": 0.21620702743530273
+  },
+  {
+    "key": "duffing_unforced|conservative|0.01|2|2",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 2,
+    "wall_clock_s": 0.22469186782836914
+  },
+  {
+    "key": "duffing_unforced|conservative|0.01|2|4",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 4,
+    "wall_clock_s": 0.22031903266906738
+  },
+  {
+    "key": "duffing_unforced|conservative|0.01|3|0",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 0,
+    "wall_clock_s": 0.24460101127624512
+  },
+  {
+    "key": "duffing_unforced|conservative|0.01|3|1",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 1,
+    "wall_clock_s": 0.24689912796020508
+  },
+  {
+    "key": "duffing_unforced|conservative|0.01|3|2",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 2,
+    "wall_clock_s": 0.2375800609588623
+  },
+  {
+    "key": "duffing_unforced|conservative|0.01|3|3",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 3,
+    "wall_clock_s": 0.24098825454711914
+  },
+  {
+    "key": "duffing_unforced|conservative|0.01|3|4",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 4,
+    "wall_clock_s": 0.23813915252685547
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.0|2|0",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 0,
+    "wall_clock_s": 0.2606790065765381
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.0|2|1",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 1,
+    "wall_clock_s": 0.2548069953918457
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.0|2|2",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 2,
+    "wall_clock_s": 0.2545599937438965
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.0|2|3",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 3,
+    "wall_clock_s": 0.2597792148590088
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.0|2|4",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 4,
+    "wall_clock_s": 0.2659142017364502
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.0|3|0",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 0,
+    "wall_clock_s": 0.3124229907989502
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.0|3|1",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 1,
+    "wall_clock_s": 0.3084378242492676
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.0|3|2",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 2,
+    "wall_clock_s": 0.28920722007751465
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.0|3|3",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 3,
+    "wall_clock_s": 0.29364013671875
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.0|3|4",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 4,
+    "wall_clock_s": 0.31452083587646484
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.01|2|0",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 0,
+    "wall_clock_s": 0.43900012969970703
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.01|2|1",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 1,
+    "wall_clock_s": 0.4477860927581787
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.01|2|2",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 2,
+    "wall_clock_s": 0.47792887687683105
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.01|2|3",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 3,
+    "wall_clock_s": 0.469207763671875
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.01|2|4",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 4,
+    "wall_clock_s": 0.5628910064697266
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.01|3|0",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 0,
+    "wall_clock_s": 0.630079984664917
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.01|3|1",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 1,
+    "wall_clock_s": 0.572282075881958
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.01|3|2",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 2,
+    "wall_clock_s": 0.6324560642242432
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.01|3|3",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 3,
+    "wall_clock_s": 0.6151518821716309
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.01|3|4",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 4,
+    "wall_clock_s": 0.6456599235534668
+  }
+]

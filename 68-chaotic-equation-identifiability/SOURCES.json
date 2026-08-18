@@ -1,0 +1,130 @@
+[
+  {
+    "title": "When is a System Discoverable from Data? Discovery Requires Chaos",
+    "authors": ["Zakhar Shumaylov", "Peter Zaika", "Philipp Scholl", "Gitta Kutyniok", "Lior Horesh", "Carola-Bibiane Schönlieb"],
+    "year": 2025,
+    "venue": "arXiv preprint",
+    "url": "https://arxiv.org/abs/2511.08860",
+    "summary": "Argues theoretically, in spaces of continuous and analytic vector fields, that chaos (systems chaotic everywhere on their domain, e.g. Lorenz) makes governing equations uniquely recoverable from a single trajectory, whereas systems with conserved quantities (first integrals) are not analytically identifiable and non-chaotic systems generally require extra physical priors beyond the trajectory."
+  },
+  {
+    "title": "Discovering governing equations from data by sparse identification of nonlinear dynamical systems",
+    "authors": ["Steven L. Brunton", "Joshua L. Proctor", "J. Nathan Kutz"],
+    "year": 2016,
+    "venue": "Proceedings of the National Academy of Sciences (PNAS) 113(15), 3932-3937",
+    "url": "https://www.pnas.org/doi/10.1073/pnas.1517384113",
+    "summary": "Introduces SINDy: builds a library of candidate nonlinear functions of the state and uses sparse regression to select the few active terms, exploiting the fact that most physical governing equations are sparse in a suitable function basis; recovery is conditional on the true dynamics lying within the candidate library span and on accurate derivative estimation."
+  },
+  {
+    "title": "Sparse Identification of Nonlinear Dynamics with Control (SINDYc)",
+    "authors": ["Steven L. Brunton", "Joshua L. Proctor", "J. Nathan Kutz"],
+    "year": 2016,
+    "venue": "arXiv preprint (related: Kaiser, Kutz, Brunton, Proc. R. Soc. A 474(2219), 2018)",
+    "url": "https://arxiv.org/abs/1605.06682",
+    "summary": "Extends SINDy to systems with exogenous control/forcing inputs, demonstrated on Lotka-Volterra and forced Lorenz systems; relevant to whether active experimental design/actuation can restore identifiability in non-chaotic regimes."
+  },
+  {
+    "title": "Weak SINDy for Partial Differential Equations",
+    "authors": ["Daniel A. Messenger", "David M. Bortz"],
+    "year": 2021,
+    "venue": "arXiv preprint (Journal of Computational Physics)",
+    "url": "https://arxiv.org/abs/2007.02848",
+    "summary": "Reformulates SINDy regression in weak/integral form using test functions instead of pointwise derivatives, giving orders-of-magnitude better robustness to measurement noise and avoiding explicit numerical differentiation, which otherwise can leak spurious structure into recovered equations."
+  },
+  {
+    "title": "Weak-form modified sparse identification of nonlinear dynamics",
+    "authors": ["Unspecified (WmSINDy follow-up work)"],
+    "year": 2024,
+    "venue": "arXiv preprint / Journal of Computational Physics",
+    "url": "https://arxiv.org/abs/2410.17838",
+    "summary": "Combines weak-form SINDy (WSINDy) with modified SINDy (mSINDy) to simultaneously identify parsimonious dynamics and extract noise probability distributions via automatic differentiation, improving accuracy and noise characterization under relatively strong noise."
+  },
+  {
+    "title": "Ensemble-SINDy: Robust sparse model discovery in the low-data, high-noise limit, with active learning and control",
+    "authors": ["Urban Fasel", "J. Nathan Kutz", "Bingni W. Brunton", "Steven L. Brunton"],
+    "year": 2022,
+    "venue": "Proceedings of the Royal Society A 478(2260), 20210904",
+    "url": "https://arxiv.org/abs/2111.10992",
+    "summary": "Applies bootstrap aggregation (bagging) over SINDy fits from data subsets to compute per-term inclusion probabilities, enabling uncertainty-quantified and probabilistic model discovery; demonstrates recovery under roughly twice the noise levels previously reported, useful for quantifying ambiguity rather than binary recovery."
+  },
+  {
+    "title": "Benchmarking sparse system identification with low-dimensional chaos",
+    "authors": ["Alan A. Kaptanoglu", "Lanyue Zhang", "Zachary G. Nicolaou", "Urban Fasel", "Steven L. Brunton"],
+    "year": 2023,
+    "venue": "Nonlinear Dynamics 111(14), 13143-13164",
+    "url": "https://arxiv.org/abs/2302.10787",
+    "summary": "Large-scale benchmark of four SINDy optimizer variants across the Gilpin dysts standardized database of chaotic systems; finds strong performance from the original sequential-thresholded-least-squares algorithm and a mixed-integer variant, and shows weak-form SINDy improves results even on clean data."
+  },
+  {
+    "title": "AI Feynman: a Physics-Inspired Method for Symbolic Regression",
+    "authors": ["Silviu-Marian Udrescu", "Max Tegmark"],
+    "year": 2020,
+    "venue": "Science Advances 6(16), eaay2631",
+    "url": "https://arxiv.org/abs/1905.11481",
+    "summary": "Combines neural-network fitting with physics-inspired simplification heuristics (symmetry, separability, compositionality) in a recursive symbolic-regression algorithm; recovered all 100 Feynman-Lectures equations versus 71 for prior tools and raised success on a harder benchmark from 15% to 90%, while noting symbolic regression is NP-hard in general."
+  },
+  {
+    "title": "Interpretable Machine Learning for Science with PySR and SymbolicRegression.jl",
+    "authors": ["Miles Cranmer"],
+    "year": 2023,
+    "venue": "arXiv preprint",
+    "url": "https://arxiv.org/abs/2305.01582",
+    "summary": "Describes PySR, a Python front-end to the SymbolicRegression.jl backend implementing a multi-population evolutionary evolve-simplify-optimize search over symbolic expressions with distributed compute, intended as a practical scientific symbolic-regression tool."
+  },
+  {
+    "title": "gplearn: Genetic Programming in Python, with a scikit-learn inspired API",
+    "authors": ["Trevor Stephens"],
+    "year": 2015,
+    "venue": "Open-source software (GitHub / ReadTheDocs)",
+    "url": "https://github.com/trevorstephens/gplearn",
+    "summary": "Scikit-learn-compatible genetic-programming symbolic regressor (SymbolicRegressor); a lightweight, widely used baseline for symbolic regression, often compared against more elaborate tools like PySR."
+  },
+  {
+    "title": "A Data-Driven Approximation of the Koopman Operator: Extending Dynamic Mode Decomposition",
+    "authors": ["Matthew O. Williams", "Ioannis G. Kevrekidis", "Clarence W. Rowley"],
+    "year": 2015,
+    "venue": "Journal of Nonlinear Science 25(6), 1307-1346",
+    "url": "https://link.springer.com/article/10.1007/s00332-015-9258-5",
+    "summary": "Introduces Extended Dynamic Mode Decomposition (EDMD): approximates Koopman operator eigenvalues, eigenfunctions, and modes from snapshot pairs and a dictionary of scalar observables, without requiring explicit governing equations or an integrator."
+  },
+  {
+    "title": "On Convergence of Extended Dynamic Mode Decomposition to the Koopman Operator",
+    "authors": ["Matthew O. Williams", "Clarence W. Rowley", "Ioannis G. Kevrekidis (and coauthors)"],
+    "year": 2018,
+    "venue": "Journal of Nonlinear Science 28, 687-710 (arXiv:1703.04680)",
+    "url": "https://arxiv.org/abs/1703.04680",
+    "summary": "Establishes conditions (dictionary richness, sampling) under which EDMD's finite-dictionary approximation provably converges to the true, possibly infinite-dimensional, Koopman operator -- a formal sufficient-condition result analogous to the identifiability conditions this project seeks in a restricted function class."
+  },
+  {
+    "title": "Observability and Structural Identifiability of Nonlinear Biological Systems",
+    "authors": ["Alejandro F. Villaverde"],
+    "year": 2019,
+    "venue": "Complexity 2019, 8497093 (arXiv:1812.04525)",
+    "url": "https://arxiv.org/abs/1812.04525",
+    "summary": "Tutorial/review using differential-geometry tools to jointly analyze observability (recovering internal state from outputs) and structural identifiability (uniquely determining parameters from noise-free output data given the model structure alone), providing the formal vocabulary distinguishing structural from practical (data-limited) non-identifiability."
+  },
+  {
+    "title": "Koopman Operators for Generalized Persistence of Excitation Conditions for Nonlinear Systems",
+    "authors": ["Unspecified (Koopman-operator persistence-of-excitation paper)"],
+    "year": 2019,
+    "venue": "arXiv preprint",
+    "url": "https://arxiv.org/abs/1906.10274",
+    "summary": "Reformulates persistent excitation (PE) conditions -- the standard requirement that regressors span enough of state/input space over time for parameter estimates to converge uniquely -- using Koopman operators, including for fixed versus designed initial conditions; a candidate formal mechanism for why chaotic trajectories might satisfy PE-like richness conditions that periodic or quasiperiodic trajectories do not."
+  },
+  {
+    "title": "Let's Do the Time-Warp-Attend: Learning Topological Invariants of Dynamical Systems",
+    "authors": ["Unspecified (time-warp-attend paper authors)"],
+    "year": 2023,
+    "venue": "arXiv preprint",
+    "url": "https://arxiv.org/abs/2312.09234",
+    "summary": "Addresses learning topological invariants and conjugacy classes of dynamical systems; illustrates that two vector fields related by a coordinate change (topological conjugacy, h∘f = g∘h) produce indistinguishable trajectories up to relabeling of state variables -- a structural, exact mechanism for non-identifiability relevant to constructing adversarial coordinate-transform counterexamples."
+  },
+  {
+    "title": "Lorenz-like chaos in NH3-FIR lasers",
+    "authors": ["U. Hübner", "C.-O. Weiss", "N. B. Abraham", "D. Tang"],
+    "year": 1994,
+    "venue": "In: Time Series Prediction: Forecasting the Future and Understanding the Past (A. S. Weigend, N. A. Gershenfeld, eds.), Santa Fe Institute Studies in the Sciences of Complexity, Proc. Vol. XV, Addison-Wesley, pp. 73-104",
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/1350449594000883",
+    "summary": "Source and physical documentation of the Santa Fe Time Series Prediction Competition's Dataset A: a scalar intensity time series digitized from a real far-infrared NH3 ring-laser experiment. The authors document that the laser's intensity pulsations share dimension, entropy, and autocorrelation-decay features with numerically generated Lorenz-equation data, i.e. the physical system is modeled by the Lorenz-Haken equations (a 3-variable system isomorphic to the Lorenz equations) and independently classified as chaotic in this original source -- used in this project (NEXT_STEPS.md item #9, PROJECT_CHARTER.md's bounded real-world-data amendment) as the one permitted real-world benchmark to test whether the SINDy pipeline's synthetic chaos-vs-control findings transfer to genuine experimental data with no known closed-form ground truth. Data obtained via a Wayback Machine mirror of the original host (see DECISION_LOG.md, scripts/download_santafe_laser.py) since the live page is offline."
+  }
+]

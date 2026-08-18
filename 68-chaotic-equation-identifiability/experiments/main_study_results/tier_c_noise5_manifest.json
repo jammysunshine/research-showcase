@@ -1,0 +1,562 @@
+[
+  {
+    "key": "logistic|period_2|0.05|2|0",
+    "family": "logistic",
+    "regime": "period_2",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 0
+  },
+  {
+    "key": "logistic|period_2|0.05|2|1",
+    "family": "logistic",
+    "regime": "period_2",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 1
+  },
+  {
+    "key": "logistic|period_2|0.05|2|2",
+    "family": "logistic",
+    "regime": "period_2",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 2
+  },
+  {
+    "key": "logistic|period_2|0.05|2|3",
+    "family": "logistic",
+    "regime": "period_2",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 3
+  },
+  {
+    "key": "logistic|period_2|0.05|2|4",
+    "family": "logistic",
+    "regime": "period_2",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 4
+  },
+  {
+    "key": "logistic|period_2|0.05|3|0",
+    "family": "logistic",
+    "regime": "period_2",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 0
+  },
+  {
+    "key": "logistic|period_2|0.05|3|1",
+    "family": "logistic",
+    "regime": "period_2",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 1
+  },
+  {
+    "key": "logistic|period_2|0.05|3|2",
+    "family": "logistic",
+    "regime": "period_2",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 2
+  },
+  {
+    "key": "logistic|period_2|0.05|3|3",
+    "family": "logistic",
+    "regime": "period_2",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 3
+  },
+  {
+    "key": "logistic|period_2|0.05|3|4",
+    "family": "logistic",
+    "regime": "period_2",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 4
+  },
+  {
+    "key": "logistic|chaotic|0.05|2|0",
+    "family": "logistic",
+    "regime": "chaotic",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 0
+  },
+  {
+    "key": "logistic|chaotic|0.05|2|1",
+    "family": "logistic",
+    "regime": "chaotic",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 1
+  },
+  {
+    "key": "logistic|chaotic|0.05|2|2",
+    "family": "logistic",
+    "regime": "chaotic",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 2
+  },
+  {
+    "key": "logistic|chaotic|0.05|2|3",
+    "family": "logistic",
+    "regime": "chaotic",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 3
+  },
+  {
+    "key": "logistic|chaotic|0.05|2|4",
+    "family": "logistic",
+    "regime": "chaotic",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 4
+  },
+  {
+    "key": "logistic|chaotic|0.05|3|0",
+    "family": "logistic",
+    "regime": "chaotic",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 0
+  },
+  {
+    "key": "logistic|chaotic|0.05|3|1",
+    "family": "logistic",
+    "regime": "chaotic",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 1
+  },
+  {
+    "key": "logistic|chaotic|0.05|3|2",
+    "family": "logistic",
+    "regime": "chaotic",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 2
+  },
+  {
+    "key": "logistic|chaotic|0.05|3|3",
+    "family": "logistic",
+    "regime": "chaotic",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 3
+  },
+  {
+    "key": "logistic|chaotic|0.05|3|4",
+    "family": "logistic",
+    "regime": "chaotic",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 4
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.05|2|0",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 0
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.05|2|3",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 3
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.05|2|2",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 2
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.05|2|4",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 4
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.05|2|1",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 1
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.05|3|0",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 0
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.05|2|0",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 0
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.05|3|2",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 2
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.05|3|1",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 1
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.05|3|3",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 3
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.05|2|1",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 1
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.05|3|4",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 4
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.05|2|2",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 2
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.05|2|3",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 3
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.05|2|4",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 4
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.05|3|0",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 0
+  },
+  {
+    "key": "harmonic|conservative|0.05|2|0",
+    "family": "harmonic",
+    "regime": "conservative",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 0
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.05|3|2",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 2
+  },
+  {
+    "key": "harmonic|conservative|0.05|2|1",
+    "family": "harmonic",
+    "regime": "conservative",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 1
+  },
+  {
+    "key": "harmonic|conservative|0.05|2|2",
+    "family": "harmonic",
+    "regime": "conservative",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 2
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.05|3|1",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 1
+  },
+  {
+    "key": "harmonic|conservative|0.05|2|3",
+    "family": "harmonic",
+    "regime": "conservative",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 3
+  },
+  {
+    "key": "harmonic|conservative|0.05|2|4",
+    "family": "harmonic",
+    "regime": "conservative",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 4
+  },
+  {
+    "key": "harmonic|conservative|0.05|3|0",
+    "family": "harmonic",
+    "regime": "conservative",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 0
+  },
+  {
+    "key": "harmonic|conservative|0.05|3|1",
+    "family": "harmonic",
+    "regime": "conservative",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 1
+  },
+  {
+    "key": "harmonic|conservative|0.05|3|2",
+    "family": "harmonic",
+    "regime": "conservative",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 2
+  },
+  {
+    "key": "harmonic|conservative|0.05|3|3",
+    "family": "harmonic",
+    "regime": "conservative",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 3
+  },
+  {
+    "key": "harmonic|conservative|0.05|3|4",
+    "family": "harmonic",
+    "regime": "conservative",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 4
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.05|3|3",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 3
+  },
+  {
+    "key": "duffing_unforced|conservative|0.05|2|0",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 0
+  },
+  {
+    "key": "duffing_unforced|conservative|0.05|2|1",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 1
+  },
+  {
+    "key": "duffing_unforced|conservative|0.05|2|2",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 2
+  },
+  {
+    "key": "duffing_unforced|conservative|0.05|2|3",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 3
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.05|3|4",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 4
+  },
+  {
+    "key": "duffing_unforced|conservative|0.05|2|4",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 4
+  },
+  {
+    "key": "duffing_unforced|conservative|0.05|3|0",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 0
+  },
+  {
+    "key": "duffing_unforced|conservative|0.05|3|1",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 1
+  },
+  {
+    "key": "duffing_unforced|conservative|0.05|3|2",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 2
+  },
+  {
+    "key": "duffing_unforced|conservative|0.05|3|3",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 3
+  },
+  {
+    "key": "duffing_unforced|conservative|0.05|3|4",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 4
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.05|2|0",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 0
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.05|2|1",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 1
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.05|2|2",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 2
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.05|2|3",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 3
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.05|2|4",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 4
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.05|3|0",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 0
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.05|3|1",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 1
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.05|3|2",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 2
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.05|3|4",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 4
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.05|3|3",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 3
+  }
+]

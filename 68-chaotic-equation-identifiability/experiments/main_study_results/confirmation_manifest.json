@@ -1,0 +1,114 @@
+[
+  {
+    "regime": "chaotic",
+    "degree": 2,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 23.37898898124695
+  },
+  {
+    "regime": "chaotic",
+    "degree": 2,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 23.376770973205566
+  },
+  {
+    "regime": "chaotic",
+    "degree": 2,
+    "noise_frac": 0.001,
+    "n_seeds": 5,
+    "wall_clock_s": 23.42432689666748
+  },
+  {
+    "regime": "chaotic",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 38.36390399932861
+  },
+  {
+    "regime": "chaotic",
+    "degree": 3,
+    "noise_frac": 0.001,
+    "n_seeds": 5,
+    "wall_clock_s": 38.409740686416626
+  },
+  {
+    "regime": "chaotic",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 38.890748023986816
+  },
+  {
+    "regime": "non_chaotic_control",
+    "degree": 2,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 24.160053730010986
+  },
+  {
+    "regime": "chaotic",
+    "degree": 2,
+    "noise_frac": 0.05,
+    "n_seeds": 5,
+    "wall_clock_s": 24.98826503753662
+  },
+  {
+    "regime": "non_chaotic_control",
+    "degree": 2,
+    "noise_frac": 0.001,
+    "n_seeds": 5,
+    "wall_clock_s": 24.746875047683716
+  },
+  {
+    "regime": "chaotic",
+    "degree": 3,
+    "noise_frac": 0.05,
+    "n_seeds": 5,
+    "wall_clock_s": 43.76580619812012
+  },
+  {
+    "regime": "non_chaotic_control",
+    "degree": 2,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 25.03376531600952
+  },
+  {
+    "regime": "non_chaotic_control",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 39.70248007774353
+  },
+  {
+    "regime": "non_chaotic_control",
+    "degree": 3,
+    "noise_frac": 0.001,
+    "n_seeds": 5,
+    "wall_clock_s": 39.93257117271423
+  },
+  {
+    "regime": "non_chaotic_control",
+    "degree": 2,
+    "noise_frac": 0.05,
+    "n_seeds": 5,
+    "wall_clock_s": 22.563138008117676
+  },
+  {
+    "regime": "non_chaotic_control",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 37.79249715805054
+  },
+  {
+    "regime": "non_chaotic_control",
+    "degree": 3,
+    "noise_frac": 0.05,
+    "n_seeds": 5,
+    "wall_clock_s": 34.897210121154785
+  }
+]

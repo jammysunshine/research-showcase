@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "dataset": "Santa Fe Time Series Competition Dataset A (NH3 far-infrared laser, chaotic)",
+    "source_files": [
+      "data/santafe_laser/A.dat",
+      "data/santafe_laser/A.cont"
+    ],
+    "preprocessing": {
+      "mu": 59.894,
+      "sigma": 46.85198783402898,
+      "n_train_raw": 1000,
+      "n_cont_raw": 9093
+    },
+    "embedding_dim": 3,
+    "stlsq_threshold": 0.1,
+    "degrees": [
+      2,
+      3
+    ],
+    "rollout_horizon": 50,
+    "n_conf_points_used": 2000,
+    "comparison_note": "No dynamically_distinct pass/fail gate computed -- no known true RHS for real data. Compare one_step_rel_rms_err/rollout magnitudes qualitatively against experiments/main_study_results/tier_c_results.json and tier_c_multi_coordinate_results.json's Lorenz classic_chaotic vs. stable_fixed_point one-step-error numbers at the same STLSQ_THRESHOLD=0.1, degree in {2,3} (see DECISION_LOG.md for the actual comparison)."
+  },
+  "records": [
+    {
+      "degree": 2,
+      "tau": 2,
+      "embedding_dim": 3,
+      "n_train_embedded": 996,
+      "n_conf_embedded": 2000,
+      "one_step_rel_rms_err": 0.1510602831327565,
+      "rollout_horizon": 50,
+      "rollout_blew_up": true,
+      "rollout_rel_rms_err": Infinity,
+      "n_nonzero_coeffs": 14,
+      "n_total_coeffs": 30,
+      "sparsity_frac": 0.4666666666666667
+    },
+    {
+      "degree": 3,
+      "tau": 2,
+      "embedding_dim": 3,
+      "n_train_embedded": 996,
+      "n_conf_embedded": 2000,
+      "one_step_rel_rms_err": 0.14982518109835413,
+      "rollout_horizon": 50,
+      "rollout_blew_up": true,
+      "rollout_rel_rms_err": Infinity,
+      "n_nonzero_coeffs": 25,
+      "n_total_coeffs": 60,
+      "sparsity_frac": 0.4166666666666667
+    }
+  ]
+}

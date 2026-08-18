@@ -1,0 +1,58 @@
+[
+  {
+    "rho": 45.0,
+    "degree": 2,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 27.207118034362793
+  },
+  {
+    "rho": 45.0,
+    "degree": 2,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 27.27899694442749
+  },
+  {
+    "rho": 45.0,
+    "degree": 2,
+    "noise_frac": 0.001,
+    "n_seeds": 5,
+    "wall_clock_s": 28.133021116256714
+  },
+  {
+    "rho": 45.0,
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 43.315696239471436
+  },
+  {
+    "rho": 45.0,
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 43.390726804733276
+  },
+  {
+    "rho": 45.0,
+    "degree": 3,
+    "noise_frac": 0.001,
+    "n_seeds": 5,
+    "wall_clock_s": 44.73589777946472
+  },
+  {
+    "rho": 45.0,
+    "degree": 2,
+    "noise_frac": 0.05,
+    "n_seeds": 5,
+    "wall_clock_s": 24.4379940032959
+  },
+  {
+    "rho": 45.0,
+    "degree": 3,
+    "noise_frac": 0.05,
+    "n_seeds": 5,
+    "wall_clock_s": 37.19823408126831
+  }
+]

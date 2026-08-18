@@ -1,0 +1,542 @@
+[
+  {
+    "key": "lorenz|stable_fixed_point|0.0|2|0",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 0,
+    "wall_clock_s": 0.6169097423553467
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.0|2|1",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 1,
+    "wall_clock_s": 0.6397738456726074
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.0|2|2",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 2,
+    "wall_clock_s": 0.6667859554290771
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.0|2|3",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 3,
+    "wall_clock_s": 0.6674008369445801
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.0|2|4",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 4,
+    "wall_clock_s": 0.6635520458221436
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.0|3|0",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 0,
+    "wall_clock_s": 0.7752401828765869
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.0|3|1",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 1,
+    "wall_clock_s": 0.7559471130371094
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.0|3|2",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 2,
+    "wall_clock_s": 0.7338519096374512
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.0|3|3",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 3,
+    "wall_clock_s": 0.708143949508667
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.0|3|4",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 4,
+    "wall_clock_s": 0.7324209213256836
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.01|2|0",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 0,
+    "wall_clock_s": 2.178269863128662
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.01|2|1",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 1,
+    "wall_clock_s": 2.2112021446228027
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.01|2|3",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 3,
+    "wall_clock_s": 2.024559259414673
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.01|2|2",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 2,
+    "wall_clock_s": 2.082038164138794
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.01|2|4",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 4,
+    "wall_clock_s": 2.1809678077697754
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.01|3|0",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 0,
+    "wall_clock_s": 3.220752000808716
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.05|2|0",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 0,
+    "wall_clock_s": 2.5535519123077393
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.01|3|2",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 2,
+    "wall_clock_s": 3.0761752128601074
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.01|3|1",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 1,
+    "wall_clock_s": 3.3954241275787354
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.01|3|3",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 3,
+    "wall_clock_s": 2.9953830242156982
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.01|3|4",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 4,
+    "wall_clock_s": 3.0229480266571045
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.05|2|1",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 1,
+    "wall_clock_s": 2.7223598957061768
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.05|2|3",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 3,
+    "wall_clock_s": 2.1501071453094482
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.05|2|2",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 2,
+    "wall_clock_s": 2.221653938293457
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.05|2|4",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 4,
+    "wall_clock_s": 2.264392852783203
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.05|3|0",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 0,
+    "wall_clock_s": 3.882190704345703
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.05|3|1",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 1,
+    "wall_clock_s": 4.1352550983428955
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.05|3|2",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 2,
+    "wall_clock_s": 3.4333620071411133
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.05|3|3",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 3,
+    "wall_clock_s": 3.0326478481292725
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.0|2|0",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 0,
+    "wall_clock_s": 3.1389691829681396
+  },
+  {
+    "key": "lorenz|stable_fixed_point|0.05|3|4",
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 4,
+    "wall_clock_s": 3.63553786277771
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.0|2|1",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 1,
+    "wall_clock_s": 3.136510133743286
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.0|2|2",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 2,
+    "wall_clock_s": 3.159426212310791
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.0|2|3",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 3,
+    "wall_clock_s": 3.183494806289673
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.0|2|4",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 4,
+    "wall_clock_s": 3.0809569358825684
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.0|3|0",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 0,
+    "wall_clock_s": 3.6297361850738525
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.0|3|1",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 1,
+    "wall_clock_s": 3.3503048419952393
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.0|3|2",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 2,
+    "wall_clock_s": 3.371354103088379
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.01|2|0",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 0,
+    "wall_clock_s": 2.917973041534424
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.0|3|3",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 3,
+    "wall_clock_s": 3.5975449085235596
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.0|3|4",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 4,
+    "wall_clock_s": 3.5158169269561768
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.01|2|1",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 1,
+    "wall_clock_s": 3.156879186630249
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.01|2|2",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 2,
+    "wall_clock_s": 3.3313958644866943
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.01|2|3",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 3,
+    "wall_clock_s": 3.3423361778259277
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.01|2|4",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 4,
+    "wall_clock_s": 3.2631680965423584
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.01|3|1",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 1,
+    "wall_clock_s": 3.7908148765563965
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.01|3|0",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 0,
+    "wall_clock_s": 3.967237710952759
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.01|3|2",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 2,
+    "wall_clock_s": 3.531919002532959
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.01|3|3",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 3,
+    "wall_clock_s": 3.6200740337371826
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.05|2|0",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 0,
+    "wall_clock_s": 3.0064170360565186
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.01|3|4",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 4,
+    "wall_clock_s": 3.6439387798309326
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.05|2|2",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 2,
+    "wall_clock_s": 3.0390870571136475
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.05|2|1",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 1,
+    "wall_clock_s": 3.0492501258850098
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.05|2|3",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 3,
+    "wall_clock_s": 3.0046112537384033
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.05|2|4",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 4,
+    "wall_clock_s": 2.9339470863342285
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.05|3|0",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 0,
+    "wall_clock_s": 3.453361988067627
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.05|3|1",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 1,
+    "wall_clock_s": 3.6830577850341797
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.05|3|2",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 2,
+    "wall_clock_s": 3.5020453929901123
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.05|3|3",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 3,
+    "wall_clock_s": 3.940119981765747
+  },
+  {
+    "key": "lorenz|classic_chaotic|0.05|3|4",
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 4,
+    "wall_clock_s": 3.5209710597991943
+  }
+]

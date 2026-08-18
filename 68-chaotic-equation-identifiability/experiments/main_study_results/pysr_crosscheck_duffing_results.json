@@ -1,0 +1,380 @@
+[
+  {
+    "key": "duffing_forced|forced_chaotic|0.0|0",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.0,
+    "seed": 0,
+    "wall_clock_s": 848.1399927139282,
+    "equations": [
+      "v*x*x*(-2.3824972e-5) + v",
+      "x*(0.9151379 - x*x)",
+      "1.20000000000000"
+    ],
+    "feature_names": [
+      "x",
+      "v",
+      "phi"
+    ],
+    "vf_l2_err_confirmation": 0.20871468144811722,
+    "vf_l2_err_off_attractor_grid": 0.2586732544098447,
+    "dynamically_distinct": true,
+    "dynamically_distinct_off_attractor": true
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.0|1",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.0,
+    "seed": 1,
+    "wall_clock_s": 486.4521381855011,
+    "equations": [
+      "v*(x*x*(-2.7442413e-5) + 1.0000044)",
+      "-x*x*x + x",
+      "1.20000000000000"
+    ],
+    "feature_names": [
+      "x",
+      "v",
+      "phi"
+    ],
+    "vf_l2_err_confirmation": 0.2144358695518226,
+    "vf_l2_err_off_attractor_grid": 0.27352633212748056,
+    "dynamically_distinct": true,
+    "dynamically_distinct_off_attractor": true
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.0|2",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.0,
+    "seed": 2,
+    "wall_clock_s": 436.8906328678131,
+    "equations": [
+      "x*v*x*(-2.3268894e-5) + v",
+      "-x*x*x + x",
+      "1.20000000000000"
+    ],
+    "feature_names": [
+      "x",
+      "v",
+      "phi"
+    ],
+    "vf_l2_err_confirmation": 0.22193021067389784,
+    "vf_l2_err_off_attractor_grid": 0.26321781471778277,
+    "dynamically_distinct": true,
+    "dynamically_distinct_off_attractor": true
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.01|0",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.01,
+    "seed": 0,
+    "wall_clock_s": 855.3797690868378,
+    "equations": [
+      "v - (-1)*0.0026935707/(v*(phi - 0.46791968))",
+      "x*x*x*(-0.3705801)",
+      "1.1913317 + 1.0261637/(((phi + x*(-0.569582))*(v/x + 1.1680596)))"
+    ],
+    "feature_names": [
+      "x",
+      "v",
+      "phi"
+    ],
+    "vf_l2_err_confirmation": 2.235999115248106,
+    "vf_l2_err_off_attractor_grid": 0.5493236319546404,
+    "dynamically_distinct": true,
+    "dynamically_distinct_off_attractor": true
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.01|1",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.01,
+    "seed": 1,
+    "wall_clock_s": 592.2476348876953,
+    "equations": [
+      "v + 0.000481084/(phi - 1*0.24362464)",
+      "x*(0.9282168 - x*x)",
+      "1.1989075 - (-1)*0.72720736/(phi - 16.102385)"
+    ],
+    "feature_names": [
+      "x",
+      "v",
+      "phi"
+    ],
+    "vf_l2_err_confirmation": 2.1690238821641383,
+    "vf_l2_err_off_attractor_grid": 0.28277876419800235,
+    "dynamically_distinct": true,
+    "dynamically_distinct_off_attractor": true
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.01|2",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.01,
+    "seed": 2,
+    "wall_clock_s": 392.09065532684326,
+    "equations": [
+      "v + 0.016960962/(phi + v*1.9056407 - 7.018164)",
+      "x*(0.9248857 - x*x)",
+      "1.2306913 - 0.0013193308/(v - 0.033587854) - (-1)*0.0017119693/(v - 0.38638395)"
+    ],
+    "feature_names": [
+      "x",
+      "v",
+      "phi"
+    ],
+    "vf_l2_err_confirmation": 1.8804147201491417,
+    "vf_l2_err_off_attractor_grid": 0.2737607449866777,
+    "dynamically_distinct": true,
+    "dynamically_distinct_off_attractor": true
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.05|0",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.05,
+    "seed": 0,
+    "wall_clock_s": 412.2755661010742,
+    "equations": [
+      "v - (-1)*0.02490671/(phi - 1*1.283527)",
+      "x*x*x*(-0.3636236)",
+      "1.2159175/(((phi - 1.7729138)*(x*(-1.3736846) - x + 1.2159175)))"
+    ],
+    "feature_names": [
+      "x",
+      "v",
+      "phi"
+    ],
+    "vf_l2_err_confirmation": 3.043861041271639,
+    "vf_l2_err_off_attractor_grid": 0.8101838843923659,
+    "dynamically_distinct": true,
+    "dynamically_distinct_off_attractor": true
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.05|1",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.05,
+    "seed": 1,
+    "wall_clock_s": 881.8809609413147,
+    "equations": [
+      "v + 0.0029203466/(phi*(v - 0.2657238))",
+      "x*(0.9379651 - x*x)",
+      "v/(v - 0.0034130912)"
+    ],
+    "feature_names": [
+      "x",
+      "v",
+      "phi"
+    ],
+    "vf_l2_err_confirmation": 0.46574363084743803,
+    "vf_l2_err_off_attractor_grid": 0.36608623864746465,
+    "dynamically_distinct": true,
+    "dynamically_distinct_off_attractor": true
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.05|2",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.05,
+    "seed": 2,
+    "wall_clock_s": 652.6798620223999,
+    "equations": [
+      "v - 0.01157493/(phi*(0.401483 - x))",
+      "x*(0.9337707 - x*x)",
+      "0.45379558/(phi - 1*12.8364525)"
+    ],
+    "feature_names": [
+      "x",
+      "v",
+      "phi"
+    ],
+    "vf_l2_err_confirmation": 1.3654293160088213,
+    "vf_l2_err_off_attractor_grid": 0.8211196063209372,
+    "dynamically_distinct": true,
+    "dynamically_distinct_off_attractor": true
+  },
+  {
+    "key": "duffing_unforced|conservative|0.0|0",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.0,
+    "seed": 0,
+    "wall_clock_s": 617.2303376197815,
+    "equations": [
+      "-(-1.0000106)*v + v*x*2.2486074e-5/(-0.70377636/x)",
+      "x*(x*x*(-0.99991155) + 0.9998026) + 9.421455e-5"
+    ],
+    "feature_names": [
+      "x",
+      "v"
+    ],
+    "vf_l2_err_confirmation": 3.0575494260859e-05,
+    "vf_l2_err_off_attractor_grid": 7.87166834997794e-05,
+    "dynamically_distinct": false,
+    "dynamically_distinct_off_attractor": false
+  },
+  {
+    "key": "duffing_unforced|conservative|0.0|1",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.0,
+    "seed": 1,
+    "wall_clock_s": 655.8226461410522,
+    "equations": [
+      "v - (x*(x - 0.028435895)*v*(-0.0001126018) - (-3.549173e-5)*v)/(-3.4645066)",
+      "-x*(x*x*0.9999114 - 1*0.999802) + x - (x - 1*9.5064526e-5)"
+    ],
+    "feature_names": [
+      "x",
+      "v"
+    ],
+    "vf_l2_err_confirmation": 3.1837176800592165e-05,
+    "vf_l2_err_off_attractor_grid": 7.901691909057167e-05,
+    "dynamically_distinct": false,
+    "dynamically_distinct_off_attractor": false
+  },
+  {
+    "key": "duffing_unforced|conservative|0.0|2",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.0,
+    "seed": 2,
+    "wall_clock_s": 729.2868180274963,
+    "equations": [
+      "v*(x*x*(-3.2034415e-5) + 1.069898e-5) + v",
+      "(-x + v/v)*(x*x*0.9997313 - (-1.0002183)*x) - 0.26704872 - 1*(-0.2670317)"
+    ],
+    "feature_names": [
+      "x",
+      "v"
+    ],
+    "vf_l2_err_confirmation": 3.1103733902419356e-05,
+    "vf_l2_err_off_attractor_grid": 0.0003708143220695086,
+    "dynamically_distinct": false,
+    "dynamically_distinct_off_attractor": false
+  },
+  {
+    "key": "duffing_unforced|conservative|0.01|0",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.01,
+    "seed": 0,
+    "wall_clock_s": 573.3713791370392,
+    "equations": [
+      "v + 3.6358642e-6/(0.35013372 - v)",
+      "0.8300615 - x*x"
+    ],
+    "feature_names": [
+      "x",
+      "v"
+    ],
+    "vf_l2_err_confirmation": 0.20486790977576852,
+    "vf_l2_err_off_attractor_grid": 1.0469164824078365,
+    "dynamically_distinct": true,
+    "dynamically_distinct_off_attractor": true
+  },
+  {
+    "key": "duffing_unforced|conservative|0.01|1",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.01,
+    "seed": 1,
+    "wall_clock_s": 14226.555650949478,
+    "equations": [
+      "v + 4.760573e-6/(0.6620014 - x)",
+      "0.83447397 - x*x"
+    ],
+    "feature_names": [
+      "x",
+      "v"
+    ],
+    "vf_l2_err_confirmation": 0.2393464348245197,
+    "vf_l2_err_off_attractor_grid": 1.046063647012263,
+    "dynamically_distinct": true,
+    "dynamically_distinct_off_attractor": true
+  },
+  {
+    "key": "duffing_unforced|conservative|0.01|2",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.01,
+    "seed": 2,
+    "wall_clock_s": 569.064905166626,
+    "equations": [
+      "v + 1.736798e-5/(v*1.1534007 + 0.26098073)",
+      "0.8311719 - x*x"
+    ],
+    "feature_names": [
+      "x",
+      "v"
+    ],
+    "vf_l2_err_confirmation": 0.20598468780521417,
+    "vf_l2_err_off_attractor_grid": 1.0761570816441797,
+    "dynamically_distinct": true,
+    "dynamically_distinct_off_attractor": true
+  },
+  {
+    "key": "duffing_unforced|conservative|0.05|0",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.05,
+    "seed": 0,
+    "wall_clock_s": 228.37223505973816,
+    "equations": [
+      "v - 6.548163e-5/(x - 0.9472926)",
+      "0.865139 - x"
+    ],
+    "feature_names": [
+      "x",
+      "v"
+    ],
+    "vf_l2_err_confirmation": 0.38397836549016895,
+    "vf_l2_err_off_attractor_grid": 0.9131378784052434,
+    "dynamically_distinct": true,
+    "dynamically_distinct_off_attractor": true
+  },
+  {
+    "key": "duffing_unforced|conservative|0.05|1",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.05,
+    "seed": 1,
+    "wall_clock_s": 210.10043478012085,
+    "equations": [
+      "v - 4.0427476e-6/(-v - 0.35069773)",
+      "0.8697261 - x"
+    ],
+    "feature_names": [
+      "x",
+      "v"
+    ],
+    "vf_l2_err_confirmation": 0.385461846805316,
+    "vf_l2_err_off_attractor_grid": 0.9122655002649064,
+    "dynamically_distinct": true,
+    "dynamically_distinct_off_attractor": true
+  },
+  {
+    "key": "duffing_unforced|conservative|0.05|2",
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "noise_frac": 0.05,
+    "seed": 2,
+    "wall_clock_s": 209.37768006324768,
+    "equations": [
+      "v - 2.4511624e-5/(x - 1*0.8026108)",
+      "0.86652625 - x"
+    ],
+    "feature_names": [
+      "x",
+      "v"
+    ],
+    "vf_l2_err_confirmation": 0.3824364925955519,
+    "vf_l2_err_off_attractor_grid": 0.9075430536916164,
+    "dynamically_distinct": true,
+    "dynamically_distinct_off_attractor": true
+  }
+]

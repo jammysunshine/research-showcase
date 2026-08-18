@@ -1,0 +1,134 @@
+[
+  {
+    "family": "logistic",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "koopman_one_step_raw_ratio": 5.02141165061065,
+    "koopman_one_step_raw_control_median": 2.6134200862792935e-16,
+    "koopman_one_step_raw_chaotic_median": 1.3123058069182734e-15,
+    "koopman_one_step_normalized_ratio": 2.510585828159483,
+    "koopman_one_step_normalized_control_median": 2.6134200862792935e-16,
+    "koopman_one_step_normalized_chaotic_median": 6.561215431640127e-16
+  },
+  {
+    "family": "logistic",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "koopman_one_step_raw_ratio": 11.448273439195598,
+    "koopman_one_step_raw_control_median": 1.6528719910952657e-16,
+    "koopman_one_step_raw_chaotic_median": 1.8922530514046274e-15,
+    "koopman_one_step_normalized_ratio": 5.723863139132163,
+    "koopman_one_step_normalized_control_median": 1.6528719910952657e-16,
+    "koopman_one_step_normalized_chaotic_median": 9.460813063534176e-16
+  },
+  {
+    "family": "logistic",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "koopman_one_step_raw_ratio": 5.740475819465681,
+    "koopman_one_step_raw_control_median": 0.0030083304316730515,
+    "koopman_one_step_raw_chaotic_median": 0.017269248099981906,
+    "koopman_one_step_normalized_ratio": 2.8701007290430183,
+    "koopman_one_step_normalized_control_median": 0.0030083304316730515,
+    "koopman_one_step_normalized_chaotic_median": 0.008634211365147124
+  },
+  {
+    "family": "logistic",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "koopman_one_step_raw_ratio": 8.170753092160629,
+    "koopman_one_step_raw_control_median": 0.002113719333809817,
+    "koopman_one_step_raw_chaotic_median": 0.017270678782686268,
+    "koopman_one_step_normalized_ratio": 4.085181288826248,
+    "koopman_one_step_normalized_control_median": 0.002113719333809817,
+    "koopman_one_step_normalized_chaotic_median": 0.008634926672310146
+  },
+  {
+    "family": "logistic",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "koopman_one_step_raw_ratio": 5.699645655915849,
+    "koopman_one_step_raw_control_median": 0.01503252177810786,
+    "koopman_one_step_raw_chaotic_median": 0.08568004745005285,
+    "koopman_one_step_normalized_ratio": 2.849686622990356,
+    "koopman_one_step_normalized_control_median": 0.01503252177810786,
+    "koopman_one_step_normalized_chaotic_median": 0.042837976220885164
+  },
+  {
+    "family": "logistic",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "koopman_one_step_raw_ratio": 8.073986688112987,
+    "koopman_one_step_raw_control_median": 0.010611327843682569,
+    "koopman_one_step_raw_chaotic_median": 0.08567571975309574,
+    "koopman_one_step_normalized_ratio": 4.036800399238272,
+    "koopman_one_step_normalized_control_median": 0.010611327843682569,
+    "koopman_one_step_normalized_chaotic_median": 0.042835812475825984
+  },
+  {
+    "family": "lorenz",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "koopman_one_step_raw_ratio": 2399615.2009117836,
+    "koopman_one_step_raw_control_median": 1.504485161668567e-11,
+    "koopman_one_step_raw_chaotic_median": 3.610185463486116e-05,
+    "koopman_one_step_normalized_ratio": 2395270.959511419,
+    "koopman_one_step_normalized_control_median": 1.504485161668567e-11,
+    "koopman_one_step_normalized_chaotic_median": 3.603649616760561e-05
+  },
+  {
+    "family": "lorenz",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "koopman_one_step_raw_ratio": 1006.2580188843034,
+    "koopman_one_step_raw_control_median": 7.53547947141243e-11,
+    "koopman_one_step_raw_chaotic_median": 7.582636644246809e-08,
+    "koopman_one_step_normalized_ratio": 1004.4362985753868,
+    "koopman_one_step_normalized_control_median": 7.53547947141243e-11,
+    "koopman_one_step_normalized_chaotic_median": 7.568909108256313e-08
+  },
+  {
+    "family": "lorenz",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "koopman_one_step_raw_ratio": 10.971045308241829,
+    "koopman_one_step_raw_control_median": 0.0006726532418626027,
+    "koopman_one_step_raw_chaotic_median": 0.007379709193210363,
+    "koopman_one_step_normalized_ratio": 10.951183428214051,
+    "koopman_one_step_normalized_control_median": 0.0006726532418626027,
+    "koopman_one_step_normalized_chaotic_median": 0.0073663490352201925
+  },
+  {
+    "family": "lorenz",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "koopman_one_step_raw_ratio": 10.83855622622912,
+    "koopman_one_step_raw_control_median": 0.0006729481160364126,
+    "koopman_one_step_raw_chaotic_median": 0.007293785992995616,
+    "koopman_one_step_normalized_ratio": 10.818934203222984,
+    "koopman_one_step_normalized_control_median": 0.0006729481160364126,
+    "koopman_one_step_normalized_chaotic_median": 0.007280581389580813
+  },
+  {
+    "family": "lorenz",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "koopman_one_step_raw_ratio": 10.869848403883372,
+    "koopman_one_step_raw_control_median": 0.0033631192669246576,
+    "koopman_one_step_raw_chaotic_median": 0.03655659659565041,
+    "koopman_one_step_normalized_ratio": 10.850169729805172,
+    "koopman_one_step_normalized_control_median": 0.0033631192669246576,
+    "koopman_one_step_normalized_chaotic_median": 0.03649041486771048
+  },
+  {
+    "family": "lorenz",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "koopman_one_step_raw_ratio": 10.456157448987492,
+    "koopman_one_step_raw_control_median": 0.0033647367516572487,
+    "koopman_one_step_raw_chaotic_median": 0.03518221724972292,
+    "koopman_one_step_normalized_ratio": 10.437227717228264,
+    "koopman_one_step_normalized_control_median": 0.0033647367516572487,
+    "koopman_one_step_normalized_chaotic_median": 0.03511852368557363
+  }
+]

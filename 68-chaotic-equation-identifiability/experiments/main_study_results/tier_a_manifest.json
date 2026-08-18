@@ -1,0 +1,1058 @@
+[
+  {
+    "family": "logistic",
+    "regime": "period_2",
+    "degree": 2,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 0.09255099296569824
+  },
+  {
+    "family": "logistic",
+    "regime": "period_2",
+    "degree": 2,
+    "noise_frac": 0.001,
+    "n_seeds": 5,
+    "wall_clock_s": 0.10005879402160645
+  },
+  {
+    "family": "logistic",
+    "regime": "period_2",
+    "degree": 2,
+    "noise_frac": 0.05,
+    "n_seeds": 5,
+    "wall_clock_s": 0.09486579895019531
+  },
+  {
+    "family": "logistic",
+    "regime": "period_2",
+    "degree": 2,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 0.1015617847442627
+  },
+  {
+    "family": "logistic",
+    "regime": "period_4",
+    "degree": 2,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 0.09522318840026855
+  },
+  {
+    "family": "logistic",
+    "regime": "period_4",
+    "degree": 2,
+    "noise_frac": 0.001,
+    "n_seeds": 5,
+    "wall_clock_s": 0.09407401084899902
+  },
+  {
+    "family": "logistic",
+    "regime": "period_4",
+    "degree": 2,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 0.09496808052062988
+  },
+  {
+    "family": "logistic",
+    "regime": "period_4",
+    "degree": 2,
+    "noise_frac": 0.05,
+    "n_seeds": 5,
+    "wall_clock_s": 0.09482693672180176
+  },
+  {
+    "family": "logistic",
+    "regime": "period_3_window",
+    "degree": 2,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 0.09501290321350098
+  },
+  {
+    "family": "logistic",
+    "regime": "period_3_window",
+    "degree": 2,
+    "noise_frac": 0.001,
+    "n_seeds": 5,
+    "wall_clock_s": 0.09375715255737305
+  },
+  {
+    "family": "logistic",
+    "regime": "period_3_window",
+    "degree": 2,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 0.09860897064208984
+  },
+  {
+    "family": "logistic",
+    "regime": "period_3_window",
+    "degree": 2,
+    "noise_frac": 0.05,
+    "n_seeds": 5,
+    "wall_clock_s": 0.09492874145507812
+  },
+  {
+    "family": "logistic",
+    "regime": "chaotic",
+    "degree": 2,
+    "noise_frac": 0.001,
+    "n_seeds": 5,
+    "wall_clock_s": 0.05554008483886719
+  },
+  {
+    "family": "logistic",
+    "regime": "chaotic",
+    "degree": 2,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 0.10132503509521484
+  },
+  {
+    "family": "logistic",
+    "regime": "period_2",
+    "degree": 3,
+    "noise_frac": 0.001,
+    "n_seeds": 5,
+    "wall_clock_s": 0.07888317108154297
+  },
+  {
+    "family": "logistic",
+    "regime": "chaotic",
+    "degree": 2,
+    "noise_frac": 0.05,
+    "n_seeds": 5,
+    "wall_clock_s": 0.09821295738220215
+  },
+  {
+    "family": "logistic",
+    "regime": "chaotic",
+    "degree": 2,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 0.10341811180114746
+  },
+  {
+    "family": "logistic",
+    "regime": "period_2",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 0.10206103324890137
+  },
+  {
+    "family": "logistic",
+    "regime": "period_2",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 0.07971596717834473
+  },
+  {
+    "family": "logistic",
+    "regime": "period_2",
+    "degree": 3,
+    "noise_frac": 0.05,
+    "n_seeds": 5,
+    "wall_clock_s": 0.07343292236328125
+  },
+  {
+    "family": "logistic",
+    "regime": "period_4",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 0.09832501411437988
+  },
+  {
+    "family": "logistic",
+    "regime": "period_4",
+    "degree": 3,
+    "noise_frac": 0.001,
+    "n_seeds": 5,
+    "wall_clock_s": 0.10277414321899414
+  },
+  {
+    "family": "logistic",
+    "regime": "period_4",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 0.10044217109680176
+  },
+  {
+    "family": "logistic",
+    "regime": "period_4",
+    "degree": 3,
+    "noise_frac": 0.05,
+    "n_seeds": 5,
+    "wall_clock_s": 0.10470199584960938
+  },
+  {
+    "family": "logistic",
+    "regime": "period_3_window",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 0.10590887069702148
+  },
+  {
+    "family": "logistic",
+    "regime": "period_3_window",
+    "degree": 3,
+    "noise_frac": 0.001,
+    "n_seeds": 5,
+    "wall_clock_s": 0.10694003105163574
+  },
+  {
+    "family": "logistic",
+    "regime": "chaotic",
+    "degree": 3,
+    "noise_frac": 0.001,
+    "n_seeds": 5,
+    "wall_clock_s": 0.05676913261413574
+  },
+  {
+    "family": "logistic",
+    "regime": "period_3_window",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 0.10681390762329102
+  },
+  {
+    "family": "logistic",
+    "regime": "period_3_window",
+    "degree": 3,
+    "noise_frac": 0.05,
+    "n_seeds": 5,
+    "wall_clock_s": 0.1002190113067627
+  },
+  {
+    "family": "logistic",
+    "regime": "chaotic",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 0.10076308250427246
+  },
+  {
+    "family": "logistic",
+    "regime": "chaotic",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 0.1054999828338623
+  },
+  {
+    "family": "logistic",
+    "regime": "chaotic",
+    "degree": 3,
+    "noise_frac": 0.05,
+    "n_seeds": 5,
+    "wall_clock_s": 0.09335803985595703
+  },
+  {
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "degree": 2,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 20.431458950042725
+  },
+  {
+    "family": "lorenz",
+    "regime": "pre_chaotic",
+    "degree": 2,
+    "noise_frac": 0.001,
+    "n_seeds": 5,
+    "wall_clock_s": 28.282102823257446
+  },
+  {
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "degree": 2,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 60.63523507118225
+  },
+  {
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "degree": 2,
+    "noise_frac": 0.001,
+    "n_seeds": 5,
+    "wall_clock_s": 60.666648864746094
+  },
+  {
+    "family": "lorenz",
+    "regime": "pre_chaotic",
+    "degree": 2,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 61.570136070251465
+  },
+  {
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "degree": 2,
+    "noise_frac": 0.05,
+    "n_seeds": 5,
+    "wall_clock_s": 61.73026728630066
+  },
+  {
+    "family": "lorenz",
+    "regime": "pre_chaotic",
+    "degree": 2,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 62.147249937057495
+  },
+  {
+    "family": "lorenz",
+    "regime": "near_onset",
+    "degree": 2,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 29.613396883010864
+  },
+  {
+    "family": "lorenz",
+    "regime": "near_onset",
+    "degree": 2,
+    "noise_frac": 0.001,
+    "n_seeds": 5,
+    "wall_clock_s": 29.669079065322876
+  },
+  {
+    "family": "lorenz",
+    "regime": "pre_chaotic",
+    "degree": 2,
+    "noise_frac": 0.05,
+    "n_seeds": 5,
+    "wall_clock_s": 62.555078983306885
+  },
+  {
+    "family": "lorenz",
+    "regime": "near_onset",
+    "degree": 2,
+    "noise_frac": 0.05,
+    "n_seeds": 5,
+    "wall_clock_s": 29.931493997573853
+  },
+  {
+    "family": "lorenz",
+    "regime": "near_onset",
+    "degree": 2,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 30.20369601249695
+  },
+  {
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "degree": 2,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 46.25949001312256
+  },
+  {
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "degree": 2,
+    "noise_frac": 0.001,
+    "n_seeds": 5,
+    "wall_clock_s": 47.79373812675476
+  },
+  {
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "degree": 2,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 47.82202196121216
+  },
+  {
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "degree": 2,
+    "noise_frac": 0.05,
+    "n_seeds": 5,
+    "wall_clock_s": 47.43877911567688
+  },
+  {
+    "family": "lorenz",
+    "regime": "high_rho_chaotic",
+    "degree": 2,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 79.33205103874207
+  },
+  {
+    "family": "lorenz",
+    "regime": "high_rho_chaotic",
+    "degree": 2,
+    "noise_frac": 0.001,
+    "n_seeds": 5,
+    "wall_clock_s": 79.3316159248352
+  },
+  {
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 61.53234314918518
+  },
+  {
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "degree": 3,
+    "noise_frac": 0.001,
+    "n_seeds": 5,
+    "wall_clock_s": 61.493876934051514
+  },
+  {
+    "family": "lorenz",
+    "regime": "high_rho_chaotic",
+    "degree": 2,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 82.31096410751343
+  },
+  {
+    "family": "lorenz",
+    "regime": "high_rho_chaotic",
+    "degree": 2,
+    "noise_frac": 0.05,
+    "n_seeds": 5,
+    "wall_clock_s": 82.49561905860901
+  },
+  {
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 61.79644799232483
+  },
+  {
+    "family": "lorenz",
+    "regime": "stable_fixed_point",
+    "degree": 3,
+    "noise_frac": 0.05,
+    "n_seeds": 5,
+    "wall_clock_s": 64.1083390712738
+  },
+  {
+    "family": "lorenz",
+    "regime": "pre_chaotic",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 62.92354607582092
+  },
+  {
+    "family": "lorenz",
+    "regime": "pre_chaotic",
+    "degree": 3,
+    "noise_frac": 0.001,
+    "n_seeds": 5,
+    "wall_clock_s": 62.797045946121216
+  },
+  {
+    "family": "lorenz",
+    "regime": "pre_chaotic",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 66.02510714530945
+  },
+  {
+    "family": "lorenz",
+    "regime": "pre_chaotic",
+    "degree": 3,
+    "noise_frac": 0.05,
+    "n_seeds": 5,
+    "wall_clock_s": 64.72203707695007
+  },
+  {
+    "family": "lorenz",
+    "regime": "near_onset",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 77.02191996574402
+  },
+  {
+    "family": "lorenz",
+    "regime": "near_onset",
+    "degree": 3,
+    "noise_frac": 0.001,
+    "n_seeds": 5,
+    "wall_clock_s": 77.18237805366516
+  },
+  {
+    "family": "lorenz",
+    "regime": "near_onset",
+    "degree": 3,
+    "noise_frac": 0.05,
+    "n_seeds": 5,
+    "wall_clock_s": 75.26487112045288
+  },
+  {
+    "family": "lorenz",
+    "regime": "near_onset",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 77.84667897224426
+  },
+  {
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 78.7918028831482
+  },
+  {
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "degree": 3,
+    "noise_frac": 0.001,
+    "n_seeds": 5,
+    "wall_clock_s": 78.97017693519592
+  },
+  {
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 79.37517499923706
+  },
+  {
+    "family": "lorenz",
+    "regime": "classic_chaotic",
+    "degree": 3,
+    "noise_frac": 0.05,
+    "n_seeds": 5,
+    "wall_clock_s": 78.95896220207214
+  },
+  {
+    "family": "harmonic",
+    "regime": "conservative",
+    "degree": 2,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 30.464776754379272
+  },
+  {
+    "family": "harmonic",
+    "regime": "conservative",
+    "degree": 2,
+    "noise_frac": 0.001,
+    "n_seeds": 5,
+    "wall_clock_s": 30.570369720458984
+  },
+  {
+    "family": "lorenz",
+    "regime": "high_rho_chaotic",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 92.7260422706604
+  },
+  {
+    "family": "lorenz",
+    "regime": "high_rho_chaotic",
+    "degree": 3,
+    "noise_frac": 0.001,
+    "n_seeds": 5,
+    "wall_clock_s": 92.78352117538452
+  },
+  {
+    "family": "lorenz",
+    "regime": "high_rho_chaotic",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 93.43558502197266
+  },
+  {
+    "family": "harmonic",
+    "regime": "conservative",
+    "degree": 2,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 30.68177103996277
+  },
+  {
+    "family": "harmonic",
+    "regime": "conservative",
+    "degree": 2,
+    "noise_frac": 0.05,
+    "n_seeds": 5,
+    "wall_clock_s": 30.649588108062744
+  },
+  {
+    "family": "lorenz",
+    "regime": "high_rho_chaotic",
+    "degree": 3,
+    "noise_frac": 0.05,
+    "n_seeds": 5,
+    "wall_clock_s": 93.59062123298645
+  },
+  {
+    "family": "harmonic",
+    "regime": "conservative",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 42.832627058029175
+  },
+  {
+    "family": "harmonic",
+    "regime": "conservative",
+    "degree": 3,
+    "noise_frac": 0.001,
+    "n_seeds": 5,
+    "wall_clock_s": 41.79790496826172
+  },
+  {
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "degree": 2,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 38.51761507987976
+  },
+  {
+    "family": "harmonic",
+    "regime": "conservative",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 42.50195002555847
+  },
+  {
+    "family": "harmonic",
+    "regime": "conservative",
+    "degree": 3,
+    "noise_frac": 0.05,
+    "n_seeds": 5,
+    "wall_clock_s": 41.90188813209534
+  },
+  {
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "degree": 2,
+    "noise_frac": 0.001,
+    "n_seeds": 5,
+    "wall_clock_s": 39.07750701904297
+  },
+  {
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "degree": 2,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 39.10275101661682
+  },
+  {
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "degree": 2,
+    "noise_frac": 0.05,
+    "n_seeds": 5,
+    "wall_clock_s": 38.763147830963135
+  },
+  {
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 51.61032295227051
+  },
+  {
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 52.74613618850708
+  },
+  {
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "degree": 3,
+    "noise_frac": 0.001,
+    "n_seeds": 5,
+    "wall_clock_s": 52.264776945114136
+  },
+  {
+    "family": "duffing_unforced",
+    "regime": "conservative",
+    "degree": 3,
+    "noise_frac": 0.05,
+    "n_seeds": 5,
+    "wall_clock_s": 47.87247109413147
+  },
+  {
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "degree": 2,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 54.16417193412781
+  },
+  {
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "degree": 2,
+    "noise_frac": 0.001,
+    "n_seeds": 5,
+    "wall_clock_s": 54.22084879875183
+  },
+  {
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "degree": 2,
+    "noise_frac": 0.05,
+    "n_seeds": 5,
+    "wall_clock_s": 53.810471296310425
+  },
+  {
+    "family": "logistic_short",
+    "regime": "period_2",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 0.19060492515563965
+  },
+  {
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "degree": 2,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 54.032811880111694
+  },
+  {
+    "family": "logistic_short",
+    "regime": "period_2",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 0.1683638095855713
+  },
+  {
+    "family": "logistic_short",
+    "regime": "period_4",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 0.17632794380187988
+  },
+  {
+    "family": "logistic_short",
+    "regime": "period_4",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 0.19940590858459473
+  },
+  {
+    "family": "logistic_short",
+    "regime": "period_3_window",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 0.18170380592346191
+  },
+  {
+    "family": "logistic_short",
+    "regime": "period_3_window",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 0.1726851463317871
+  },
+  {
+    "family": "logistic_short",
+    "regime": "chaotic",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 0.17415308952331543
+  },
+  {
+    "family": "logistic_short",
+    "regime": "chaotic",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 0.1555328369140625
+  },
+  {
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 68.21254706382751
+  },
+  {
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "degree": 3,
+    "noise_frac": 0.001,
+    "n_seeds": 5,
+    "wall_clock_s": 68.29996013641357
+  },
+  {
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 68.54197192192078
+  },
+  {
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "degree": 3,
+    "noise_frac": 0.05,
+    "n_seeds": 5,
+    "wall_clock_s": 68.75765204429626
+  },
+  {
+    "family": "lorenz_short",
+    "regime": "stable_fixed_point",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 61.60998487472534
+  },
+  {
+    "family": "lorenz_short",
+    "regime": "stable_fixed_point",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 61.53349304199219
+  },
+  {
+    "family": "lorenz_short",
+    "regime": "pre_chaotic",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 62.19415283203125
+  },
+  {
+    "family": "lorenz_short",
+    "regime": "pre_chaotic",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 62.361186027526855
+  },
+  {
+    "family": "lorenz_short",
+    "regime": "near_onset",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 63.36356568336487
+  },
+  {
+    "family": "lorenz_short",
+    "regime": "near_onset",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 63.562726974487305
+  },
+  {
+    "family": "logistic_long",
+    "regime": "period_2",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 1.7551460266113281
+  },
+  {
+    "family": "logistic_long",
+    "regime": "period_2",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 0.8199169635772705
+  },
+  {
+    "family": "logistic_long",
+    "regime": "period_4",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 1.67203688621521
+  },
+  {
+    "family": "logistic_long",
+    "regime": "period_4",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 1.7200510501861572
+  },
+  {
+    "family": "logistic_long",
+    "regime": "period_3_window",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 1.671497106552124
+  },
+  {
+    "family": "logistic_long",
+    "regime": "period_3_window",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 1.6981008052825928
+  },
+  {
+    "family": "logistic_long",
+    "regime": "chaotic",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 1.7518842220306396
+  },
+  {
+    "family": "logistic_long",
+    "regime": "chaotic",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 1.8028371334075928
+  },
+  {
+    "family": "lorenz_short",
+    "regime": "classic_chaotic",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 64.33903217315674
+  },
+  {
+    "family": "lorenz_short",
+    "regime": "classic_chaotic",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 64.43065094947815
+  },
+  {
+    "family": "lorenz_short",
+    "regime": "high_rho_chaotic",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 69.02551293373108
+  },
+  {
+    "family": "lorenz_short",
+    "regime": "high_rho_chaotic",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 69.88344097137451
+  },
+  {
+    "family": "lorenz_long",
+    "regime": "stable_fixed_point",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 69.02254176139832
+  },
+  {
+    "family": "lorenz_long",
+    "regime": "stable_fixed_point",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 69.8650381565094
+  },
+  {
+    "family": "lorenz_long",
+    "regime": "pre_chaotic",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 75.45623803138733
+  },
+  {
+    "family": "lorenz_long",
+    "regime": "pre_chaotic",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 75.55343008041382
+  },
+  {
+    "family": "lorenz_long",
+    "regime": "near_onset",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 144.1085114479065
+  },
+  {
+    "family": "lorenz_long",
+    "regime": "near_onset",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 145.82248187065125
+  },
+  {
+    "family": "lorenz_long",
+    "regime": "classic_chaotic",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 140.72760605812073
+  },
+  {
+    "family": "lorenz_long",
+    "regime": "classic_chaotic",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 139.79567003250122
+  },
+  {
+    "family": "lorenz_long",
+    "regime": "high_rho_chaotic",
+    "degree": 3,
+    "noise_frac": 0.0,
+    "n_seeds": 5,
+    "wall_clock_s": 188.77544593811035
+  },
+  {
+    "family": "lorenz_long",
+    "regime": "high_rho_chaotic",
+    "degree": 3,
+    "noise_frac": 0.01,
+    "n_seeds": 5,
+    "wall_clock_s": 189.20174407958984
+  }
+]

@@ -1,0 +1,1532 @@
+[
+  {
+    "key": "duffing_forced|forced_chaotic|0.0|2|1",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 1,
+    "wall_clock_s": 249.33551287651062,
+    "sindy": {
+      "method": "sindy",
+      "degree": 2,
+      "vf_l2_err_confirmation": 0.36310062046405867,
+      "vf_l2_err_off_attractor_grid": 0.4317289647773127,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true,
+      "library_mismatch_expected": true
+    },
+    "symbolic_regression": {
+      "method": "symbolic_regression",
+      "degree": 2,
+      "degrees": [
+        1,
+        1,
+        0
+      ],
+      "is_polynomial": [
+        true,
+        true,
+        true
+      ],
+      "degree_ok": [
+        true,
+        true,
+        true
+      ],
+      "vf_l2_err_confirmation": 0.3696240138752033,
+      "vf_l2_err_off_attractor_grid": 0.4352019421121896,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true
+    },
+    "koopman": {
+      "method": "koopman",
+      "degree": 2,
+      "one_step_rel_rms_err": 3.0809146227842995e-05,
+      "rollout_horizon": 50,
+      "rollout_rel_err": 0.3435869730387375,
+      "spectral_rel_err": 2.903469976967421,
+      "k_condition_number": 1.086771100641846,
+      "residual_rms": 0.1737034167499124
+    }
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.0|2|2",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 2,
+    "wall_clock_s": 263.67938208580017,
+    "sindy": {
+      "method": "sindy",
+      "degree": 2,
+      "vf_l2_err_confirmation": 0.34764188095238363,
+      "vf_l2_err_off_attractor_grid": 0.42521449185518356,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true,
+      "library_mismatch_expected": true
+    },
+    "symbolic_regression": {
+      "method": "symbolic_regression",
+      "degree": 2,
+      "degrees": [
+        1,
+        1,
+        0
+      ],
+      "is_polynomial": [
+        true,
+        true,
+        true
+      ],
+      "degree_ok": [
+        true,
+        true,
+        true
+      ],
+      "vf_l2_err_confirmation": 0.35205684353909467,
+      "vf_l2_err_off_attractor_grid": 0.43000400597616156,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true
+    },
+    "koopman": {
+      "method": "koopman",
+      "degree": 2,
+      "one_step_rel_rms_err": 2.7670486710222893e-05,
+      "rollout_horizon": 50,
+      "rollout_rel_err": 0.031320374069359454,
+      "spectral_rel_err": 2.7853018017862667,
+      "k_condition_number": 1.033401610800153,
+      "residual_rms": 0.15970105529310571
+    }
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.0|2|0",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 0,
+    "wall_clock_s": 338.70864391326904,
+    "sindy": {
+      "method": "sindy",
+      "degree": 2,
+      "vf_l2_err_confirmation": 0.35721667188941336,
+      "vf_l2_err_off_attractor_grid": 0.4303613085760984,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true,
+      "library_mismatch_expected": true
+    },
+    "symbolic_regression": {
+      "method": "symbolic_regression",
+      "degree": 2,
+      "degrees": [
+        1,
+        1,
+        0
+      ],
+      "is_polynomial": [
+        true,
+        true,
+        true
+      ],
+      "degree_ok": [
+        true,
+        true,
+        true
+      ],
+      "vf_l2_err_confirmation": 0.3629662910757877,
+      "vf_l2_err_off_attractor_grid": 0.4329462848434147,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true
+    },
+    "koopman": {
+      "method": "koopman",
+      "degree": 2,
+      "one_step_rel_rms_err": 2.9304221156483537e-05,
+      "rollout_horizon": 50,
+      "rollout_rel_err": 0.031278824797597325,
+      "spectral_rel_err": 2.742594905366659,
+      "k_condition_number": 1.130927968964666,
+      "residual_rms": 0.16946822738351303
+    }
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.0|3|0",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 0,
+    "wall_clock_s": 348.46764516830444,
+    "sindy": {
+      "method": "sindy",
+      "degree": 3,
+      "vf_l2_err_confirmation": 0.20335834656741766,
+      "vf_l2_err_off_attractor_grid": 0.2752244244039185,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true,
+      "library_mismatch_expected": true
+    },
+    "symbolic_regression": {
+      "method": "symbolic_regression",
+      "degree": 3,
+      "degrees": [
+        1,
+        1,
+        0
+      ],
+      "is_polynomial": [
+        true,
+        true,
+        true
+      ],
+      "degree_ok": [
+        true,
+        true,
+        true
+      ],
+      "vf_l2_err_confirmation": 0.3712812627095015,
+      "vf_l2_err_off_attractor_grid": 0.433721328785271,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true
+    },
+    "koopman": {
+      "method": "koopman",
+      "degree": 3,
+      "one_step_rel_rms_err": 1.6395175351952896e-05,
+      "rollout_horizon": 50,
+      "rollout_rel_err": 0.012712635023822551,
+      "spectral_rel_err": 2.7376060981374253,
+      "k_condition_number": 50295.42080116796,
+      "residual_rms": 16.770146492784672
+    }
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.0|3|1",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 1,
+    "wall_clock_s": 263.11979389190674,
+    "sindy": {
+      "method": "sindy",
+      "degree": 3,
+      "vf_l2_err_confirmation": 0.2048303616651342,
+      "vf_l2_err_off_attractor_grid": 0.28068442780964126,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true,
+      "library_mismatch_expected": true
+    },
+    "symbolic_regression": {
+      "method": "symbolic_regression",
+      "degree": 3,
+      "degrees": [
+        1,
+        1,
+        0
+      ],
+      "is_polynomial": [
+        true,
+        true,
+        true
+      ],
+      "degree_ok": [
+        true,
+        true,
+        true
+      ],
+      "vf_l2_err_confirmation": 0.3679330556820629,
+      "vf_l2_err_off_attractor_grid": 0.4341880611127793,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true
+    },
+    "koopman": {
+      "method": "koopman",
+      "degree": 3,
+      "one_step_rel_rms_err": 1.7839390602834263e-05,
+      "rollout_horizon": 50,
+      "rollout_rel_err": 0.2102716413484126,
+      "spectral_rel_err": 2.898553215527885,
+      "k_condition_number": 61271.889072089696,
+      "residual_rms": 19.160294581321285
+    }
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.0|3|2",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 2,
+    "wall_clock_s": 264.03938364982605,
+    "sindy": {
+      "method": "sindy",
+      "degree": 3,
+      "vf_l2_err_confirmation": 0.20904565874372405,
+      "vf_l2_err_off_attractor_grid": 0.2792734492339549,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true,
+      "library_mismatch_expected": true
+    },
+    "symbolic_regression": {
+      "method": "symbolic_regression",
+      "degree": 3,
+      "degrees": [
+        1,
+        1,
+        0
+      ],
+      "is_polynomial": [
+        true,
+        true,
+        true
+      ],
+      "degree_ok": [
+        true,
+        true,
+        true
+      ],
+      "vf_l2_err_confirmation": 0.35176419887116106,
+      "vf_l2_err_off_attractor_grid": 0.4297206664070762,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true
+    },
+    "koopman": {
+      "method": "koopman",
+      "degree": 3,
+      "one_step_rel_rms_err": 1.7017920044002396e-05,
+      "rollout_horizon": 50,
+      "rollout_rel_err": 0.013835543463282378,
+      "spectral_rel_err": 2.7804927313619716,
+      "k_condition_number": 49442.02219976507,
+      "residual_rms": 17.214967897346796
+    }
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.0|2|4",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 4,
+    "wall_clock_s": 577.3188691139221,
+    "sindy": {
+      "method": "sindy",
+      "degree": 2,
+      "vf_l2_err_confirmation": 0.35118240431950165,
+      "vf_l2_err_off_attractor_grid": 0.42762991555599483,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true,
+      "library_mismatch_expected": true
+    },
+    "symbolic_regression": {
+      "method": "symbolic_regression",
+      "degree": 2,
+      "degrees": [
+        1,
+        1,
+        1
+      ],
+      "is_polynomial": [
+        true,
+        true,
+        true
+      ],
+      "degree_ok": [
+        true,
+        true,
+        true
+      ],
+      "vf_l2_err_confirmation": 0.3506763603016852,
+      "vf_l2_err_off_attractor_grid": 0.4279586413816269,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true
+    },
+    "koopman": {
+      "method": "koopman",
+      "degree": 2,
+      "one_step_rel_rms_err": 2.8966237734945818e-05,
+      "rollout_horizon": 50,
+      "rollout_rel_err": 0.32594711467945986,
+      "spectral_rel_err": 2.370794123391606,
+      "k_condition_number": 1.0751858852296254,
+      "residual_rms": 0.18506093764617443
+    }
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.0|3|4",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 4,
+    "wall_clock_s": 278.2574141025543,
+    "sindy": {
+      "method": "sindy",
+      "degree": 3,
+      "vf_l2_err_confirmation": 0.20912751389967998,
+      "vf_l2_err_off_attractor_grid": 0.2799288601211242,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true,
+      "library_mismatch_expected": true
+    },
+    "symbolic_regression": {
+      "method": "symbolic_regression",
+      "degree": 3,
+      "degrees": [
+        1,
+        1,
+        0
+      ],
+      "is_polynomial": [
+        true,
+        true,
+        true
+      ],
+      "degree_ok": [
+        true,
+        true,
+        true
+      ],
+      "vf_l2_err_confirmation": 0.3513499275391537,
+      "vf_l2_err_off_attractor_grid": 0.42966186928319144,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true
+    },
+    "koopman": {
+      "method": "koopman",
+      "degree": 3,
+      "one_step_rel_rms_err": 1.7092955563355458e-05,
+      "rollout_horizon": 50,
+      "rollout_rel_err": 0.12664143519136972,
+      "spectral_rel_err": 2.36571261828047,
+      "k_condition_number": 75209.03594456647,
+      "residual_rms": 18.639998787484522
+    }
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.01|2|0",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 0,
+    "wall_clock_s": 323.3659791946411,
+    "sindy": {
+      "method": "sindy",
+      "degree": 2,
+      "vf_l2_err_confirmation": 0.35752517577917275,
+      "vf_l2_err_off_attractor_grid": 0.4357737613256882,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true,
+      "library_mismatch_expected": true
+    },
+    "symbolic_regression": {
+      "method": "symbolic_regression",
+      "degree": 2,
+      "degrees": [
+        1,
+        1,
+        0
+      ],
+      "is_polynomial": [
+        true,
+        true,
+        true
+      ],
+      "degree_ok": [
+        true,
+        true,
+        true
+      ],
+      "vf_l2_err_confirmation": 0.357226861960131,
+      "vf_l2_err_off_attractor_grid": 0.43567049030908855,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true
+    },
+    "koopman": {
+      "method": "koopman",
+      "degree": 2,
+      "one_step_rel_rms_err": 0.0002062737794435275,
+      "rollout_horizon": 50,
+      "rollout_rel_err": 0.03217281835390619,
+      "spectral_rel_err": 2.7547196801557416,
+      "k_condition_number": 1.1271991768059082,
+      "residual_rms": 2.358646037565237
+    }
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.01|2|1",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 1,
+    "wall_clock_s": 332.38885617256165,
+    "sindy": {
+      "method": "sindy",
+      "degree": 2,
+      "vf_l2_err_confirmation": 0.36328029185129074,
+      "vf_l2_err_off_attractor_grid": 0.4368570522351879,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true,
+      "library_mismatch_expected": true
+    },
+    "symbolic_regression": {
+      "method": "symbolic_regression",
+      "degree": 2,
+      "degrees": [
+        1,
+        1,
+        0
+      ],
+      "is_polynomial": [
+        true,
+        true,
+        true
+      ],
+      "degree_ok": [
+        true,
+        true,
+        true
+      ],
+      "vf_l2_err_confirmation": 0.3637489523815555,
+      "vf_l2_err_off_attractor_grid": 0.43731308379134604,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true
+    },
+    "koopman": {
+      "method": "koopman",
+      "degree": 2,
+      "one_step_rel_rms_err": 0.0002157379487569501,
+      "rollout_horizon": 50,
+      "rollout_rel_err": 0.34987583731187105,
+      "spectral_rel_err": 2.736900269895996,
+      "k_condition_number": 1.0883231858370093,
+      "residual_rms": 2.3462474197929883
+    }
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.0|2|3",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.0,
+    "degree": 2,
+    "seed": 3,
+    "wall_clock_s": 930.0241179466248,
+    "sindy": {
+      "method": "sindy",
+      "degree": 2,
+      "vf_l2_err_confirmation": 0.3557866835974228,
+      "vf_l2_err_off_attractor_grid": 0.40766118312839716,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true,
+      "library_mismatch_expected": true
+    },
+    "symbolic_regression": {
+      "method": "symbolic_regression",
+      "degree": 2,
+      "degrees": [
+        1,
+        1,
+        0
+      ],
+      "is_polynomial": [
+        true,
+        true,
+        true
+      ],
+      "degree_ok": [
+        true,
+        true,
+        true
+      ],
+      "vf_l2_err_confirmation": 0.355926381994073,
+      "vf_l2_err_off_attractor_grid": 0.4086271226873218,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true
+    },
+    "koopman": {
+      "method": "koopman",
+      "degree": 2,
+      "one_step_rel_rms_err": 2.9999869514276565e-05,
+      "rollout_horizon": 50,
+      "rollout_rel_err": 0.3238473638972009,
+      "spectral_rel_err": 4.649484534668622,
+      "k_condition_number": 1.0648096691318045,
+      "residual_rms": 0.1705380236898091
+    }
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.01|2|2",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 2,
+    "wall_clock_s": 379.8644149303436,
+    "sindy": {
+      "method": "sindy",
+      "degree": 2,
+      "vf_l2_err_confirmation": 0.34778615585148664,
+      "vf_l2_err_off_attractor_grid": 0.4309425094513119,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true,
+      "library_mismatch_expected": true
+    },
+    "symbolic_regression": {
+      "method": "symbolic_regression",
+      "degree": 2,
+      "degrees": [
+        1,
+        1,
+        0
+      ],
+      "is_polynomial": [
+        true,
+        true,
+        true
+      ],
+      "degree_ok": [
+        true,
+        true,
+        true
+      ],
+      "vf_l2_err_confirmation": 0.34912698838010475,
+      "vf_l2_err_off_attractor_grid": 0.4315723991469515,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true
+    },
+    "koopman": {
+      "method": "koopman",
+      "degree": 2,
+      "one_step_rel_rms_err": 0.0002068165772357365,
+      "rollout_horizon": 50,
+      "rollout_rel_err": 0.031523189426793594,
+      "spectral_rel_err": 2.537504807735756,
+      "k_condition_number": 1.0335386742160426,
+      "residual_rms": 2.4065420991796698
+    }
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.0|3|3",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.0,
+    "degree": 3,
+    "seed": 3,
+    "wall_clock_s": 770.0615310668945,
+    "sindy": {
+      "method": "sindy",
+      "degree": 3,
+      "vf_l2_err_confirmation": 0.20698502217442954,
+      "vf_l2_err_off_attractor_grid": 0.2616448154605134,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true,
+      "library_mismatch_expected": true
+    },
+    "symbolic_regression": {
+      "method": "symbolic_regression",
+      "degree": 3,
+      "degrees": [
+        1,
+        1,
+        0
+      ],
+      "is_polynomial": [
+        true,
+        true,
+        true
+      ],
+      "degree_ok": [
+        true,
+        true,
+        true
+      ],
+      "vf_l2_err_confirmation": 0.3570436320311182,
+      "vf_l2_err_off_attractor_grid": 0.41009249724551516,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true
+    },
+    "koopman": {
+      "method": "koopman",
+      "degree": 3,
+      "one_step_rel_rms_err": 1.8281797514831633e-05,
+      "rollout_horizon": 50,
+      "rollout_rel_err": 0.1174456957329511,
+      "spectral_rel_err": 4.6470621688703595,
+      "k_condition_number": 53039.41946307089,
+      "residual_rms": 17.688646753400484
+    }
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.01|3|1",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 1,
+    "wall_clock_s": 255.47287702560425,
+    "sindy": {
+      "method": "sindy",
+      "degree": 3,
+      "vf_l2_err_confirmation": 0.20493732720496569,
+      "vf_l2_err_off_attractor_grid": 0.27887566727616936,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true,
+      "library_mismatch_expected": true
+    },
+    "symbolic_regression": {
+      "method": "symbolic_regression",
+      "degree": 3,
+      "degrees": [
+        1,
+        1,
+        0
+      ],
+      "is_polynomial": [
+        true,
+        true,
+        true
+      ],
+      "degree_ok": [
+        true,
+        true,
+        true
+      ],
+      "vf_l2_err_confirmation": 0.36357254482290013,
+      "vf_l2_err_off_attractor_grid": 0.4370644340797558,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true
+    },
+    "koopman": {
+      "method": "koopman",
+      "degree": 3,
+      "one_step_rel_rms_err": 0.00021426857193293275,
+      "rollout_horizon": 50,
+      "rollout_rel_err": 0.2151479569763448,
+      "spectral_rel_err": 2.7329310491931658,
+      "k_condition_number": 60808.85608121528,
+      "residual_rms": 454.79577622257165
+    }
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.01|3|2",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 2,
+    "wall_clock_s": 248.07188177108765,
+    "sindy": {
+      "method": "sindy",
+      "degree": 3,
+      "vf_l2_err_confirmation": 0.20904897693576802,
+      "vf_l2_err_off_attractor_grid": 0.2773651887970589,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true,
+      "library_mismatch_expected": true
+    },
+    "symbolic_regression": {
+      "method": "symbolic_regression",
+      "degree": 3,
+      "degrees": [
+        1,
+        1,
+        0
+      ],
+      "is_polynomial": [
+        true,
+        true,
+        true
+      ],
+      "degree_ok": [
+        true,
+        true,
+        true
+      ],
+      "vf_l2_err_confirmation": 0.351901063876218,
+      "vf_l2_err_off_attractor_grid": 0.43674742126749844,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true
+    },
+    "koopman": {
+      "method": "koopman",
+      "degree": 3,
+      "one_step_rel_rms_err": 0.00020565839825711327,
+      "rollout_horizon": 50,
+      "rollout_rel_err": 0.014175567037260776,
+      "spectral_rel_err": 2.5335688805868495,
+      "k_condition_number": 49772.91958399687,
+      "residual_rms": 476.4247371766835
+    }
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.01|3|0",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 0,
+    "wall_clock_s": 398.7218041419983,
+    "sindy": {
+      "method": "sindy",
+      "degree": 3,
+      "vf_l2_err_confirmation": 0.2032879168534161,
+      "vf_l2_err_off_attractor_grid": 0.27371846183734355,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true,
+      "library_mismatch_expected": true
+    },
+    "symbolic_regression": {
+      "method": "symbolic_regression",
+      "degree": 3,
+      "degrees": [
+        1,
+        1,
+        0
+      ],
+      "is_polynomial": [
+        true,
+        true,
+        true
+      ],
+      "degree_ok": [
+        true,
+        true,
+        true
+      ],
+      "vf_l2_err_confirmation": 0.3583093696085845,
+      "vf_l2_err_off_attractor_grid": 0.4363178999616541,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true
+    },
+    "koopman": {
+      "method": "koopman",
+      "degree": 3,
+      "one_step_rel_rms_err": 0.0002048387194599221,
+      "rollout_horizon": 50,
+      "rollout_rel_err": 0.013668950006481256,
+      "spectral_rel_err": 2.7505011049606933,
+      "k_condition_number": 50328.51838281593,
+      "residual_rms": 454.5238184797689
+    }
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.01|2|3",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 3,
+    "wall_clock_s": 702.770791053772,
+    "sindy": {
+      "method": "sindy",
+      "degree": 2,
+      "vf_l2_err_confirmation": 0.3562034510292684,
+      "vf_l2_err_off_attractor_grid": 0.41056126842791935,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true,
+      "library_mismatch_expected": true
+    },
+    "symbolic_regression": {
+      "method": "symbolic_regression",
+      "degree": 2,
+      "degrees": [
+        1,
+        1,
+        0
+      ],
+      "is_polynomial": [
+        true,
+        true,
+        true
+      ],
+      "degree_ok": [
+        true,
+        true,
+        true
+      ],
+      "vf_l2_err_confirmation": 0.35624781501024816,
+      "vf_l2_err_off_attractor_grid": 0.41130442332933226,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true
+    },
+    "koopman": {
+      "method": "koopman",
+      "degree": 2,
+      "one_step_rel_rms_err": 0.00021554157660119686,
+      "rollout_horizon": 50,
+      "rollout_rel_err": 0.3198492205817322,
+      "spectral_rel_err": 5.183344638949966,
+      "k_condition_number": 1.0665225690885103,
+      "residual_rms": 2.3512033370060723
+    }
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.01|2|4",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.01,
+    "degree": 2,
+    "seed": 4,
+    "wall_clock_s": 517.340714931488,
+    "sindy": {
+      "method": "sindy",
+      "degree": 2,
+      "vf_l2_err_confirmation": 0.3513080125023009,
+      "vf_l2_err_off_attractor_grid": 0.4331390328719787,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true,
+      "library_mismatch_expected": true
+    },
+    "symbolic_regression": {
+      "method": "symbolic_regression",
+      "degree": 2,
+      "degrees": [
+        1,
+        1,
+        0
+      ],
+      "is_polynomial": [
+        true,
+        true,
+        true
+      ],
+      "degree_ok": [
+        true,
+        true,
+        true
+      ],
+      "vf_l2_err_confirmation": 0.35110189945270015,
+      "vf_l2_err_off_attractor_grid": 0.43417771754964035,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true
+    },
+    "koopman": {
+      "method": "koopman",
+      "degree": 2,
+      "one_step_rel_rms_err": 0.00021512743370443414,
+      "rollout_horizon": 50,
+      "rollout_rel_err": 0.323019178896281,
+      "spectral_rel_err": 2.4137566198524354,
+      "k_condition_number": 1.073759847485604,
+      "residual_rms": 2.374350684165587
+    }
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.01|3|3",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 3,
+    "wall_clock_s": 346.7286310195923,
+    "sindy": {
+      "method": "sindy",
+      "degree": 3,
+      "vf_l2_err_confirmation": 0.20693740042361466,
+      "vf_l2_err_off_attractor_grid": 0.26039927449658307,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true,
+      "library_mismatch_expected": true
+    },
+    "symbolic_regression": {
+      "method": "symbolic_regression",
+      "degree": 3,
+      "degrees": [
+        1,
+        1,
+        0
+      ],
+      "is_polynomial": [
+        true,
+        true,
+        true
+      ],
+      "degree_ok": [
+        true,
+        true,
+        true
+      ],
+      "vf_l2_err_confirmation": 0.35617367765071656,
+      "vf_l2_err_off_attractor_grid": 0.4114946902625494,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true
+    },
+    "koopman": {
+      "method": "koopman",
+      "degree": 3,
+      "one_step_rel_rms_err": 0.000214217417876845,
+      "rollout_horizon": 50,
+      "rollout_rel_err": 0.11500441084525366,
+      "spectral_rel_err": 5.187605906199916,
+      "k_condition_number": 52518.54123641658,
+      "residual_rms": 453.2202930127549
+    }
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.01|3|4",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.01,
+    "degree": 3,
+    "seed": 4,
+    "wall_clock_s": 278.3364429473877,
+    "sindy": {
+      "method": "sindy",
+      "degree": 3,
+      "vf_l2_err_confirmation": 0.20902947858543985,
+      "vf_l2_err_off_attractor_grid": 0.27875788277630276,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true,
+      "library_mismatch_expected": true
+    },
+    "symbolic_regression": {
+      "method": "symbolic_regression",
+      "degree": 3,
+      "degrees": [
+        1,
+        1,
+        0
+      ],
+      "is_polynomial": [
+        true,
+        true,
+        true
+      ],
+      "degree_ok": [
+        true,
+        true,
+        true
+      ],
+      "vf_l2_err_confirmation": 0.3508368506726378,
+      "vf_l2_err_off_attractor_grid": 0.4339533414556117,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true
+    },
+    "koopman": {
+      "method": "koopman",
+      "degree": 3,
+      "one_step_rel_rms_err": 0.00021383993294991734,
+      "rollout_horizon": 50,
+      "rollout_rel_err": 0.12782200693637905,
+      "spectral_rel_err": 2.409477753673337,
+      "k_condition_number": 75852.76545840417,
+      "residual_rms": 457.46973623008876
+    }
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.05|2|1",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 1,
+    "wall_clock_s": 278.61880922317505,
+    "sindy": {
+      "method": "sindy",
+      "degree": 2,
+      "vf_l2_err_confirmation": 0.3682343178883818,
+      "vf_l2_err_off_attractor_grid": 0.4781164671879436,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true,
+      "library_mismatch_expected": true
+    },
+    "symbolic_regression": {
+      "method": "symbolic_regression",
+      "degree": 2,
+      "degrees": [
+        1,
+        1,
+        0
+      ],
+      "is_polynomial": [
+        true,
+        true,
+        true
+      ],
+      "degree_ok": [
+        true,
+        true,
+        true
+      ],
+      "vf_l2_err_confirmation": 0.3690677919476556,
+      "vf_l2_err_off_attractor_grid": 0.4801334269582321,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true
+    },
+    "koopman": {
+      "method": "koopman",
+      "degree": 2,
+      "one_step_rel_rms_err": 0.0010679197166874297,
+      "rollout_horizon": 50,
+      "rollout_rel_err": 0.3879014646796333,
+      "spectral_rel_err": 2.3187712768142115,
+      "k_condition_number": 1.1777101671484618,
+      "residual_rms": 11.699858314061437
+    }
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.05|2|0",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 0,
+    "wall_clock_s": 413.26528120040894,
+    "sindy": {
+      "method": "sindy",
+      "degree": 2,
+      "vf_l2_err_confirmation": 0.36279808582253553,
+      "vf_l2_err_off_attractor_grid": 0.4737993451042688,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true,
+      "library_mismatch_expected": true
+    },
+    "symbolic_regression": {
+      "method": "symbolic_regression",
+      "degree": 2,
+      "degrees": [
+        1,
+        1,
+        0
+      ],
+      "is_polynomial": [
+        true,
+        true,
+        true
+      ],
+      "degree_ok": [
+        true,
+        true,
+        true
+      ],
+      "vf_l2_err_confirmation": 0.3629928172679742,
+      "vf_l2_err_off_attractor_grid": 0.4733861477666304,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true
+    },
+    "koopman": {
+      "method": "koopman",
+      "degree": 2,
+      "one_step_rel_rms_err": 0.0010212008897801926,
+      "rollout_horizon": 50,
+      "rollout_rel_err": 0.03963328634235045,
+      "spectral_rel_err": 2.801757366143791,
+      "k_condition_number": 1.3030337174068964,
+      "residual_rms": 11.76334981496622
+    }
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.05|2|2",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 2,
+    "wall_clock_s": 370.43772435188293,
+    "sindy": {
+      "method": "sindy",
+      "degree": 2,
+      "vf_l2_err_confirmation": 0.35266942293352826,
+      "vf_l2_err_off_attractor_grid": 0.46516439911412155,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true,
+      "library_mismatch_expected": true
+    },
+    "symbolic_regression": {
+      "method": "symbolic_regression",
+      "degree": 2,
+      "degrees": [
+        1,
+        1,
+        0
+      ],
+      "is_polynomial": [
+        true,
+        true,
+        true
+      ],
+      "degree_ok": [
+        true,
+        true,
+        true
+      ],
+      "vf_l2_err_confirmation": 0.3539281029580245,
+      "vf_l2_err_off_attractor_grid": 0.4649870337915694,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true
+    },
+    "koopman": {
+      "method": "koopman",
+      "degree": 2,
+      "one_step_rel_rms_err": 0.00102501846860784,
+      "rollout_horizon": 50,
+      "rollout_rel_err": 0.034822973282179114,
+      "spectral_rel_err": 2.0483543687143846,
+      "k_condition_number": 1.1430458654350808,
+      "residual_rms": 12.006767214504123
+    }
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.05|3|1",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 1,
+    "wall_clock_s": 374.36053466796875,
+    "sindy": {
+      "method": "sindy",
+      "degree": 3,
+      "vf_l2_err_confirmation": 0.20705562107098757,
+      "vf_l2_err_off_attractor_grid": 0.2673159223655394,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true,
+      "library_mismatch_expected": true
+    },
+    "symbolic_regression": {
+      "method": "symbolic_regression",
+      "degree": 3,
+      "degrees": [
+        1,
+        3,
+        0
+      ],
+      "is_polynomial": [
+        true,
+        true,
+        true
+      ],
+      "degree_ok": [
+        true,
+        true,
+        true
+      ],
+      "vf_l2_err_confirmation": 0.28229611329420184,
+      "vf_l2_err_off_attractor_grid": 0.35807457803921267,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true
+    },
+    "koopman": {
+      "method": "koopman",
+      "degree": 3,
+      "one_step_rel_rms_err": 0.001066904364061598,
+      "rollout_horizon": 50,
+      "rollout_rel_err": 0.3632101814471731,
+      "spectral_rel_err": 2.3301740401608426,
+      "k_condition_number": 367756.6654830434,
+      "residual_rms": 2271.85528273039
+    }
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.05|2|4",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 4,
+    "wall_clock_s": 479.3994607925415,
+    "sindy": {
+      "method": "sindy",
+      "degree": 2,
+      "vf_l2_err_confirmation": 0.35585258278897713,
+      "vf_l2_err_off_attractor_grid": 0.46520330544571015,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true,
+      "library_mismatch_expected": true
+    },
+    "symbolic_regression": {
+      "method": "symbolic_regression",
+      "degree": 2,
+      "degrees": [
+        1,
+        1,
+        0
+      ],
+      "is_polynomial": [
+        true,
+        true,
+        true
+      ],
+      "degree_ok": [
+        true,
+        true,
+        true
+      ],
+      "vf_l2_err_confirmation": 0.35746733365009814,
+      "vf_l2_err_off_attractor_grid": 0.46625188428658143,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true
+    },
+    "koopman": {
+      "method": "koopman",
+      "degree": 2,
+      "one_step_rel_rms_err": 0.0010660901853944136,
+      "rollout_horizon": 50,
+      "rollout_rel_err": 0.37913423759322995,
+      "spectral_rel_err": 2.625284423040713,
+      "k_condition_number": 1.280737381180429,
+      "residual_rms": 11.83657171088294
+    }
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.05|3|2",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 2,
+    "wall_clock_s": 320.53982281684875,
+    "sindy": {
+      "method": "sindy",
+      "degree": 3,
+      "vf_l2_err_confirmation": 0.20963303862485047,
+      "vf_l2_err_off_attractor_grid": 0.266295083336,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true,
+      "library_mismatch_expected": true
+    },
+    "symbolic_regression": {
+      "method": "symbolic_regression",
+      "degree": 3,
+      "degrees": [
+        1,
+        1,
+        0
+      ],
+      "is_polynomial": [
+        true,
+        true,
+        true
+      ],
+      "degree_ok": [
+        true,
+        true,
+        true
+      ],
+      "vf_l2_err_confirmation": 0.3527173555858249,
+      "vf_l2_err_off_attractor_grid": 0.4577156107351749,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true
+    },
+    "koopman": {
+      "method": "koopman",
+      "degree": 3,
+      "one_step_rel_rms_err": 0.0010241667007270681,
+      "rollout_horizon": 50,
+      "rollout_rel_err": 0.03834571210563121,
+      "spectral_rel_err": 2.0565194214158513,
+      "k_condition_number": 320740.57974935253,
+      "residual_rms": 2380.5004726648585
+    }
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.05|2|3",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.05,
+    "degree": 2,
+    "seed": 3,
+    "wall_clock_s": 665.5318417549133,
+    "sindy": {
+      "method": "sindy",
+      "degree": 2,
+      "vf_l2_err_confirmation": 0.3617414700467853,
+      "vf_l2_err_off_attractor_grid": 0.4430096681163671,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true,
+      "library_mismatch_expected": true
+    },
+    "symbolic_regression": {
+      "method": "symbolic_regression",
+      "degree": 2,
+      "degrees": [
+        1,
+        1,
+        0
+      ],
+      "is_polynomial": [
+        true,
+        true,
+        true
+      ],
+      "degree_ok": [
+        true,
+        true,
+        true
+      ],
+      "vf_l2_err_confirmation": 0.38728080515655955,
+      "vf_l2_err_off_attractor_grid": 0.45994524461778785,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true
+    },
+    "koopman": {
+      "method": "koopman",
+      "degree": 2,
+      "one_step_rel_rms_err": 0.0010674889966267222,
+      "rollout_horizon": 50,
+      "rollout_rel_err": 0.35420172962209057,
+      "spectral_rel_err": 6.354132853490728,
+      "k_condition_number": 1.1507933246685929,
+      "residual_rms": 11.725841587816664
+    }
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.05|3|0",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 0,
+    "wall_clock_s": 557.231822013855,
+    "sindy": {
+      "method": "sindy",
+      "degree": 3,
+      "vf_l2_err_confirmation": 0.2034331627892128,
+      "vf_l2_err_off_attractor_grid": 0.26543979761122066,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true,
+      "library_mismatch_expected": true
+    },
+    "symbolic_regression": {
+      "method": "symbolic_regression",
+      "degree": 3,
+      "degrees": [
+        1,
+        3,
+        0
+      ],
+      "is_polynomial": [
+        true,
+        true,
+        true
+      ],
+      "degree_ok": [
+        true,
+        true,
+        true
+      ],
+      "vf_l2_err_confirmation": 0.2731065772201724,
+      "vf_l2_err_off_attractor_grid": 0.35331165513739815,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true
+    },
+    "koopman": {
+      "method": "koopman",
+      "degree": 3,
+      "one_step_rel_rms_err": 0.001020735309082056,
+      "rollout_horizon": 50,
+      "rollout_rel_err": 0.03919369628718962,
+      "spectral_rel_err": 2.815649536269053,
+      "k_condition_number": 292895.5063297966,
+      "residual_rms": 2270.931834676842
+    }
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.05|3|4",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 4,
+    "wall_clock_s": 217.91870212554932,
+    "sindy": {
+      "method": "sindy",
+      "degree": 3,
+      "vf_l2_err_confirmation": 0.20804372534808294,
+      "vf_l2_err_off_attractor_grid": 0.2658184849919107,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true,
+      "library_mismatch_expected": true
+    },
+    "symbolic_regression": {
+      "method": "symbolic_regression",
+      "degree": 3,
+      "degrees": [
+        1,
+        1,
+        0
+      ],
+      "is_polynomial": [
+        true,
+        true,
+        true
+      ],
+      "degree_ok": [
+        true,
+        true,
+        true
+      ],
+      "vf_l2_err_confirmation": 0.35696757548469155,
+      "vf_l2_err_off_attractor_grid": 0.464057705945544,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true
+    },
+    "koopman": {
+      "method": "koopman",
+      "degree": 3,
+      "one_step_rel_rms_err": 0.0010647000349998951,
+      "rollout_horizon": 50,
+      "rollout_rel_err": 0.2813753794346721,
+      "spectral_rel_err": 2.6408128494612577,
+      "k_condition_number": 509124.822562895,
+      "residual_rms": 2285.3026986971845
+    }
+  },
+  {
+    "key": "duffing_forced|forced_chaotic|0.05|3|3",
+    "family": "duffing_forced",
+    "regime": "forced_chaotic",
+    "noise_frac": 0.05,
+    "degree": 3,
+    "seed": 3,
+    "wall_clock_s": 535.5241589546204,
+    "sindy": {
+      "method": "sindy",
+      "degree": 3,
+      "vf_l2_err_confirmation": 0.20689500037020325,
+      "vf_l2_err_off_attractor_grid": 0.2478489456991312,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true,
+      "library_mismatch_expected": true
+    },
+    "symbolic_regression": {
+      "method": "symbolic_regression",
+      "degree": 3,
+      "degrees": [
+        1,
+        1,
+        0
+      ],
+      "is_polynomial": [
+        true,
+        true,
+        true
+      ],
+      "degree_ok": [
+        true,
+        true,
+        true
+      ],
+      "vf_l2_err_confirmation": 0.3620520685478297,
+      "vf_l2_err_off_attractor_grid": 0.44227576487142173,
+      "dynamically_distinct": true,
+      "dynamically_distinct_off_attractor": true
+    },
+    "koopman": {
+      "method": "koopman",
+      "degree": 3,
+      "one_step_rel_rms_err": 0.0010665400390405975,
+      "rollout_horizon": 50,
+      "rollout_rel_err": 0.2669308118757805,
+      "spectral_rel_err": 6.404750484162495,
+      "k_condition_number": 260759.95416309792,
+      "residual_rms": 2264.327570177402
+    }
+  }
+]
