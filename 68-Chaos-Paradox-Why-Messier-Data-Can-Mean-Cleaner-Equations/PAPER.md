@@ -2,11 +2,16 @@
 
 *(A Multi-Method, Multi-System Empirical Study of Phase-Space Coverage and Equation Identifiability)*
 
+**Keywords:** system identification; sparse regression; SINDy; Koopman operator; dynamic mode decomposition; chaos; persistent excitation; symbolic regression
+**MSC 2020:** 37M10, 37N99, 62J99, 93B30
+
 ## Abstract
 
 Can the governing equations of a nonlinear dynamical system be uniquely recovered from observed trajectories? Gallo, Anselmi, and Lazzari (2026) proved, theoretically, that chaotic trajectories improve identifiability via sparse regression, through persistent excitation of a candidate-function library. We stress-test this claim empirically across six system families, three discovery algorithms (SINDy, symbolic regression, Koopman/EDMD), finite noisy samples, and restricted function libraries -- the exact conditions the original proof abstracts away.
 
 Three findings. **First**, the "coverage aids identifiability" pattern replicates cleanly for SINDy: 5/5 recovery in every chaotic regime tested, 0/5 in every degenerate non-chaotic control, large effect sizes (Cliff's d = 0.556, ratio 6.7x--10.9x, 95% CIs non-overlapping). **Second**, for Koopman/EDMD the same excitation **reverses the pattern outright** against degenerate controls: dense linear surrogates fit fixed points and short cycles better than chaotic attractors, for a mechanistically identified reason -- persistent excitation helps sparse recovery and hurts uniform linear approximation. **Third**, and most consequential for interpreting both results: every contrast above pits chaos against a maximally degenerate control (a fixed point, a short cycle). An adversarial review of our own design flagged this as the obvious confound, so we added a matched pair between the one rich, non-degenerate, non-chaotic regime already in the study (harmonic oscillator) and a chaotic Rossler attractor, run through the identical three-method pipeline. Against this harder, fairer control, the results split by method rather than resolving in one direction: SINDy's chaos-aids-identifiability pattern **replicates and strengthens** (Rossler 30/30 vs. harmonic 16/30 on the primary off-trajectory metric), while the Koopman/EDMD reversal **does not replicate** (Rossler's one-step error is lower than or comparable to harmonic's in all six noise/degree cells). The Koopman reversal, in other words, was partly an artifact of comparing chaos to degenerate controls -- not a universal chaos-vs-non-chaos property. A second, independent test (coupled van der Pol across periodic, quasi-periodic, and chaotic regimes) corroborates the SINDy finding and complicates the Koopman one further: full results and the resulting tension are in SS5.
+
+**Data and code availability.** All simulation code, raw result JSONs, and reproduction instructions are openly available at https://github.com/jammysunshine/research-showcase/tree/main/68-Chaos-Paradox-Why-Messier-Data-Can-Mean-Cleaner-Equations.
 
 ## 1. Introduction
 
